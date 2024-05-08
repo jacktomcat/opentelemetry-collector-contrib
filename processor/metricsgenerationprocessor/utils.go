@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metricsgenerationprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricsgenerationprocessor"
+package metricsgenerationprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/metricsgenerationprocessor"
 
 import (
 	"go.opentelemetry.io/collector/pdata/pmetric"

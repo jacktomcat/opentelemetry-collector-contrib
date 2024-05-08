@@ -60,15 +60,15 @@ func (mgp *metricsGenerationProcessor) processMetrics(_ context.Context, md pmet
 					mgp.logger.Debug("Missing second metric", zap.String("metric_name", rule.metric2))
 					continue
 				}
-				operand2 = getMetricValue(metric2)
+				/*operand2 = getMetricValue(metric2)
 				if operand2 <= 0 {
 					continue
-				}
-
+				}*/
+				generateMetricsNew(rm, metric2, rule, nameToMetricMap, mgp.logger)
 			} else if rule.ruleType == string(scale) {
 				operand2 = rule.scaleBy
+				generateMetrics(rm, operand2, rule, nameToMetricMap, mgp.logger)
 			}
-			generateMetrics(rm, operand2, rule, mgp.logger)
 		}
 	}
 	return md, nil

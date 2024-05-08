@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/testbed
+module github.com/jacktomcat/opentelemetry-collector-contrib/testbed
 
 go 1.21
 

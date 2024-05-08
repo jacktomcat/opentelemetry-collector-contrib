@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/carbonexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/carbonexporter
 
 go 1.21
 

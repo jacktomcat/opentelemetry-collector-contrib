@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/receivercreator
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/receivercreator
 
 go 1.21
 

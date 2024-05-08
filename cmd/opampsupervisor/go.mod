@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor
+module github.com/jacktomcat/opentelemetry-collector-contrib/cmd/opampsupervisor
 
 go 1.21
 

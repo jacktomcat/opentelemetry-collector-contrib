@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/rabbitmqexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/rabbitmqexporter
 
 go 1.21
 

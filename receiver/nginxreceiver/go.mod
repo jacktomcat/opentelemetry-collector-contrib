@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/nginxreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/nginxreceiver
 
 go 1.21
 

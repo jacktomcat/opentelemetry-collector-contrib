@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/expvarreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/expvarreceiver
 
 go 1.21
 

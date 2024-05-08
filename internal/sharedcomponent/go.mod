@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent
+module github.com/jacktomcat/opentelemetry-collector-contrib/internal/sharedcomponent
 
 go 1.21
 

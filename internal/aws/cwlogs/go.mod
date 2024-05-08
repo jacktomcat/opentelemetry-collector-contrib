@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs
+module github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/cwlogs
 
 go 1.21
 

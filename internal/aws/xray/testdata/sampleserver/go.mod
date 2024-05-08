@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray/testdata/sampleserver
+module github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/xray/testdata/sampleserver
 
 go 1.21
 

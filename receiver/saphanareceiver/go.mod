@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/saphanareceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/saphanareceiver
 
 go 1.21
 

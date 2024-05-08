@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus
+module github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus
 
 go 1.21
 

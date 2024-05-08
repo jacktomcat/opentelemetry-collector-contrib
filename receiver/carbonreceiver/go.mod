@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/carbonreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/carbonreceiver
 
 go 1.21
 

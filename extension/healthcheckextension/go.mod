@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/extension/healthcheckextension
+module github.com/jacktomcat/opentelemetry-collector-contrib/extension/healthcheckextension
 
 go 1.21
 

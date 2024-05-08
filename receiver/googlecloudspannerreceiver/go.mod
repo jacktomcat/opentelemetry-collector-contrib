@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver
 
 go 1.21
 

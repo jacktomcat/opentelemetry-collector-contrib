@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/namedpipereceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/namedpipereceiver
 
 go 1.21
 

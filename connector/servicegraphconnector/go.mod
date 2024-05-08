@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/connector/servicegraphconnector
+module github.com/jacktomcat/opentelemetry-collector-contrib/connector/servicegraphconnector
 
 go 1.21
 

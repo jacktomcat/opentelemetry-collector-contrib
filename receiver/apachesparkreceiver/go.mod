@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/apachesparkreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/apachesparkreceiver
 
 go 1.21
 

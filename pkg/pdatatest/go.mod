@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest
+module github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest
 
 go 1.21
 

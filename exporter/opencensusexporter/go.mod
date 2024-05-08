@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opencensusexporter
 
 go 1.21
 

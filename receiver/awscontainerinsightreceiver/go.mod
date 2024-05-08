@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver
 
 go 1.21
 

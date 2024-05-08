@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/aerospikereceiver
 
 go 1.21
 

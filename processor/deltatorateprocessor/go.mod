@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatorateprocessor
+module github.com/jacktomcat/opentelemetry-collector-contrib/processor/deltatorateprocessor
 
 go 1.21
 

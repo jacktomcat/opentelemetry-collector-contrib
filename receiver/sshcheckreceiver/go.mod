@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sshcheckreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sshcheckreceiver
 
 go 1.21
 

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin
+module github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin
 
 go 1.21
 

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/sentryexporter
 
 go 1.21
 

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/processor/routingprocessor
+module github.com/jacktomcat/opentelemetry-collector-contrib/processor/routingprocessor
 
 go 1.21
 

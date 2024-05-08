@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage
+module github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/filestorage
 
 go 1.21
 

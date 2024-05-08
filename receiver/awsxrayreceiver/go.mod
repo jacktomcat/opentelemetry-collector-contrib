@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver
 
 go 1.21
 

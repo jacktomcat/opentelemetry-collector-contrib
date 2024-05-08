@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/processor/transformprocessor
+module github.com/jacktomcat/opentelemetry-collector-contrib/processor/transformprocessor
 
 go 1.21
 

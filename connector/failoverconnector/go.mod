@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/connector/failoverconnector
+module github.com/jacktomcat/opentelemetry-collector-contrib/connector/failoverconnector
 
 go 1.21
 

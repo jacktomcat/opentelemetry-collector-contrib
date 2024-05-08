@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filelogreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/filelogreceiver
 
 go 1.21
 

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/otelarrowexporter
 
 go 1.21
 

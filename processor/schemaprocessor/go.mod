@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor
+module github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor
 
 go 1.21
 

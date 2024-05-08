@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/instanaexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/instanaexporter
 
 go 1.21
 

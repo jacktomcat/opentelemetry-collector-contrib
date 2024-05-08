@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbyattrsprocessor
+module github.com/jacktomcat/opentelemetry-collector-contrib/processor/groupbyattrsprocessor
 
 go 1.21
 

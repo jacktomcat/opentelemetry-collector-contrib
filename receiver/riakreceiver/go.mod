@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/riakreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/riakreceiver
 
 go 1.21
 

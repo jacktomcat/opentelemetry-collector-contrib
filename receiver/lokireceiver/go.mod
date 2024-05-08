@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/lokireceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/lokireceiver
 
 go 1.21
 

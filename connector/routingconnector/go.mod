@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector
+module github.com/jacktomcat/opentelemetry-collector-contrib/connector/routingconnector
 
 go 1.21
 

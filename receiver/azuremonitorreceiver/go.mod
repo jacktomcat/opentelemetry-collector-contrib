@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/azuremonitorreceiver
 
 go 1.21
 

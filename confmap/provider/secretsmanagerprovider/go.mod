@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/confmap/provider/secretsmanagerprovider
+module github.com/jacktomcat/opentelemetry-collector-contrib/confmap/provider/secretsmanagerprovider
 
 go 1.21
 

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog
+module github.com/jacktomcat/opentelemetry-collector-contrib/internal/datadog
 
 go 1.21
 

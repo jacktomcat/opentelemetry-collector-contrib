@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/skywalkingexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/skywalkingexporter
 
 go 1.21
 

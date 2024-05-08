@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/zipkinexporter
 
 go 1.21
 

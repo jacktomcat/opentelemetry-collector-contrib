@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter
 
 go 1.21
 

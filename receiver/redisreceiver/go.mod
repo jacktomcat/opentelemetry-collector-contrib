@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/redisreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/redisreceiver
 
 go 1.21
 

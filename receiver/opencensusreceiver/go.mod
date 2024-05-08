@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/opencensusreceiver
 
 go 1.21
 

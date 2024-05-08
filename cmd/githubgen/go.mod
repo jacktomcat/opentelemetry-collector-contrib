@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/cmd/githubgen
+module github.com/jacktomcat/opentelemetry-collector-contrib/cmd/githubgen
 
 go 1.21
 

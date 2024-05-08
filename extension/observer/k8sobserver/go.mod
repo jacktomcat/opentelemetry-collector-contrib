@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/k8sobserver
+module github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/k8sobserver
 
 go 1.21
 

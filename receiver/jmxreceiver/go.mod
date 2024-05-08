@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jmxreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jmxreceiver
 
 go 1.21
 

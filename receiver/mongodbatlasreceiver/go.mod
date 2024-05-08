@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver
 
 go 1.21
 

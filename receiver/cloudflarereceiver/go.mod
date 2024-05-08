@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/cloudflarereceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/cloudflarereceiver
 
 go 1.21
 

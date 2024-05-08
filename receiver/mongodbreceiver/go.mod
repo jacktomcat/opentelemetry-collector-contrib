@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbreceiver
 
 go 1.21
 

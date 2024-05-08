@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/iisreceiver
 
 go 1.21
 

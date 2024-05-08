@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsecscontainermetricsreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsecscontainermetricsreceiver
 
 go 1.21
 

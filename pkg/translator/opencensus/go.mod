@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus
+module github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/opencensus
 
 go 1.21
 

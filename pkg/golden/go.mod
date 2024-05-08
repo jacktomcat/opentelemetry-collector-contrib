@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden
+module github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden
 
 go 1.21
 

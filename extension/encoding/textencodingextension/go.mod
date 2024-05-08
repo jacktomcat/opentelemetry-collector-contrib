@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/textencodingextension
+module github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding/textencodingextension
 
 go 1.21
 

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/pulsarreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/pulsarreceiver
 
 go 1.21
 

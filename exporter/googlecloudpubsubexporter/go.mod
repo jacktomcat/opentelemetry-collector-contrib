@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlecloudpubsubexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/googlecloudpubsubexporter
 
 go 1.21
 

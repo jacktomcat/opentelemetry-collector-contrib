@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk
+module github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk
 
 go 1.21
 

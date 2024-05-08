@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger
+module github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger
 
 go 1.21
 

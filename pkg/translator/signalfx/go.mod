@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx
+module github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/signalfx
 
 go 1.21
 

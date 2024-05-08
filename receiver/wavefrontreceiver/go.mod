@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/wavefrontreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/wavefrontreceiver
 
 go 1.21
 

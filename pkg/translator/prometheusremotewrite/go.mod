@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite
+module github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite
 
 go 1.21
 

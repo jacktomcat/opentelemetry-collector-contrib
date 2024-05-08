@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/solacereceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/solacereceiver
 
 go 1.21
 

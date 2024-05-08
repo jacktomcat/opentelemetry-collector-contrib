@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/pkg/sampling
+module github.com/jacktomcat/opentelemetry-collector-contrib/pkg/sampling
 
 go 1.21
 

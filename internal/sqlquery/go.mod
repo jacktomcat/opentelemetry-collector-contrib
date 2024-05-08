@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/internal/sqlquery
+module github.com/jacktomcat/opentelemetry-collector-contrib/internal/sqlquery
 
 go 1.21
 

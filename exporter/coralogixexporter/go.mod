@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/coralogixexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/coralogixexporter
 
 go 1.21
 

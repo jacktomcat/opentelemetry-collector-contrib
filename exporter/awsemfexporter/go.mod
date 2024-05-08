@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/awsemfexporter
 
 go 1.21
 

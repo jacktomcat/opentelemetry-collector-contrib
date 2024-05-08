@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/kafkareceiver
 
 go 1.21
 

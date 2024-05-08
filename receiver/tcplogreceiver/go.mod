@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcplogreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/tcplogreceiver
 
 go 1.21
 

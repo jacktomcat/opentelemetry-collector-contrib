@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/couchdbreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/couchdbreceiver
 
 go 1.21
 

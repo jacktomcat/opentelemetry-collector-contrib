@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/extension/headerssetterextension
+module github.com/jacktomcat/opentelemetry-collector-contrib/extension/headerssetterextension
 
 go 1.21
 

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8seventsreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8seventsreceiver
 
 go 1.21
 

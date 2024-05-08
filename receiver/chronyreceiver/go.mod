@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/chronyreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/chronyreceiver
 
 go 1.21
 

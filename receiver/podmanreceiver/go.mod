@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/podmanreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/podmanreceiver
 
 go 1.21
 

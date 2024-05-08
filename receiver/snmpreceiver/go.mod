@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/snmpreceiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/snmpreceiver
 
 go 1.21
 

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/exporter/lokiexporter
+module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/lokiexporter
 
 go 1.21
 

@@ -1,4 +1,4 @@
-module github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awss3receiver
+module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awss3receiver
 
 go 1.21
 

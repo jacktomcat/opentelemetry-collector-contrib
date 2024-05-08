@@ -43,7 +43,7 @@ func getMetricValue(metric pmetric.Metric) float64 {
 // generateMetrics creates a new metric based on the given rule and add it to the Resource Metric.
 // The value for newly calculated metrics is always a floting point number and the dataType is set
 // as MetricTypeDoubleGauge.
-func generateMetrics(rm pmetric.ResourceMetrics, operand2 float64, rule internalRule, logger *zap.Logger) {
+func generateMetrics(rm pmetric.ResourceMetrics, operand2 float64, rule internalRule, metricMap map[string]pmetric.Metric, logger *zap.Logger) {
 	ilms := rm.ScopeMetrics()
 	for i := 0; i < ilms.Len(); i++ {
 		ilm := ilms.At(i)
@@ -54,6 +54,7 @@ func generateMetrics(rm pmetric.ResourceMetrics, operand2 float64, rule internal
 				newMetric := appendMetric(ilm, rule.name, rule.unit)
 				newMetric.SetEmptyGauge()
 				addDoubleGaugeDataPoints(metric, newMetric, operand2, rule.operation, logger)
+				metricMap[metric.Name()] = newMetric
 			}
 		}
 	}

@@ -68,7 +68,7 @@ func (mgp *metricsGenerationProcessor) processMetrics(_ context.Context, md pmet
 			} else if rule.ruleType == string(scale) {
 				operand2 = rule.scaleBy
 			}
-			generateMetrics(rm, operand2, rule, mgp.logger)
+			generateMetrics(rm, operand2, rule, nameToMetricMap, mgp.logger)
 		}
 	}
 	return md, nil

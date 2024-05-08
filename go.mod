@@ -919,7 +919,7 @@ replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/grou
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor => ./processor/k8sattributesprocessor/
 
-//replace github.com/jacktomcat/opentelemetry-collector-contrib/processor/metricsgenerationprocessor => ./processor/metricsgenerationprocessor/
+replace github.com/jacktomcat/opentelemetry-collector-contrib/processor/metricsgenerationprocessor => ./processor/metricsgenerationprocessor/
 
 replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstransformprocessor => ./processor/metricstransformprocessor/
 

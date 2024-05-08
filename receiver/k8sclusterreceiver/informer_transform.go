@@ -1,21 +1,21 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package k8sclusterreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver"
+package k8sclusterreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver"
 
 import (
 	appsv1 "k8s.io/api/apps/v1"
 	batchv1 "k8s.io/api/batch/v1"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/demonset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/deployment"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/jobs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/node"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/pod"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/replicaset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/service"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/statefulset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/demonset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/deployment"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/jobs"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/node"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/pod"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/replicaset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/service"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/statefulset"
 )
 
 // transformObject transforms the k8s object by removing the data that is not utilized by the receiver.

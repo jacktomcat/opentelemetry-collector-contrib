@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package model // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/elasticsearchreceiver/internal/model"
+package model // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/elasticsearchreceiver/internal/model"
 
 // Nodes represents a response from elasticsearch's /_nodes.
 // The struct is not exhaustive; It does not provide all values returned by elasticsearch,

@@ -3,8 +3,8 @@ module github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest
 go 1.21
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/pdata v1.5.0
 	go.uber.org/goleak v1.3.0
@@ -29,11 +29,11 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../pdatautil
 
 retract (
 	v0.76.2
 	v0.76.1
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../golden

@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package routingconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector"
+package routingconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/routingconnector"
 
 import (
 	"context"
@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/collector/connector"
 	"go.opentelemetry.io/collector/consumer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/routingconnector/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
 )
 
 // NewFactory returns a ConnectorFactory.

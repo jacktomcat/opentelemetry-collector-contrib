@@ -1,15 +1,15 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package keyvalue // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/parser/keyvalue"
+package keyvalue // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/parser/keyvalue"
 
 import (
 	"context"
 	"fmt"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/parseutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/parseutils"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
 )
 
 // Parser is an operator that parses key value pairs.

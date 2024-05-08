@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package models // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/bigipreceiver/internal/models"
+package models // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/bigipreceiver/internal/models"
 
 // Nodes represents the top level json returned by the node/stats endpoint
 type Nodes struct {

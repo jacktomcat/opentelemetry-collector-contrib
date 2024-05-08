@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package basicauthextension implements an extension offering basic auth authentication over HTTP.
-package basicauthextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/basicauthextension"
+package basicauthextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/basicauthextension"

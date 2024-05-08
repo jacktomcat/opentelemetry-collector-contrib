@@ -4,8 +4,8 @@
 | Status        |           |
 | ------------- |-----------|
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Frouting%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Frouting) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Frouting%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Frouting) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@jpkrohling](https://www.github.com/jpkrohling), [@mwear](https://www.github.com/mwear) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Frouting%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Frouting) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Frouting%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Frouting) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@jpkrohling](https://www.github.com/jpkrohling), [@mwear](https://www.github.com/mwear) |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector#alpha
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -98,7 +98,7 @@ Respectively, if none of the routing conditions met, then a signal is routed to 
 - The connector routes to pipelines, not exporters as the processor does.
 
 ### OTTL Limitations
-- Currently, it is not possible to specify boolean statements without function invocation as the routing condition. It is required to provide the NOOP `route()` or any other supported function as part of the routing statement, see [#13545](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/13545) for more information.
+- Currently, it is not possible to specify boolean statements without function invocation as the routing condition. It is required to provide the NOOP `route()` or any other supported function as part of the routing statement, see [#13545](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/13545) for more information.
 - Supported [OTTL] functions:
   - [IsMatch](../../pkg/ottl/ottlfuncs/README.md#IsMatch)
   - [delete_key](../../pkg/ottl/ottlfuncs/README.md#delete_key)

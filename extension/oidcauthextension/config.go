@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package oidcauthextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/oidcauthextension"
+package oidcauthextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/oidcauthextension"
 
 // Config has the configuration for the OIDC Authenticator extension.
 type Config struct {

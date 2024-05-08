@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Deprecated: [v0.92.0] This package is deprecated and will be removed in a future release.
-// See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/30187
-package docsgen // import "github.com/open-telemetry/opentelemetry-collector-contrib/cmd/configschema/docsgen/docsgen"
+// See https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/30187
+package docsgen // import "github.com/jacktomcat/opentelemetry-collector-contrib/cmd/configschema/docsgen/docsgen"
 
 import (
 	"fmt"
@@ -17,7 +17,7 @@ import (
 
 	"go.opentelemetry.io/collector/otelcol"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/configschema"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/configschema"
 )
 
 const mdFileName = "config.md"
@@ -26,7 +26,7 @@ const mdFileName = "config.md"
 // line arguments for the docsgen executable and produces config documentation
 // for the specified components.
 // Deprecated: [v0.92.0] This package is deprecated and will be removed in a future release.
-// See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/30187
+// See https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/30187
 func CLI(factories otelcol.Factories, dr configschema.DirResolver) {
 	tableTmpl, err := tableTemplate()
 	if err != nil {

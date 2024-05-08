@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsxrayreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver"
+package awsxrayreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver"
 
 import (
 	"go.opentelemetry.io/collector/config/confignet"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/proxy"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/proxy"
 )
 
 // Config defines the configurations for an AWS X-Ray receiver.

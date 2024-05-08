@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package countconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector"
+package countconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/countconnector"
 
 import (
 	"context"
@@ -15,11 +15,11 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspanevent"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspanevent"
 )
 
 const scopeName = "otelcol/countconnector"

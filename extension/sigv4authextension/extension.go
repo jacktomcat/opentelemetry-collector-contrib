@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sigv4authextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/sigv4authextension"
+package sigv4authextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/sigv4authextension"
 
 import (
 	"context"

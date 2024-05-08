@@ -17,11 +17,11 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/journald"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/journaldreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/adapter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/journald"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/journaldreceiver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

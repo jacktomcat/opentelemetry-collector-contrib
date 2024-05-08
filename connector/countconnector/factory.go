@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package countconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector"
+package countconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/countconnector"
 
 import (
 	"context"
@@ -12,15 +12,15 @@ import (
 	"go.opentelemetry.io/collector/connector"
 	"go.opentelemetry.io/collector/consumer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/expr"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspanevent"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/countconnector/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/expr"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspanevent"
 )
 
 // NewFactory returns a ConnectorFactory.

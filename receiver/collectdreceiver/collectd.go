@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package collectdreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/collectdreceiver"
+package collectdreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/collectdreceiver"
 
 import (
 	"encoding/json"
@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/collectd"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/sanitize"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/collectd"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/sanitize"
 )
 
 type collectDRecord struct {

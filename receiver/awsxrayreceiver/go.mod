@@ -6,11 +6,11 @@ require (
 	github.com/aws/aws-sdk-go v1.51.17
 	github.com/google/go-cmp v0.6.0
 	github.com/google/uuid v1.6.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/proxy v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/proxy v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/xray v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/common v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
 	go.opentelemetry.io/collector/config/confignet v0.98.0
@@ -46,8 +46,8 @@ require (
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/awsutil v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.19.0 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
@@ -71,19 +71,19 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil => ../../internal/aws/awsutil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/awsutil => ../../internal/aws/awsutil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/proxy => ./../../internal/aws/proxy
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/proxy => ./../../internal/aws/proxy
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray => ./../../internal/aws/xray
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/xray => ./../../internal/aws/xray
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
 retract (
 	v0.76.2
@@ -91,4 +91,4 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

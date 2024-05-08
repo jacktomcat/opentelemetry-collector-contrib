@@ -3,7 +3,7 @@
 
 //go:build windows
 
-package windows // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/windows"
+package windows // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/windows"
 
 import (
 	"context"
@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
 )
 
 // Input is an operator that creates entries using the windows event log api.

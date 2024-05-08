@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package hostmetricsreceiver reads metrics like CPU usage, disk usage, and network usage from the host.
-package hostmetricsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver"
+package hostmetricsreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/hostmetricsreceiver"

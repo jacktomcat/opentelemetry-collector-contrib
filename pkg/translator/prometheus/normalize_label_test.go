@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package prometheus // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus"
+package prometheus // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus"
 
 import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/testutil"
 )
 
 func TestSanitize(t *testing.T) {

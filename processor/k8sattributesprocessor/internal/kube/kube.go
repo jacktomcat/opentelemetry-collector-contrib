@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kube // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/kube"
+package kube // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/kube"
 
 import (
 	"fmt"
@@ -13,7 +13,7 @@ import (
 	"k8s.io/apimachinery/pkg/selection"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig"
 )
 
 const (

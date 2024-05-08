@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package syslogexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/syslogexporter"
+package syslogexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/syslogexporter"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/syslogexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/syslogexporter/internal/metadata"
 )
 
 // NewFactory returns a new factory for the syslog exporter.

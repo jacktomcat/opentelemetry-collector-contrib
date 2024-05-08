@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package zipkinexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter"
+package zipkinexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/zipkinexporter"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/zipkinexporter/internal/metadata"
 )
 
 const (

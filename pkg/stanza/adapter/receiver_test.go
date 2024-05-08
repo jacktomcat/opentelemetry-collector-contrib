@@ -19,11 +19,11 @@ import (
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v2"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/storagetest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/pipeline"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/storagetest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/pipeline"
 )
 
 func TestStart(t *testing.T) {

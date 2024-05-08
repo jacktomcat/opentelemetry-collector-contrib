@@ -1,12 +1,12 @@
-// Deprecated: The Dynatrace metrics exporter is deprecated. After the end of 2023, no support, updates, or compatibility with newer OTel versions will be provided/guaranteed. See https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/23992 for more details.
+// Deprecated: The Dynatrace metrics exporter is deprecated. After the end of 2023, no support, updates, or compatibility with newer OTel versions will be provided/guaranteed. See https://github.com/jacktomcat/opentelemetry-collector-contrib/pull/23992 for more details.
 module github.com/jacktomcat/opentelemetry-collector-contrib/exporter/dynatraceexporter
 
 go 1.21
 
 require (
 	github.com/dynatrace-oss/dynatrace-metric-utils-go v0.5.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/common v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
 	go.opentelemetry.io/collector/config/confighttp v0.98.0
@@ -77,11 +77,11 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry => ../../pkg/resourcetotelemetry
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry => ../../pkg/resourcetotelemetry
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
 retract (
 	v0.76.2
@@ -89,8 +89,8 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

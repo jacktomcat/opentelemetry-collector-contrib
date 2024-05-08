@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package clusterresourcequota // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/clusterresourcequota"
+package clusterresourcequota // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/clusterresourcequota"
 
 import (
 	"strings"
@@ -11,7 +11,7 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
 )
 
 func RecordMetrics(mb *metadata.MetricsBuilder, crq *quotav1.ClusterResourceQuota, ts pcommon.Timestamp) {

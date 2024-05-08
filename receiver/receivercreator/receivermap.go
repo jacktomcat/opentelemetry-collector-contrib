@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package receivercreator // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/receivercreator"
+package receivercreator // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/receivercreator"
 
 import (
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
 )
 
 // receiverMap is a multimap for mapping one id to many receivers. It does

@@ -16,9 +16,9 @@ import (
 	"go.opentelemetry.io/collector/featuregate"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/awsemfexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/awsutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
 )
 
 func TestLoadConfig(t *testing.T) {

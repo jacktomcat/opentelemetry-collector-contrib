@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azureeventhubreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azureeventhubreceiver"
+package azureeventhubreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/azureeventhubreceiver"
 
 import (
 	eventhub "github.com/Azure/azure-event-hubs-go/v3"
@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/azure"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/azure"
 )
 
 type AzureResourceLogsEventUnmarshaler struct {

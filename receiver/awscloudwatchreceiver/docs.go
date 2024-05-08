@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package awscloudwatchreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver"
+package awscloudwatchreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver"

@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottltest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/ottltest"
 )
 
 func hello() (ExprFunc[any], error) {

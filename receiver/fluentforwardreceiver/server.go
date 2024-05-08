@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package fluentforwardreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/fluentforwardreceiver"
+package fluentforwardreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/fluentforwardreceiver"
 
 import (
 	"context"
@@ -16,7 +16,7 @@ import (
 	"go.opencensus.io/stats"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/fluentforwardreceiver/observ"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/fluentforwardreceiver/observ"
 )
 
 // The initial size of the read buffer. Messages can come in that are bigger

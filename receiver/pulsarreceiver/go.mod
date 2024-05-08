@@ -7,8 +7,8 @@ require (
 	github.com/apache/thrift v0.20.0
 	github.com/gogo/protobuf v1.3.2
 	github.com/jaegertracing/jaeger v1.55.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin v0.98.0
 	github.com/openzipkin/zipkin-go v0.4.2
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
@@ -58,7 +58,7 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/mtibben/percent v0.2.1 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal v0.98.0 // indirect
 	github.com/pierrec/lz4 v2.6.1+incompatible // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
@@ -88,11 +88,11 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger => ../../pkg/translator/jaeger
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger => ../../pkg/translator/jaeger
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin => ../../pkg/translator/zipkin
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin => ../../pkg/translator/zipkin
 
 retract (
 	v0.76.2
@@ -100,8 +100,8 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

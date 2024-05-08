@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azure // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/azure"
+package azure // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/azure"
 
 import (
 	"bytes"

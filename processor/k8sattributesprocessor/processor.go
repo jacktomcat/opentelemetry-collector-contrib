@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package k8sattributesprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor"
+package k8sattributesprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/k8sattributesprocessor"
 
 import (
 	"context"
@@ -16,8 +16,8 @@ import (
 	conventions "go.opentelemetry.io/collector/semconv/v1.8.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/kube"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/kube"
 )
 
 const (

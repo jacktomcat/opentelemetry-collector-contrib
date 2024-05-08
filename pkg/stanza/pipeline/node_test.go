@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	_ "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/generate"
-	_ "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/transformer/noop"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/testutil"
+	_ "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/generate"
+	_ "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/transformer/noop"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/testutil"
 )
 
 func TestNodeDOTID(t *testing.T) {

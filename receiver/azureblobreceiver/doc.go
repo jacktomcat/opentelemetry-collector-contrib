@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package azureblobreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azureblobreceiver"
+package azureblobreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/azureblobreceiver"

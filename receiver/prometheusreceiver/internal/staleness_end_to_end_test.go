@@ -33,8 +33,8 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/prometheusreceiver"
 )
 
 // Test that staleness markers are emitted for timeseries that intermittently disappear.

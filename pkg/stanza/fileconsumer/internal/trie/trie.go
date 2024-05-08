@@ -10,7 +10,7 @@
 		it will return true because that's how fingerprint matching works in current implementation.
 */
 
-package trie // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/trie"
+package trie // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/trie"
 
 type Trie[T any] struct {
 	value    *T

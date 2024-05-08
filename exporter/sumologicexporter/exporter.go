@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sumologicexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sumologicexporter"
+package sumologicexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/sumologicexporter"
 
 import (
 	"context"
@@ -31,27 +31,27 @@ type sumologicexporter struct {
 func initExporter(cfg *Config, settings component.TelemetrySettings) (*sumologicexporter, error) {
 
 	if cfg.MetricFormat == GraphiteFormat {
-		settings.Logger.Warn("`metric_format: graphite` nad `graphite_template` are deprecated and are going to be removed in the future. See https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
+		settings.Logger.Warn("`metric_format: graphite` nad `graphite_template` are deprecated and are going to be removed in the future. See https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
 	}
 
 	if cfg.MetricFormat == Carbon2Format {
-		settings.Logger.Warn("`metric_format: carbon` is deprecated and is going to be removed in the future. See https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
+		settings.Logger.Warn("`metric_format: carbon` is deprecated and is going to be removed in the future. See https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
 	}
 
 	if len(cfg.MetadataAttributes) > 0 {
-		settings.Logger.Warn("`metadata_attributes: []` is deprecated and is going to be removed in the future. See https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
+		settings.Logger.Warn("`metadata_attributes: []` is deprecated and is going to be removed in the future. See https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
 	}
 
 	if cfg.SourceCategory != "" {
-		settings.Logger.Warn("`source_category: <template>` is deprecated and is going to be removed in the future. See https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
+		settings.Logger.Warn("`source_category: <template>` is deprecated and is going to be removed in the future. See https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
 	}
 
 	if cfg.SourceHost != "" {
-		settings.Logger.Warn("`source_host: <template>` is deprecated and is going to be removed in the future. See https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
+		settings.Logger.Warn("`source_host: <template>` is deprecated and is going to be removed in the future. See https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
 	}
 
 	if cfg.SourceName != "" {
-		settings.Logger.Warn("`source_name: <template>` is deprecated and is going to be removed in the future. See https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
+		settings.Logger.Warn("`source_name: <template>` is deprecated and is going to be removed in the future. See https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture for more information")
 	}
 
 	sfs := newSourceFormats(cfg)

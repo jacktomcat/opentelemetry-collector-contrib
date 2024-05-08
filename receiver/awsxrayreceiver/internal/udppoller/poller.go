@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package udppoller // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/udppoller"
+package udppoller // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/udppoller"
 
 import (
 	"context"
@@ -14,10 +14,10 @@ import (
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 	"go.uber.org/zap"
 
-	recvErr "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/errors"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/socketconn"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/tracesegment"
+	recvErr "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/errors"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/socketconn"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/tracesegment"
 )
 
 const (

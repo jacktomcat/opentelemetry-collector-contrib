@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package serialization // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter/internal/serialization"
+package serialization // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/dynatraceexporter/internal/serialization"
 
 import (
 	dtMetric "github.com/dynatrace-oss/dynatrace-metric-utils-go/metric"

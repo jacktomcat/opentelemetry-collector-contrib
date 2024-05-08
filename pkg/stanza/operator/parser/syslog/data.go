@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package syslog // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/parser/syslog"
+package syslog // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/parser/syslog"
 
 import (
 	"fmt"
 	"strings"
 	"time"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
 )
 
 type Case struct {

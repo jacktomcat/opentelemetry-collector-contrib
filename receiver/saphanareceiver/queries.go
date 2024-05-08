@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package saphanareceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/saphanareceiver"
+package saphanareceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/saphanareceiver"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/receiver/scrapererror"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/saphanareceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/saphanareceiver/internal/metadata"
 )
 
 type queryStat struct {

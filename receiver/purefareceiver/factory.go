@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package purefareceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/purefareceiver"
+package purefareceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/purefareceiver"
 
 // This file implements Factory for Array scraper.
 
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/purefareceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/purefareceiver/internal/metadata"
 )
 
 // NewFactory creates a factory for Pure Storage FlashArray receiver.

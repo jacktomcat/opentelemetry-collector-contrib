@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package add // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/transformer/add"
+package add // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/transformer/add"
 
 import (
 	"context"
@@ -10,8 +10,8 @@ import (
 
 	"github.com/expr-lang/expr/vm"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
 )
 
 // Transformer is an operator that adds a string value or an expression value

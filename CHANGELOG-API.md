@@ -53,8 +53,8 @@ If you are looking for user-facing changes, check out [CHANGELOG.md](./CHANGELOG
 - `httpforwarderextension`: Rename the extension httpforwarder to httpforwarderextension (#24171)
 - `extension/storage`: The `filestorage` and `dbstorage` extensions are now standalone modules. (#31040)
   If using the OpenTelemetry Collector Builder, you will need to update your import paths to use the new module(s).
-  - `github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage`
-  - `github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/dbstorage`
+  - `github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/filestorage`
+  - `github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/dbstorage`
   
 
 ### 💡 Enhancements 💡

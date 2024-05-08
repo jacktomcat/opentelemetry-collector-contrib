@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 func initMetric(m pmetric.Metric, name string, ty pmetric.MetricType) {

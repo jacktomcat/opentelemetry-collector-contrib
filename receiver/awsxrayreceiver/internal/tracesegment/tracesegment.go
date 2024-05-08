@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tracesegment // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/tracesegment"
+package tracesegment // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/tracesegment"
 
 import (
 	"strings"

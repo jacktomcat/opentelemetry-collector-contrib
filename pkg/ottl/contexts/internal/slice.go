@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package internal // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/internal"
+package internal // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/internal"
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
 )
 
 func GetSliceValue[K any](ctx context.Context, tCtx K, s pcommon.Slice, keys []ottl.Key[K]) (any, error) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sshcheckreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sshcheckreceiver"
+package sshcheckreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sshcheckreceiver"
 
 import (
 	"context"
@@ -20,8 +20,8 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 type sshServer struct {

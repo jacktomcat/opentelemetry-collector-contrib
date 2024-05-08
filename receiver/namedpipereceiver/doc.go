@@ -5,4 +5,4 @@
 
 // Package namedpipereceiver implements a receiver that can be used by the
 // OpenTelemetry collector to receive logs using the stanza log agent
-package namedpipereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/namedpipereceiver"
+package namedpipereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/namedpipereceiver"

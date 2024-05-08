@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil/ecsutiltest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/ecsutil/ecsutiltest"
 )
 
 var _ Client = &mockClient{}

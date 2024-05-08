@@ -18,7 +18,7 @@ import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	"go.opentelemetry.io/collector/config/configopaque"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/elasticsearchreceiver/internal/model"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/elasticsearchreceiver/internal/model"
 )
 
 func TestCreateClientInvalidEndpoint(t *testing.T) {

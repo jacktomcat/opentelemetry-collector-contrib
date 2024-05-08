@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/loadbalancingexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/loadbalancingexporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

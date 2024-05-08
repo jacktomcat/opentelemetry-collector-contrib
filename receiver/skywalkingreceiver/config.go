@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package skywalkingreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/skywalkingreceiver"
+package skywalkingreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/skywalkingreceiver"
 
 import (
 	"fmt"

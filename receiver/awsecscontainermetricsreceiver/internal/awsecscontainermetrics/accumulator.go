@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsecscontainermetrics // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsecscontainermetricsreceiver/internal/awsecscontainermetrics"
+package awsecscontainermetrics // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsecscontainermetricsreceiver/internal/awsecscontainermetrics"
 
 import (
 	"time"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/ecsutil"
 )
 
 // metricDataAccumulator defines the accumulator

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opencensus // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus"
+package opencensus // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/opencensus"
 
 import (
 	occommon "github.com/census-instrumentation/opencensus-proto/gen-go/agent/common/v1"

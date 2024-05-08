@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azuremonitorreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver"
+package azuremonitorreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/azuremonitorreceiver"
 
 import (
 	"bytes"
@@ -27,7 +27,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/azuremonitorreceiver/internal/metadata"
 )
 
 var (

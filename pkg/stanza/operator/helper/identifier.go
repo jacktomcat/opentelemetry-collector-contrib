@@ -1,10 +1,10 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package helper // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+package helper // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
 
 import (
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
 )
 
 // NewIdentifierConfig creates a new identifier config with default values

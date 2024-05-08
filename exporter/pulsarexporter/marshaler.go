@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package pulsarexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/pulsarexporter"
+package pulsarexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/pulsarexporter"
 
 import (
 	"github.com/apache/pulsar-client-go/pulsar"

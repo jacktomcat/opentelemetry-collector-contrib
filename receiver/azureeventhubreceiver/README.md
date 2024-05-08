@@ -5,8 +5,8 @@
 | ------------- |-----------|
 | Stability     | [alpha]: metrics, logs   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Areceiver%2Fazureeventhub%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Areceiver%2Fazureeventhub) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Areceiver%2Fazureeventhub%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Areceiver%2Fazureeventhub) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@atoulme](https://www.github.com/atoulme), [@djaglowski](https://www.github.com/djaglowski), [@cparkins](https://www.github.com/cparkins) \| Seeking more code owners! |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Areceiver%2Fazureeventhub%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Areceiver%2Fazureeventhub) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Areceiver%2Fazureeventhub%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Areceiver%2Fazureeventhub) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@atoulme](https://www.github.com/atoulme), [@djaglowski](https://www.github.com/djaglowski), [@cparkins](https://www.github.com/cparkins) \| Seeking more code owners! |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector#alpha
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -119,4 +119,4 @@ with a Data Points that represents the values
 for the Metric including: Total, Minimum, Maximum,
 Average and Count.
 
-[storage extension]: https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/extension/storage
+[storage extension]: https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/extension/storage

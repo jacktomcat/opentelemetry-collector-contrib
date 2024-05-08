@@ -6,8 +6,8 @@
 | Stability     | [development]: metrics   |
 |               | [beta]: traces, logs   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Floadbalancing%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Floadbalancing) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Floadbalancing%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Floadbalancing) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@jpkrohling](https://www.github.com/jpkrohling) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Floadbalancing%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Floadbalancing) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Floadbalancing%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Floadbalancing) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@jpkrohling](https://www.github.com/jpkrohling) |
 
 [development]: https://github.com/open-telemetry/opentelemetry-collector#development
 [beta]: https://github.com/open-telemetry/opentelemetry-collector#beta
@@ -81,7 +81,7 @@ Refer to [config.yaml](./testdata/config.yaml) for detailed examples on using th
     * Resolver's default filter is set to `HEALTHY` when none is explicitly defined
   * **Notes:** 
     * This resolver currently returns a maximum of 100 hosts. 
-    * `TODO`: Feature request [29771](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/29771) aims to cover the pagination for this scenario
+    * `TODO`: Feature request [29771](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/29771) aims to cover the pagination for this scenario
 * The `routing_key` property is used to route spans to exporters based on different parameters. This functionality is currently enabled only for `trace` pipeline types. It supports one of the following values:
     * `service`: exports spans based on their service name. This is useful when using processors like the span metrics, so all spans for each service are sent to consistent collector instances for metric collection. Otherwise, metrics for the same services are sent to different collectors, making aggregations inaccurate. 
     * `traceID` (default): exports spans based on their `traceID`.

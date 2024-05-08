@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package stores // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/stores"
+package stores // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/stores"
 
 import (
 	"context"
@@ -11,8 +11,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/cadvisor"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/cadvisor/extractors"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/cadvisor"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/cadvisor/extractors"
 )
 
 var _ cadvisor.Decorator = &K8sDecorator{}

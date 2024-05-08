@@ -1,16 +1,16 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package journaldreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/journaldreceiver"
+package journaldreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/journaldreceiver"
 
 import (
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/journald"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/journaldreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/adapter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/journald"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/journaldreceiver/internal/metadata"
 )
 
 // createDefaultConfig creates a config with type and version

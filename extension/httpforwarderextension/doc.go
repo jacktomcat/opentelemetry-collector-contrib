@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package httpforwarderextension accepts HTTP requests, optionally adds headers to them and forwards them.
-package httpforwarderextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/httpforwarderextension"
+package httpforwarderextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/httpforwarderextension"

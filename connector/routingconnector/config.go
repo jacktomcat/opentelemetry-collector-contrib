@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package routingconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector"
+package routingconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/routingconnector"
 
 import (
 	"errors"
 
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
 )
 
 var (

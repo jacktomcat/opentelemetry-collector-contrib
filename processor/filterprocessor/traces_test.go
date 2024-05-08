@@ -16,9 +16,9 @@ import (
 	"go.opentelemetry.io/collector/processor/processorhelper"
 	"go.opentelemetry.io/collector/processor/processortest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
 )
 
 // All the data we need to test the Span filter

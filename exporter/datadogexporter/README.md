@@ -6,8 +6,8 @@
 | Stability     | [alpha]: logs   |
 |               | [beta]: traces, metrics   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fdatadog%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fdatadog) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fdatadog%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fdatadog) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@mx-psi](https://www.github.com/mx-psi), [@dineshg13](https://www.github.com/dineshg13), [@liustanley](https://www.github.com/liustanley), [@songy23](https://www.github.com/songy23), [@mackjmr](https://www.github.com/mackjmr) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fdatadog%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fdatadog) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fdatadog%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fdatadog) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@mx-psi](https://www.github.com/mx-psi), [@dineshg13](https://www.github.com/dineshg13), [@liustanley](https://www.github.com/liustanley), [@songy23](https://www.github.com/songy23), [@mackjmr](https://www.github.com/mackjmr) |
 | Emeritus      | [@gbbr](https://www.github.com/gbbr) |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector#alpha
@@ -17,7 +17,7 @@
 
 > Please review the Collector's [security documentation](https://github.com/open-telemetry/opentelemetry-collector/blob/main/docs/security-best-practices.md), which contains recommendations on securing sensitive information such as the API key required by this exporter.
 
-> The Datadog Exporter now skips APM stats computation by default. It is recommended to only use the [Datadog Connector](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/connector/datadogconnector) in order to compute APM stats.
+> The Datadog Exporter now skips APM stats computation by default. It is recommended to only use the [Datadog Connector](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/connector/datadogconnector) in order to compute APM stats.
 > To temporarily revert to the previous behavior, disable the `exporter.datadogexporter.DisableAPMStats` feature gate. Example: `otelcol --config=config.yaml --feature-gates=-exporter.datadogexporter.DisableAPMStats`
 
 Visit the [official documentation](https://docs.datadoghq.com/tracing/trace_collection/open_standards/otel_collector_datadog_exporter/) for usage instructions.
@@ -26,7 +26,7 @@ Visit the [official documentation](https://docs.datadoghq.com/tracing/trace_coll
 
 ### Why am I getting errors 413 - Request Entity Too Large, how do I fix it?
 
-This error indicates the payload size sent by the Datadog exporter exceeds the size limit (see previous examples https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/16834, https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/17566).
+This error indicates the payload size sent by the Datadog exporter exceeds the size limit (see previous examples https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/16834, https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/17566).
 
 This is usually caused by the pipeline batching too many telemetry data before sending to the Datadog exporter. To fix that, try lowering `send_batch_size` and `send_batch_max_size` in your batchprocessor config. You might want to have a separate batch processor dedicated for datadog exporter if other exporters expect a larger batch size, e.g.
 ```
@@ -54,7 +54,7 @@ The exact values for `send_batch_size` and `send_batch_max_size` depends on your
 
 ### Fall back to the Zorkian metric client with feature gate
 
-Since [v0.69.0](https://github.com/open-telemetry/opentelemetry-collector-contrib/releases/tag/v0.69.0), the Datadog exporter has switched to use the native metric client `datadog-api-client-go` for metric export instead of Zorkian client by default. While `datadog-api-client-go` fixed several issues that are present in Zorkian client, there is a performance regression with it compared to Zorkian client especially under high metric volume. If you observe memory or throughput issues in the Datadog exporter with `datadog-api-client-go`, you can configure the Datadog exporter to fall back to the Zorkian client by disabling the feature gate `exporter.datadogexporter.metricexportnativeclient`, e.g.
+Since [v0.69.0](https://github.com/jacktomcat/opentelemetry-collector-contrib/releases/tag/v0.69.0), the Datadog exporter has switched to use the native metric client `datadog-api-client-go` for metric export instead of Zorkian client by default. While `datadog-api-client-go` fixed several issues that are present in Zorkian client, there is a performance regression with it compared to Zorkian client especially under high metric volume. If you observe memory or throughput issues in the Datadog exporter with `datadog-api-client-go`, you can configure the Datadog exporter to fall back to the Zorkian client by disabling the feature gate `exporter.datadogexporter.metricexportnativeclient`, e.g.
 ```
 otelcol --config=config.yaml --feature-gates=-exporter.datadogexporter.metricexportnativeclient
 ```

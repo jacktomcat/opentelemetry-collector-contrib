@@ -3,7 +3,7 @@
 
 //go:build windows
 
-package windowsperfcountersreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowsperfcountersreceiver"
+package windowsperfcountersreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/windowsperfcountersreceiver"
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/winperfcounters"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/winperfcounters"
 )
 
 const instanceLabelName = "instance"

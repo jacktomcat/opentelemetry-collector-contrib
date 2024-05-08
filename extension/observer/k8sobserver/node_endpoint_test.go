@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
 )
 
 func TestNodeObjectToK8sNodeEndpoint(t *testing.T) {

@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
 )
 
 func Test_traceDataToSplunk(t *testing.T) {

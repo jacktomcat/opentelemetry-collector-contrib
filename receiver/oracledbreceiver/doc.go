@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package oracledbreceiver implements a receiver collecting metrics from an Oracle datase.
-package oracledbreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/oracledbreceiver"
+package oracledbreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/oracledbreceiver"

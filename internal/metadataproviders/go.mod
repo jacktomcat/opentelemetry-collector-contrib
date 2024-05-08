@@ -7,7 +7,7 @@ require (
 	github.com/aws/aws-sdk-go v1.51.17
 	github.com/docker/docker v25.0.5+incompatible
 	github.com/hashicorp/consul/api v1.28.2
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/semconv v0.98.0
 	go.opentelemetry.io/otel v1.24.0
@@ -104,7 +104,7 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig => ../k8sconfig
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig => ../k8sconfig
 
 // openshift removed all tags from their repo, use the pseudoversion from the release-3.9 branch HEAD
 replace github.com/openshift/api v3.9.0+incompatible => github.com/openshift/api v0.0.0-20180801171038-322a19404e37

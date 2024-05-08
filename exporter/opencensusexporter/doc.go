@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package opencensusexporter exports data to an OpenCensus agent.
-package opencensusexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter"
+package opencensusexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opencensusexporter"

@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/extension/extensiontest"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/ecsmock"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/ecsmock"
 )
 
 // Simply start and stop, the actual test logic is in sd_test.go until we implement the ListWatcher interface.
@@ -24,7 +24,7 @@ import (
 func TestExtensionStartStop(t *testing.T) {
 	if runtime.GOOS == "windows" {
 		t.Skip("skipping flaky test on Windows, see " +
-			"https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/4042")
+			"https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/4042")
 	}
 	refreshInterval := 100 * time.Millisecond
 

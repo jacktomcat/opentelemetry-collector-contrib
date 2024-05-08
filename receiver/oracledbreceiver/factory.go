@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package oracledbreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/oracledbreceiver"
+package oracledbreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/oracledbreceiver"
 
 import (
 	"context"
@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/oracledbreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/oracledbreceiver/internal/metadata"
 )
 
 // NewFactory creates a new Oracle receiver factory.

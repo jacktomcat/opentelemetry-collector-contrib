@@ -22,9 +22,9 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8stest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8stest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
 )
 
 const testKubeConfig = "/tmp/kube-config-otelcol-e2e-testing"

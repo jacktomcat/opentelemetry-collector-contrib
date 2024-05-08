@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"gotest.tools/assert"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/grafanacloudconnector/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/grafanacloudconnector/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

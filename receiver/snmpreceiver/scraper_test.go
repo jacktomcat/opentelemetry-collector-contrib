@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package snmpreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/snmpreceiver"
+package snmpreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/snmpreceiver"
 
 import (
 	"context"
@@ -18,8 +18,8 @@ import (
 	"go.opentelemetry.io/collector/receiver/scrapererror"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 type MockClient struct {

@@ -1,6 +1,6 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
-package cluster // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster"
+package cluster // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster"
 
 import (
 	"fmt"

@@ -14,8 +14,8 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/processor/processortest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/attraction"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/attributesprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/attraction"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/attributesprocessor/internal/metadata"
 )
 
 func TestFactory_Type(t *testing.T) {

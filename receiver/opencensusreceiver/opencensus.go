@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opencensusreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver"
+package opencensusreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/opencensusreceiver"
 
 import (
 	"context"
@@ -24,8 +24,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver/internal/ocmetrics"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver/internal/octrace"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/opencensusreceiver/internal/ocmetrics"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/opencensusreceiver/internal/octrace"
 )
 
 // ocReceiver is the type that exposes Trace and Metrics reception.

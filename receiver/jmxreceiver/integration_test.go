@@ -25,8 +25,8 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 const jmxPort = "7199"
@@ -42,7 +42,7 @@ type JMXIntegrationSuite struct {
 }
 
 // It is recommended that this test be run locally with a longer timeout than the default 30s
-// go test -timeout 60s -run ^TestJMXIntegration$ github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jmxreceiver
+// go test -timeout 60s -run ^TestJMXIntegration$ github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jmxreceiver
 func TestJMXIntegration(t *testing.T) {
 	suite.Run(t, new(JMXIntegrationSuite))
 }

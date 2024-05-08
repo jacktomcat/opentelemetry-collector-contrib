@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/config/confignet"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/wavefrontreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/wavefrontreceiver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

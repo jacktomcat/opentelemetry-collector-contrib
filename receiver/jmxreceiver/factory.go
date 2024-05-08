@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package jmxreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jmxreceiver"
+package jmxreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jmxreceiver"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jmxreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jmxreceiver/internal/metadata"
 )
 
 const (

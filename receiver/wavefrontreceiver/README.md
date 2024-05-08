@@ -5,8 +5,8 @@
 | ------------- |-----------|
 | Stability     | [beta]: metrics   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Areceiver%2Fwavefront%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Areceiver%2Fwavefront) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Areceiver%2Fwavefront%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Areceiver%2Fwavefront) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@samiura](https://www.github.com/samiura) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Areceiver%2Fwavefront%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Areceiver%2Fwavefront) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Areceiver%2Fwavefront%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Areceiver%2Fwavefront) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@samiura](https://www.github.com/samiura) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector#beta
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -14,7 +14,7 @@
 
 The Wavefront receiver accepts metrics and depends on [carbonreceiver proto
 and
-transport](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/carbonreceiver),
+transport](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/carbonreceiver),
 It's very similar to Carbon: it is TCP based in which each received text line
 represents a single metric data point. They differ on the format of their
 textual representation. The Wavefront receiver leverages the Carbon receiver

@@ -14,8 +14,8 @@ import (
 	"gonum.org/v1/gonum/graph/simple"
 	"gonum.org/v1/gonum/graph/topo"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/testutil"
 )
 
 func TestUnorderableToCycles(t *testing.T) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package snmpreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/snmpreceiver"
+package snmpreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/snmpreceiver"
 
 import (
 	"fmt"

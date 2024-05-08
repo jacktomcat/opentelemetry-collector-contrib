@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package headerssetterextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/headerssetterextension"
+package headerssetterextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/headerssetterextension"

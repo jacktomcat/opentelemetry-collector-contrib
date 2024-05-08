@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package clientutil // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/clientutil"
+package clientutil // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/clientutil"
 
 import (
 	"context"
@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/config/configretry"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/scrub"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/scrub"
 )
 
 func TestDoWithRetries(t *testing.T) {

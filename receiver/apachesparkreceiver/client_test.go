@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/apachesparkreceiver/internal/models"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/apachesparkreceiver/internal/models"
 )
 
 const (

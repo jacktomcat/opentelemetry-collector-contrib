@@ -1,15 +1,15 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package regex // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/parser/regex"
+package regex // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/parser/regex"
 
 import (
 	"context"
 	"fmt"
 	"regexp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
 )
 
 // Parser is an operator that parses regex in an entry.

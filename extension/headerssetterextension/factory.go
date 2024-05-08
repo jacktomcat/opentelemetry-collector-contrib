@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package headerssetterextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/headerssetterextension"
+package headerssetterextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/headerssetterextension"
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/headerssetterextension/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/headerssetterextension/internal/metadata"
 )
 
 // NewFactory creates a factory for the headers setter extension.

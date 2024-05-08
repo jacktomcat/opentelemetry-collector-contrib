@@ -9,10 +9,10 @@ package tests
 import (
 	"testing"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datareceivers"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datasenders"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/testbed/datareceivers"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/testbed/datasenders"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/testbed/testbed"
 )
 
 func TestLog10kDPS(t *testing.T) {

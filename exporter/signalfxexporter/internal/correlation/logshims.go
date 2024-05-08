@@ -1,13 +1,13 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package correlation // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/correlation"
+package correlation // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/correlation"
 
 import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/log"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/log"
 )
 
 type zapShim struct {

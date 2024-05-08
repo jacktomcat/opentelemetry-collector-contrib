@@ -3,7 +3,7 @@
 
 //go:build windows
 
-package activedirectorydsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/activedirectorydsreceiver"
+package activedirectorydsreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/activedirectorydsreceiver"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/activedirectorydsreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/activedirectorydsreceiver/internal/metadata"
 )
 
 var errConfigNotActiveDirectory = fmt.Errorf("config is not valid for the '%s' receiver", metadata.Type)

@@ -21,4 +21,4 @@
 // which can be used to detect resource information from the host,
 // in a format that conforms to the OpenTelemetry resource semantic conventions, and append or
 // override the resource value in telemetry data with this information.
-package resourcedetectionprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor"
+package resourcedetectionprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor"

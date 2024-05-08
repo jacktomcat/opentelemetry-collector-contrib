@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package traces // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/traces"
+package traces // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/traces"
 
 import (
 	"context"

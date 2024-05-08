@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/extension/extensiontest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
 )
 
 func TestFactoryCreatedExtensionIsEndpointsLister(t *testing.T) {

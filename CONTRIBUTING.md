@@ -101,7 +101,7 @@ With above guidelines, you can write code that is more portable and easier to ma
 ## Adding New Components
 
 **Before** any code is written, [open an
-issue](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/new?assignees=&labels=Sponsor+Needed%2Cneeds+triage&projects=&template=new_component.yaml&title=New+component%3A+)
+issue](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/new?assignees=&labels=Sponsor+Needed%2Cneeds+triage&projects=&template=new_component.yaml&title=New+component%3A+)
 providing the following information:
 
 * Who's the sponsor for your component. A sponsor is an approver who will be in charge of being the official reviewer of
@@ -198,7 +198,7 @@ status:
 //go:generate mdatagen metadata.yaml
 
 // Package fooreceiver bars.
-package fooreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/fooreceiver"
+package fooreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/fooreceiver"
 ```
 - Type `make update-codeowners`. This will trigger the regeneration of the `.github/CODEOWNERS` file and the [metadata generator](https://github.com/open-telemetry/opentelemetry-collector/blob/main/cmd/mdatagen/README.md#using-the-metadata-generator) to generate the associated code/documentation.
 
@@ -295,7 +295,7 @@ OpenTelemetry community members, issue authors, and anyone else who would like t
 
 #### Triagers
 
-Contributors with [triager](https://github.com/open-telemetry/opentelemetry-collector-contrib/#contributing) permissions can help move
+Contributors with [triager](https://github.com/jacktomcat/opentelemetry-collector-contrib/#contributing) permissions can help move
 issues along by adding missing component labels, which help organize issues and trigger automations to notify code owners. They can
 also use their familiarity with the Collector and its components to investigate issues themselves. Alternatively, they may point issue
 authors to another resource or someone else who may know more.
@@ -381,7 +381,7 @@ Example label comment:
 
 ## Becoming a Code Owner
 
-A Code Owner is responsible for a component within Collector Contrib, as indicated by the [CODEOWNERS file](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/.github/CODEOWNERS). That responsibility includes maintaining the component, triaging and responding to issues, and reviewing pull requests.
+A Code Owner is responsible for a component within Collector Contrib, as indicated by the [CODEOWNERS file](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/.github/CODEOWNERS). That responsibility includes maintaining the component, triaging and responding to issues, and reviewing pull requests.
 
 Sometimes a component may be in need of a new or additional Code Owner. A few reasons this situation may arise would be:
 

@@ -15,9 +15,9 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/otelcol"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/configschema"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/components"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/redisreceiver"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/configschema"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/components"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/redisreceiver"
 )
 
 func TestWriteConfigDoc(t *testing.T) {

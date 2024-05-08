@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package redisreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/redisreceiver"
+package redisreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/redisreceiver"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/redisreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/redisreceiver/internal/metadata"
 )
 
 // NewFactory creates a factory for Redis receiver.

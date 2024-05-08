@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset/regexp"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterset/regexp"
 )
 
 var (

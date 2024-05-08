@@ -3,7 +3,7 @@
 
 //go:build linux
 
-package journald // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/journald"
+package journald // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/journald"
 
 import (
 	"bufio"
@@ -20,9 +20,9 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
 )
 
 // Input is an operator that process logs using journald

@@ -3,7 +3,7 @@
 
 //go:build !windows && !linux
 
-package pagingscraper // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/pagingscraper"
+package pagingscraper // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/pagingscraper"
 
 import "github.com/shirou/gopsutil/v3/mem"
 

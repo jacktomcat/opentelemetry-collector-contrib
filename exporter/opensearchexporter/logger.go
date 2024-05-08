@@ -3,7 +3,7 @@
 
 // Package opensearchexporter contains an opentelemetry-collector exporter
 // for OpenSearch.
-package opensearchexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter"
+package opensearchexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opensearchexporter"
 
 import (
 	"net/http"

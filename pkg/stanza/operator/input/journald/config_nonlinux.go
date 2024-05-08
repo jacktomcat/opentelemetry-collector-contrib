@@ -3,14 +3,14 @@
 
 //go:build !linux
 
-package journald // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/journald"
+package journald // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/journald"
 
 import (
 	"errors"
 
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
 )
 
 func (c Config) Build(_ *zap.SugaredLogger) (operator.Operator, error) {

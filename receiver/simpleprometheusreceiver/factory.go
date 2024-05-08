@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package simpleprometheusreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/simpleprometheusreceiver"
+package simpleprometheusreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/simpleprometheusreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/simpleprometheusreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/simpleprometheusreceiver/internal/metadata"
 )
 
 // This file implements factory for prometheus_simple receiver

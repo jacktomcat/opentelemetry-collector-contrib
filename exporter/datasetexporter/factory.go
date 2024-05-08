@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package datasetexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datasetexporter"
+package datasetexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datasetexporter"
 
 import (
 	"go.opentelemetry.io/collector/component"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datasetexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datasetexporter/internal/metadata"
 )
 
 // NewFactory created new factory with DataSet exporters.

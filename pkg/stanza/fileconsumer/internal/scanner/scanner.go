@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package scanner // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/scanner"
+package scanner // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/scanner"
 
 import (
 	"bufio"
 	"errors"
 	"io"
 
-	stanzaerrors "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/errors"
+	stanzaerrors "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/errors"
 )
 
 const DefaultBufferSize = 16 * 1024

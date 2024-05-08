@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package chrony // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/chronyreceiver/internal/chrony"
+package chrony // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/chronyreceiver/internal/chrony"
 
 import (
 	"context"

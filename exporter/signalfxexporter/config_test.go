@@ -21,12 +21,12 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.uber.org/zap"
 
-	apmcorrelation "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/correlations"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/correlation"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation/dpfilters"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
+	apmcorrelation "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/correlations"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/correlation"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation/dpfilters"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
 )
 
 func TestLoadConfig(t *testing.T) {

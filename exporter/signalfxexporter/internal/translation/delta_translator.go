@@ -1,13 +1,13 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package translation // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
+package translation // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
 
 import (
 	"github.com/gogo/protobuf/proto"
 	sfxpb "github.com/signalfx/com_signalfx_metrics_protobuf/model"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/ttlmap"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/ttlmap"
 )
 
 type deltaTranslator struct {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kineticaexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kineticaexporter"
+package kineticaexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/kineticaexporter"
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kineticaexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/kineticaexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for Kinetica exporter.

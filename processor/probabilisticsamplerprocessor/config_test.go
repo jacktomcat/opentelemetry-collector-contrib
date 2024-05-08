@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package k8s contains the Kubernetes hostname provider
-package k8s // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/k8s"
+package k8s // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/k8s"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes/source"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/provider"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/provider"
 )
 
 var _ source.Provider = (*Provider)(nil)

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package attributesprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/attributesprocessor"
+package attributesprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/attributesprocessor"
 
 import (
 	"context"
@@ -9,9 +9,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/attraction"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/expr"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/attraction"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/expr"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
 )
 
 type metricAttributesProcessor struct {

@@ -13,4 +13,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package awsfirehosereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsfirehosereceiver"
+package awsfirehosereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsfirehosereceiver"

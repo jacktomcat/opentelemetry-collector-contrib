@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package octrace // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver/internal/octrace"
+package octrace // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/opencensusreceiver/internal/octrace"
 
 import (
 	"context"
@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 
-	internaldata "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus"
+	internaldata "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/opencensus"
 )
 
 const (

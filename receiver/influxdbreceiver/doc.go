@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package influxdbreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/influxdbreceiver"
+package influxdbreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/influxdbreceiver"

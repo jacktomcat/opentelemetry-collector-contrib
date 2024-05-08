@@ -14,9 +14,9 @@ import (
 	"go.opentelemetry.io/collector/config/configtls"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/kafka"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/kafkaexporter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/kafka"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/kafkareceiver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

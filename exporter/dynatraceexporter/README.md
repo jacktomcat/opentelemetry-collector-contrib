@@ -22,8 +22,8 @@ More information on using the collector with Dynatrace can be found in the
 | ------------- |-----------|
 | Stability     | [deprecated]: metrics   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fdynatrace%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fdynatrace) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fdynatrace%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fdynatrace) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@dyladan](https://www.github.com/dyladan), [@arminru](https://www.github.com/arminru), [@evan-bradley](https://www.github.com/evan-bradley) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fdynatrace%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fdynatrace) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fdynatrace%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fdynatrace) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@dyladan](https://www.github.com/dyladan), [@arminru](https://www.github.com/arminru), [@evan-bradley](https://www.github.com/evan-bradley) |
 
 [deprecated]: https://github.com/open-telemetry/opentelemetry-collector#deprecated
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -291,7 +291,7 @@ Default: `false`
 > per metric data point and any data point which exceeds this limit will be dropped.
 
 If you think you might exceed this limit, you should use the
-[transform processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/transformprocessor)
+[transform processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/transformprocessor)
 to apply a filter, so only a select subset of your resource attributes are converted.
 
 ```yaml

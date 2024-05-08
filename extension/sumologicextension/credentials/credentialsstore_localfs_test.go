@@ -14,7 +14,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension/api"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension/api"
 )
 
 func TestCredentialsStoreLocalFs(t *testing.T) {

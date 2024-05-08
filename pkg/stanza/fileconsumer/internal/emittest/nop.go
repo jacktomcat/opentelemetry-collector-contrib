@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package emittest // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/emittest"
+package emittest // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/emittest"
 
 import (
 	"context"

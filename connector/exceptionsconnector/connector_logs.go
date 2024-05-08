@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package exceptionsconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/exceptionsconnector"
+package exceptionsconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/exceptionsconnector"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 type logsConnector struct {

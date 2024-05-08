@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/config/configtls"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/instanaexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/instanaexporter/internal/metadata"
 )
 
 // Test that the factory creates the default configuration

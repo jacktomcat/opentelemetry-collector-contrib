@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package hostobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/hostobserver"
+package hostobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/hostobserver"
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/extension"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
 )
 
 type hostObserver struct {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package k8sapiserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/k8sapiserver"
+package k8sapiserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/k8sapiserver"
 
 import (
 	"context"
@@ -26,8 +26,8 @@ import (
 	"k8s.io/client-go/tools/record"
 	"k8s.io/klog/v2"
 
-	ci "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/containerinsight"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/k8s/k8sclient"
+	ci "github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/containerinsight"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/k8s/k8sclient"
 )
 
 const (

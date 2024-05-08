@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package stores // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/stores"
+package stores // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/stores"
 
 import (
 	"context"
@@ -16,10 +16,10 @@ import (
 	"go.uber.org/zap"
 	corev1 "k8s.io/api/core/v1"
 
-	ci "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/containerinsight"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/k8s/k8sclient"
-	awsmetrics "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/metrics"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/stores/kubeletutil"
+	ci "github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/containerinsight"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/k8s/k8sclient"
+	awsmetrics "github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/metrics"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/stores/kubeletutil"
 )
 
 const (

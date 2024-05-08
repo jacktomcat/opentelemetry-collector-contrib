@@ -35,9 +35,9 @@ import (
 	semconv "go.opentelemetry.io/collector/semconv/v1.21.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/commander"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/config"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/healthchecker"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/commander"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/config"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/healthchecker"
 )
 
 var (
@@ -80,7 +80,7 @@ type Supervisor struct {
 	// A config section to be added to the Collector's config to fetch its own metrics.
 	// TODO: store this persistently so that when starting we can compose the effective
 	// config correctly.
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21078
+	// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21078
 	agentConfigOwnMetricsSection *atomic.Value
 
 	// agentHealthCheckEndpoint is the endpoint the Collector's health check extension
@@ -262,7 +262,7 @@ func (s *Supervisor) getBootstrapInfo() (err error) {
 				for _, attr := range identAttr {
 					if attr.Key == semconv.AttributeServiceInstanceID {
 						// TODO: Consider whether to attempt restarting the Collector.
-						// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/29864
+						// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/29864
 						if attr.Value.GetStringValue() != s.instanceID.String() {
 							done <- fmt.Errorf(
 								"the Collector's instance ID (%s) does not match with the instance ID set by the Supervisor (%s)",
@@ -392,13 +392,13 @@ func (s *Supervisor) startOpAMP() error {
 			OnCommandFunc: func(_ context.Context, command *protobufs.ServerToAgentCommand) error {
 				cmdType := command.GetType()
 				if *cmdType.Enum() == protobufs.CommandType_CommandType_Restart {
-					// TODO: https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21077
+					// TODO: https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21077
 					s.logger.Debug("Received restart command")
 				}
 				return nil
 			},
 			SaveRemoteConfigStatusFunc: func(_ context.Context, _ *protobufs.RemoteConfigStatus) {
-				// TODO: https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21079
+				// TODO: https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21079
 			},
 			GetEffectiveConfigFunc: func(_ context.Context) (*protobufs.EffectiveConfig, error) {
 				return s.createEffectiveConfigMsg(), nil
@@ -510,7 +510,7 @@ func (s *Supervisor) waitForOpAMPConnection() error {
 	}
 }
 
-// TODO: Persist instance ID. https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21073
+// TODO: Persist instance ID. https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21073
 func (s *Supervisor) createInstanceID() (ulid.ULID, error) {
 	entropy := ulid.Monotonic(rand.New(rand.NewSource(0)), 0)
 	id, err := ulid.New(ulid.Timestamp(time.Now()), entropy)
@@ -814,7 +814,7 @@ func (s *Supervisor) runAgentProcess() {
 			}
 
 			// TODO: decide why the agent stopped. If it was due to bad config, report it to server.
-			// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21079
+			// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21079
 
 			// Wait 5 seconds before starting again.
 			restartTimer.Stop()

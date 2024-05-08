@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otelarrowexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter"
+package otelarrowexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/otelarrowexporter"
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"google.golang.org/grpc"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/otelarrowexporter/internal/arrow"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/otelarrowexporter/internal/arrow"
 )
 
 // baseExporter is used as the basis for all OpenTelemetry signal types.

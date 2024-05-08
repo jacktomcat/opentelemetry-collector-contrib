@@ -1,13 +1,13 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package namespace // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/namespace"
+package namespace // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/namespace"
 
 import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	corev1 "k8s.io/api/core/v1"
 
-	imetadata "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
+	imetadata "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
 )
 
 func RecordMetrics(mb *imetadata.MetricsBuilder, ns *corev1.Namespace, ts pcommon.Timestamp) {

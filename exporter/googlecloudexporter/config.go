@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package googlecloudexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlecloudexporter"
+package googlecloudexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/googlecloudexporter"
 
 import (
 	"fmt"

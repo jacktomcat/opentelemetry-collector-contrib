@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
 )
 
 func newTestHandler() *handler {

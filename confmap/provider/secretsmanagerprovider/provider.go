@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package secretsmanagerprovider // import "github.com/open-telemetry/opentelemetry-collector-contrib/confmap/provider/secretsmanagerprovider"
+package secretsmanagerprovider // import "github.com/jacktomcat/opentelemetry-collector-contrib/confmap/provider/secretsmanagerprovider"
 
 import (
 	"context"

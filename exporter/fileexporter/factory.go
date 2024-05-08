@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package fileexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/fileexporter"
+package fileexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/fileexporter"
 
 import (
 	"context"
@@ -19,8 +19,8 @@ import (
 	"go.uber.org/zap"
 	"gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/fileexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/fileexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/sharedcomponent"
 )
 
 const (

@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/metadata"
 )
 
 func TestTypeStr(t *testing.T) {

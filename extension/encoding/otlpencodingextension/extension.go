@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otlpencodingextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/otlpencodingextension"
+package otlpencodingextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding/otlpencodingextension"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding"
 )
 
 const (

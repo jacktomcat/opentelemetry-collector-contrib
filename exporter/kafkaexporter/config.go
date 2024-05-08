@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkaexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter"
+package kafkaexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/kafkaexporter"
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/config/configretry"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/kafka"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/kafka"
 )
 
 // Config defines configuration for Kafka exporter.

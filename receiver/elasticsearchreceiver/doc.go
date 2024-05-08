@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package elasticsearchreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/elasticsearchreceiver"
+package elasticsearchreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/elasticsearchreceiver"

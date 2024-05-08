@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package tcplogreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcplogreceiver"
+package tcplogreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/tcplogreceiver"

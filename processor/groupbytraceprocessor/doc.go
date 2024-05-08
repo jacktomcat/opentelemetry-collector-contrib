@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package groupbytraceprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor"
+package groupbytraceprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/groupbytraceprocessor"

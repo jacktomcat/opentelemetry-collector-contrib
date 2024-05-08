@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package loadbalancingexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/loadbalancingexporter"
+package loadbalancingexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/loadbalancingexporter"
 
 import (
 	"context"
@@ -23,7 +23,7 @@ import (
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchpersignal"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/batchpersignal"
 )
 
 var _ exporter.Metrics = (*metricExporterImp)(nil)

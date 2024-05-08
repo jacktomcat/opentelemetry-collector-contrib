@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package provider // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/provider"
+package provider // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/provider"
 
 import (
 	"context"

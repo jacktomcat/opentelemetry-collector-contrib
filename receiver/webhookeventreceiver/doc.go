@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package webhookeventreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/webhookeventreceiver"
+package webhookeventreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/webhookeventreceiver"

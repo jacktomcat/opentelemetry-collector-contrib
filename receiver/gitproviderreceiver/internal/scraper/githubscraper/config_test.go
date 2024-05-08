@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/collector/config/confighttp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/metadata"
 )
 
 // TestConfig ensures a config created with the factory is the same as one created manually with

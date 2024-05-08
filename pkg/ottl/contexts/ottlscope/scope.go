@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ottlscope // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlscope"
+package ottlscope // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlscope"
 
 import (
 	"context"
@@ -10,8 +10,8 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/internal"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/internal"
 )
 
 var _ internal.ResourceContext = TransformContext{}

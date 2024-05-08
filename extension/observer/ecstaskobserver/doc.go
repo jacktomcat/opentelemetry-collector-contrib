@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package ecstaskobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecstaskobserver"
+package ecstaskobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/ecstaskobserver"

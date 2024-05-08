@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 // Originally copied from https://github.com/signalfx/signalfx-agent/blob/fbc24b0fdd3884bd0bbfbd69fe3c83f49d4c0b77/pkg/apm/log/log.go
 
-package log // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/log"
+package log // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/log"
 
 // Fields is a map that is used to populated logging context.
 type Fields map[string]any

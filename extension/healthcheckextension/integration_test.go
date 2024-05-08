@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.opentelemetry.io/collector/extension/extensiontest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/testutil"
 )
 
 func Test_SimpleHealthCheck(t *testing.T) {

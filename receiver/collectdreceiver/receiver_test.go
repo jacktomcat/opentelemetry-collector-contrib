@@ -21,7 +21,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 type wantedBody struct {

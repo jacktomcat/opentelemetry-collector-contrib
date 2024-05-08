@@ -3,7 +3,7 @@
 
 //go:build !windows
 
-package windowseventlogreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowseventlogreceiver"
+package windowseventlogreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/windowseventlogreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowseventlogreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/windowseventlogreceiver/internal/metadata"
 )
 
 // newFactoryAdapter creates a dummy factory for windowseventlog receiver

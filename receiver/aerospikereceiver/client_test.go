@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package aerospikereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver"
+package aerospikereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/aerospikereceiver"
 
 import (
 	"testing"
@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster"
-	cm "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster/mocks"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver/mocks"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster"
+	cm "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster/mocks"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/aerospikereceiver/mocks"
 )
 
 func TestAerospike_Info(t *testing.T) {

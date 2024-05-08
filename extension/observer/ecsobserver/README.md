@@ -5,8 +5,8 @@
 | ------------- |-----------|
 | Stability     | [beta]  |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aextension%2Fecsobserver%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aextension%2Fecsobserver) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aextension%2Fecsobserver%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aextension%2Fecsobserver) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@dmitryax](https://www.github.com/dmitryax), [@rmfitzpatrick](https://www.github.com/rmfitzpatrick) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aextension%2Fecsobserver%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aextension%2Fecsobserver) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aextension%2Fecsobserver%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aextension%2Fecsobserver) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@dmitryax](https://www.github.com/dmitryax), [@rmfitzpatrick](https://www.github.com/rmfitzpatrick) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector#beta
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -262,7 +262,7 @@ work properly occasionally and delay the update.
 
 This is a generic approach that creates a new receiver at runtime based on discovered endpoints. The main problem is
 performance issue as described
-in [this issue](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/1395).
+in [this issue](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/1395).
 
 #### Register as prometheus discovery plugin
 
@@ -463,4 +463,4 @@ against actual ECS service on both EC2 and Fargate.
   reviewing (all the PRs ...)
 - 2021-02-24 Updated doc by @pingleig
 - 2020-12-29 Initial implementation by [Raphael](https://github.com/theRoughCode)
-  in [#1920](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/1920)
+  in [#1920](https://github.com/jacktomcat/opentelemetry-collector-contrib/pull/1920)

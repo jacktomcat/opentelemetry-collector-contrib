@@ -18,9 +18,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/transport"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/transport/client"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/transport"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/transport/client"
 )
 
 func Test_statsdreceiver_Start(t *testing.T) {

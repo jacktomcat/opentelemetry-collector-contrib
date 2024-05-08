@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package filestatsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filestatsreceiver"
+package filestatsreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/filestatsreceiver"
 
 import (
 	"context"
@@ -16,7 +16,7 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filestatsreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/filestatsreceiver/internal/metadata"
 )
 
 type scraper struct {

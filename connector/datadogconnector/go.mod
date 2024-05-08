@@ -8,9 +8,9 @@ require (
 	github.com/DataDog/datadog-go/v5 v5.5.0
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes v0.14.0
 	github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/metrics v0.13.4
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/datadog v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor v0.98.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
@@ -109,14 +109,14 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/mostynb/go-grpc-compression v1.2.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/ecsutil v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/common v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/metadataproviders v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.98.0 // indirect
 	github.com/opencontainers/runtime-spec v1.1.0-rc.3 // indirect
 	github.com/openshift/api v3.9.0+incompatible // indirect
 	github.com/openshift/client-go v0.0.0-20210521082421-73d9475a9142 // indirect
@@ -211,62 +211,62 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog => ../../internal/datadog
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/datadog => ../../internal/datadog
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor => ../../processor/tailsamplingprocessor
+replace github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor => ../../processor/tailsamplingprocessor
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders => ../../internal/metadataproviders
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/metadataproviders => ../../internal/metadataproviders
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig => ../../internal/k8sconfig
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig => ../../internal/k8sconfig
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/docker => ../../internal/docker
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/docker => ../../internal/docker
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8stest => ../../internal/k8stest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8stest => ../../internal/k8stest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry => ../../pkg/resourcetotelemetry
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry => ../../pkg/resourcetotelemetry
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter => ../../internal/filter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter => ../../internal/filter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver => ../../receiver/prometheusreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/prometheusreceiver => ../../receiver/prometheusreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver => ../../receiver/hostmetricsreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/hostmetricsreceiver => ../../receiver/hostmetricsreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter => ../../exporter/prometheusremotewriteexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter => ../../exporter/prometheusremotewriteexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filelogreceiver => ../../receiver/filelogreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/filelogreceiver => ../../receiver/filelogreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/dockerstatsreceiver => ../../receiver/dockerstatsreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/dockerstatsreceiver => ../../receiver/dockerstatsreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza => ../../pkg/stanza
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza => ../../pkg/stanza
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor => ../../processor/resourcedetectionprocessor
+replace github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor => ../../processor/resourcedetectionprocessor
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl => ../../pkg/ottl
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl => ../../pkg/ottl
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter => ../../exporter/datadogexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter => ../../exporter/datadogexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus => ../../pkg/translator/prometheus
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus => ../../pkg/translator/prometheus
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite => ../../pkg/translator/prometheusremotewrite
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite => ../../pkg/translator/prometheusremotewrite
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor => ../../processor/probabilisticsamplerprocessor
+replace github.com/jacktomcat/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor => ../../processor/probabilisticsamplerprocessor
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil => ../../internal/aws/ecsutil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/ecsutil => ../../internal/aws/ecsutil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor => ../../processor/k8sattributesprocessor
+replace github.com/jacktomcat/opentelemetry-collector-contrib/processor/k8sattributesprocessor => ../../processor/k8sattributesprocessor
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
+replace github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
 
 replace github.com/openshift/api v3.9.0+incompatible => github.com/openshift/api v0.0.0-20180801171038-322a19404e37
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/transformprocessor => ../../processor/transformprocessor
+replace github.com/jacktomcat/opentelemetry-collector-contrib/processor/transformprocessor => ../../processor/transformprocessor

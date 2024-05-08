@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package udp // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/udp"
+package udp // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/udp"
 
 import (
 	"bufio"
@@ -15,9 +15,9 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/text/encoding"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/decode"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/decode"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
 )
 
 // Input is an operator that listens to a socket for log entries.

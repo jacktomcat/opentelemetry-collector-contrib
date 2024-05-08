@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package googlecloudspannerreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver"
+package googlecloudspannerreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver"

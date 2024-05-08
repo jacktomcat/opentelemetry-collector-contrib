@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package operator // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
+package operator // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
 
 import (
 	"context"
 
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
 )
 
 // Operator is a log monitoring component.

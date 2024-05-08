@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package k8sobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/k8sobserver"
+package k8sobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/k8sobserver"
 
 import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
 )
 
 func TestPodObjectToPortEndpoint(t *testing.T) {

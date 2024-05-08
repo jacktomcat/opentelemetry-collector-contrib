@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package pulsarreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/pulsarreceiver"
+package pulsarreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/pulsarreceiver"
 
 import (
 	"bytes"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger"
 )
 
 // copy from kafka receiver

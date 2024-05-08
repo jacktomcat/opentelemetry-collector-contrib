@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package datadogconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/datadogconnector"
+package datadogconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/datadogconnector"
 
 import (
 	"context"
@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/connector"
 	"go.opentelemetry.io/collector/consumer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/datadogconnector/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/datadogconnector/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/datadog"
 )
 
 // NewFactory creates a factory for tailtracer connector.

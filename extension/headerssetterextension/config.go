@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package headerssetterextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/headerssetterextension"
+package headerssetterextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/headerssetterextension"
 
 import (
 	"fmt"

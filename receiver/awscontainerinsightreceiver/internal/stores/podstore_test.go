@@ -15,8 +15,8 @@ import (
 	"go.uber.org/zap"
 	corev1 "k8s.io/api/core/v1"
 
-	ci "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/containerinsight"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/k8s/k8sclient"
+	ci "github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/containerinsight"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/k8s/k8sclient"
 )
 
 func getBaseTestPodInfo() *corev1.Pod {

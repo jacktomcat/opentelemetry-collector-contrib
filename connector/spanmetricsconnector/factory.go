@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package spanmetricsconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector"
+package spanmetricsconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/spanmetricsconnector"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/connector"
 	"go.opentelemetry.io/collector/consumer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/metadata"
 )
 
 // NewFactory creates a factory for the spanmetrics connector.

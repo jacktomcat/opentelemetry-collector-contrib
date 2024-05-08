@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tcp // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
+package tcp // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
 
 import (
 	"bufio"
@@ -14,11 +14,11 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/text/encoding"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/decode"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/split"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/trim"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/decode"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/split"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/trim"
 )
 
 const (

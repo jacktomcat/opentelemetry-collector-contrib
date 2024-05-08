@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package testbed // import "github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+package testbed // import "github.com/jacktomcat/opentelemetry-collector-contrib/testbed/testbed"
 
 import (
 	"go.opentelemetry.io/collector/exporter"
@@ -19,13 +19,13 @@ import (
 	"go.opentelemetry.io/collector/receiver/otlpreceiver"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/syslogexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/syslogreceiver"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkinreceiver"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opencensusexporter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/syslogexporter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/zipkinexporter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jaegerreceiver"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/opencensusreceiver"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/syslogreceiver"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/zipkinreceiver"
 )
 
 // Components returns the set of components for tests

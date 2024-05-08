@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package signalfx // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx"
+package signalfx // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/signalfx"
 
 import (
 	"math"

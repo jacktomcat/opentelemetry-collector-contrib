@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package routingprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/routingprocessor"
+package routingprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/routingprocessor"
 
 import (
 	"context"
@@ -17,10 +17,10 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/routingprocessor/internal/common"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/routingprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottldatapoint"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/routingprocessor/internal/common"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/routingprocessor/internal/metadata"
 )
 
 var _ processor.Metrics = (*metricsProcessor)(nil)

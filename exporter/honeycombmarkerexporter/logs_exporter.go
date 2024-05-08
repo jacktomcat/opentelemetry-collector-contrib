@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package honeycombmarkerexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/honeycombmarkerexporter"
+package honeycombmarkerexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/honeycombmarkerexporter"
 
 import (
 	"bytes"
@@ -19,10 +19,10 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/pdata/plog"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/expr"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/expr"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
 )
 
 const (

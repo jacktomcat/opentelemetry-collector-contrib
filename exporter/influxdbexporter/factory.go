@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package influxdbexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/influxdbexporter"
+package influxdbexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/influxdbexporter"
 
 import (
 	"context"
@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/influxdbexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/influxdbexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for InfluxDB exporter.

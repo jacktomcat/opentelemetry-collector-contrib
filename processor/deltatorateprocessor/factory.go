@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package deltatorateprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatorateprocessor"
+package deltatorateprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/deltatorateprocessor"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.opentelemetry.io/collector/processor/processorhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatorateprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/deltatorateprocessor/internal/metadata"
 )
 
 var processorCapabilities = consumer.Capabilities{MutatesData: true}

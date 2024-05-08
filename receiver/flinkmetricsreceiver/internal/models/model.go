@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package models // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/flinkmetricsreceiver/internal/models"
+package models // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/flinkmetricsreceiver/internal/models"
 
 // These are processed metrics that are used to unique identify metrics from each scope source.
 // See https://nightlies.apache.org/flink/flink-docs-release-1.14/docs/ops/metrics/#system-scope

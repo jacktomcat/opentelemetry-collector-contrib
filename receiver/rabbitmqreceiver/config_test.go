@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package rabbitmqreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver"
+package rabbitmqreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/rabbitmqreceiver"
 
 import (
 	"errors"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/metadata"
 )
 
 func TestValidate(t *testing.T) {

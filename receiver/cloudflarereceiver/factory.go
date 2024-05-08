@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package cloudflarereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/cloudflarereceiver"
+package cloudflarereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/cloudflarereceiver"
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/cloudflarereceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/cloudflarereceiver/internal/metadata"
 )
 
 // NewFactory returns the component factory for the cloudflarereceiver

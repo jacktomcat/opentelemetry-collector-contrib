@@ -15,8 +15,8 @@ import (
 	"github.com/testcontainers/testcontainers-go/wait"
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 const redisPort = "6379"
@@ -52,7 +52,7 @@ func TestIntegrationV6(t *testing.T) {
 }
 
 func TestIntegrationV7Cluster(t *testing.T) {
-	t.Skip("Skipping due to flakieness, possibly related to https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/30411")
+	t.Skip("Skipping due to flakieness, possibly related to https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/30411")
 	scraperinttest.NewIntegrationTest(
 		NewFactory(),
 		scraperinttest.WithContainerRequest(testcontainers.ContainerRequest{

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package cassandraexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/cassandraexporter"
+package cassandraexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/cassandraexporter"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 type tracesExporter struct {

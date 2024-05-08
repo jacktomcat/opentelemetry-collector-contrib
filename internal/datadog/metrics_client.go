@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadog // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/datadog"
+package datadog // import "github.com/jacktomcat/opentelemetry-collector-contrib/internal/datadog"
 
 import (
 	"context"
@@ -36,7 +36,7 @@ func InitializeMetricClient(mp metric.MeterProvider, source string) statsd.Clien
 }
 
 func (m *metricsClient) Gauge(name string, value float64, tags []string, _ float64) error {
-	// The last parameter is rate, but we're omitting it because rate does not have effect for gauge points: https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/dedd44436ae064f5a0b43769d24adf897533957b/receiver/statsdreceiver/internal/protocol/metric_translator.go#L153-L156
+	// The last parameter is rate, but we're omitting it because rate does not have effect for gauge points: https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/dedd44436ae064f5a0b43769d24adf897533957b/receiver/statsdreceiver/internal/protocol/metric_translator.go#L153-L156
 	m.mutex.Lock()
 	defer m.mutex.Unlock()
 	if _, ok := m.gauges[name]; ok {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opencensusexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter"
+package opencensusexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opencensusexporter"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opencensusexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for OTLP exporter.

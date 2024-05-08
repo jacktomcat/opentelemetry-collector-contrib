@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package filterprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor"
+package filterprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/filterprocessor"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/filterprocessor/internal/metadata"
 )
 
 type trigger int

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package model // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/instanaexporter/internal/converter/model"
+package model // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/instanaexporter/internal/converter/model"
 
 import (
 	"fmt"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 const (

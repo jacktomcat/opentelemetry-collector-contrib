@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package perfcounters // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/perfcounters"
+package perfcounters // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/perfcounters"
 
 import (
 	"fmt"

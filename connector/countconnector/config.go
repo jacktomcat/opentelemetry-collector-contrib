@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package countconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector"
+package countconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/countconnector"
 
 import (
 	"fmt"
@@ -10,8 +10,8 @@ import (
 	"go.opentelemetry.io/collector/confmap"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
 )
 
 // Default metrics are emitted if no conditions are specified.

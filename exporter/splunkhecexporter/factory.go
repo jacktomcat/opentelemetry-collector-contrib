@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package splunkhecexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter"
+package splunkhecexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/splunkhecexporter"
 
 import (
 	"context"
@@ -15,9 +15,9 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/splunkhecexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/batchperresourceattr"
 )
 
 const (

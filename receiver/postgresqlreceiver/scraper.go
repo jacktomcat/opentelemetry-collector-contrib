@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package postgresqlreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver"
+package postgresqlreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/postgresqlreceiver"
 
 import (
 	"context"
@@ -17,11 +17,11 @@ import (
 	"go.opentelemetry.io/collector/receiver/scrapererror"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/postgresqlreceiver/internal/metadata"
 )
 
 const (
-	readmeURL            = "https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/v0.88.0/receiver/postgresqlreceiver/README.md"
+	readmeURL            = "https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/v0.88.0/receiver/postgresqlreceiver/README.md"
 	separateSchemaAttrID = "receiver.postgresql.separateSchemaAttr"
 
 	defaultPostgreSQLDatabase = "postgres"
@@ -32,7 +32,7 @@ var (
 		separateSchemaAttrID,
 		featuregate.StageAlpha,
 		featuregate.WithRegisterDescription("Moves Schema Names into dedicated Attribute"),
-		featuregate.WithRegisterReferenceURL("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/29559"),
+		featuregate.WithRegisterReferenceURL("https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/29559"),
 	)
 )
 

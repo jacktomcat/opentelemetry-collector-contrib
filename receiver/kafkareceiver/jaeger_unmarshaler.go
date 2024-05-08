@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkareceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver"
+package kafkareceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/kafkareceiver"
 
 import (
 	"bytes"
@@ -10,7 +10,7 @@ import (
 	jaegerproto "github.com/jaegertracing/jaeger/model"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger"
 )
 
 type jaegerProtoSpanUnmarshaler struct {

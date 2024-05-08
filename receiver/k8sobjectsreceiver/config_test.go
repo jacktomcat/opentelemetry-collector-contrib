@@ -15,8 +15,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	apiWatch "k8s.io/apimachinery/pkg/watch"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sobjectsreceiver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

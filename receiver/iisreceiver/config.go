@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package iisreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver"
+package iisreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/iisreceiver"
 
 import (
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/iisreceiver/internal/metadata"
 )
 
 // Config defines configuration for simple prometheus receiver.

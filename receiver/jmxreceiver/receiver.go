@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package jmxreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jmxreceiver"
+package jmxreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jmxreceiver"
 
 import (
 	"context"
@@ -20,7 +20,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/otlpreceiver"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jmxreceiver/internal/subprocess"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jmxreceiver/internal/subprocess"
 )
 
 // jmxMainClass the class containing the main function for the JMX Metric Gatherer JAR

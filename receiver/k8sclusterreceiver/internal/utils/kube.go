@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package utils // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/utils"
+package utils // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/utils"
 
 import (
 	"errors"

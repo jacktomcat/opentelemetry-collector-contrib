@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package namedpipe // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/namedpipe"
+package namedpipe // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/namedpipe"
 
 import (
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/split"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/trim"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/split"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/trim"
 )
 
 const (

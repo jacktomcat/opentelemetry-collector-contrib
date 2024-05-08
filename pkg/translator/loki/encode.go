@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package loki // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/loki"
+package loki // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/loki"
 
 import (
 	"encoding/hex"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/plog"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 // JSON representation of the LogRecord as described by https://developers.google.com/protocol-buffers/docs/proto3#json

@@ -22,7 +22,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
 )
 
 func setupServer(t *testing.T) (func() net.Conn, *consumertest.LogsSink, *observer.ObservedLogs, context.CancelFunc) {

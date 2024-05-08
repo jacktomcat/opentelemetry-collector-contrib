@@ -16,13 +16,13 @@ import (
 	"go.opentelemetry.io/collector/processor/processortest"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/testdata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/parser/regex"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/testdata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/adapter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/parser/regex"
 )
 
 var (
@@ -73,7 +73,7 @@ var skip = func(t *testing.T, why string) {
 }
 
 func TestLogsTransformProcessor(t *testing.T) {
-	skip(t, "See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/9761")
+	skip(t, "See https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/9761")
 	baseMessage := pcommon.NewValueStr("2022-01-01 01:02:03 INFO this is a test message")
 	spanID := pcommon.SpanID([8]byte{0x32, 0xf0, 0xa2, 0x2b, 0x6a, 0x81, 0x2c, 0xff})
 	traceID := pcommon.TraceID([16]byte{0x48, 0x01, 0x40, 0xf3, 0xd7, 0x70, 0xa5, 0xae, 0x32, 0xf0, 0xa2, 0x2b, 0x6a, 0x81, 0x2c, 0xff})

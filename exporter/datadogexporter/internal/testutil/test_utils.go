@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package testutil contains the test util functions
-package testutil // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/testutil"
+package testutil // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/testutil"
 
 import (
 	"context"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ottl // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+package ottl // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	jsoniter "github.com/json-iterator/go"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/internal/ottlcommon"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/internal/ottlcommon"
 )
 
 type ExprFunc[K any] func(ctx context.Context, tCtx K) (any, error)

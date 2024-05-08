@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package ottl // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+package ottl // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"

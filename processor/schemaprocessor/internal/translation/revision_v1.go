@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package translation // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
+package translation // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
 
 import (
 	"go.opentelemetry.io/otel/schema/v1.0/ast"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
 )
 
 // RevisionV1 represents all changes that are to be

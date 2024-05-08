@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
+package metadata // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
 
 import (
 	"testing"
@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	metadataPkg "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
+	metadataPkg "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
 )
 
 func Test_GetEntityEvents(t *testing.T) {

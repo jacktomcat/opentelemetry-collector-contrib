@@ -4,9 +4,9 @@ go 1.21
 
 require (
 	github.com/expr-lang/expr v1.16.3
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/sharedcomponent v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest v0.98.0
 	github.com/spf13/cast v1.6.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
@@ -48,7 +48,7 @@ require (
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20210106213030-5aafc221ea8c // indirect
 	github.com/prometheus/client_golang v1.19.0 // indirect
@@ -104,13 +104,13 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer => ../../extension/observer
+replace github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer => ../../extension/observer
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent => ../../internal/sharedcomponent
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/sharedcomponent => ../../internal/sharedcomponent
 
 retract (
 	v0.76.2
@@ -118,4 +118,4 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

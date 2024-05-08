@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package iisreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver"
+package iisreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/iisreceiver"
 
 import (
 	"testing"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/iisreceiver/internal/metadata"
 )
 
 func TestNewFactory(t *testing.T) {

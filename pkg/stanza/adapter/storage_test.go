@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	rcvr "go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/storagetest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/storagetest"
 )
 
 func TestStorage(t *testing.T) {

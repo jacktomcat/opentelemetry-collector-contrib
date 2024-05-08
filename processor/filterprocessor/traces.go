@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package filterprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/filterprocessor"
+package filterprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/filterprocessor"
 
 import (
 	"context"
@@ -13,11 +13,11 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/expr"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterspan"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspanevent"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/expr"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterspan"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspanevent"
 )
 
 type filterSpanProcessor struct {

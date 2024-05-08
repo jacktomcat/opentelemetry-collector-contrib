@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package errors // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/errors"
+package errors // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/errors"
 
 import (
 	"encoding/json"

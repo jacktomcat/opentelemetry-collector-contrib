@@ -4,8 +4,8 @@
 | Status        |           |
 | ------------- |-----------|
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fservicegraph%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fservicegraph) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fservicegraph%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fservicegraph) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@jpkrohling](https://www.github.com/jpkrohling), [@mapno](https://www.github.com/mapno) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fservicegraph%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fservicegraph) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fservicegraph%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fservicegraph) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@jpkrohling](https://www.github.com/jpkrohling), [@mapno](https://www.github.com/mapno) |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector#alpha
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -84,7 +84,7 @@ dimensions coming from spans with `SPAN_KIND_SERVER`.
 Since the service graph connector has to process both sides of an edge,
 it needs to process all spans of a trace to function properly.
 If spans of a trace are spread out over multiple instances, spans are not paired up reliably.
-A possible solution to this problem is using the [load balancing exporter](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/loadbalancingexporter)
+A possible solution to this problem is using the [load balancing exporter](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/loadbalancingexporter)
 in a layer on front of collector instances running this connector.
 
 ## Visualization

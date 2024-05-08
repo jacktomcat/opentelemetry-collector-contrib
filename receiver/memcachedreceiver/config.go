@@ -1,13 +1,13 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package memcachedreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/memcachedreceiver"
+package memcachedreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/memcachedreceiver"
 
 import (
 	"go.opentelemetry.io/collector/config/confignet"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/memcachedreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/memcachedreceiver/internal/metadata"
 )
 
 type Config struct {

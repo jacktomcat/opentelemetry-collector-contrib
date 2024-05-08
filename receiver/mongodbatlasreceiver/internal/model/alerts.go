@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package model // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal/model"
+package model // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal/model"
 
 // Alert represents an alert. It uses the format defined by mongodb atlas.
 // See: https://www.mongodb.com/docs/atlas/reference/api/alerts-get-alert/#response-elements

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package servicegraphconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/servicegraphconnector"
+package servicegraphconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/servicegraphconnector"
 
 import (
 	"context"

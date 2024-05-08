@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package alibabacloudlogserviceexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter"
+package alibabacloudlogserviceexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/exporter"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for AlibabaCloud LogService exporter.

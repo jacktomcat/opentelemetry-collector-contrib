@@ -20,12 +20,12 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/syslog"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/udp"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/adapter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/syslog"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/udp"
 )
 
 func TestSyslogWithTcp(t *testing.T) {

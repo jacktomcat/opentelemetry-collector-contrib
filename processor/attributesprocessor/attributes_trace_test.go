@@ -15,11 +15,11 @@ import (
 	"go.opentelemetry.io/collector/processor/processortest"
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/attraction"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/testdata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/ptracetest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/attraction"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/testdata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/ptracetest"
 )
 
 // Common structure for all the Tests

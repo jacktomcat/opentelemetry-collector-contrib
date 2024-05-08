@@ -3,13 +3,13 @@
 
 //go:build linux
 
-package diskscraper // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/diskscraper"
+package diskscraper // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/diskscraper"
 
 import (
 	"github.com/shirou/gopsutil/v3/disk"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/diskscraper/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/diskscraper/internal/metadata"
 )
 
 const systemSpecificMetricsLen = 2

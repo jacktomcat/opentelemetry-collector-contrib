@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package kineticaexporter exports log/metrics data to Kinetica.
-package kineticaexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kineticaexporter"
+package kineticaexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/kineticaexporter"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package mezmoexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/mezmoexporter"
+package mezmoexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/mezmoexporter"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/mezmoexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/mezmoexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for Mezmo exporter.

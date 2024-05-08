@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package ackextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/ackextension"
+package ackextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/ackextension"

@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	ci "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/containerinsight"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/cadvisor/testutils"
+	ci "github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/containerinsight"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/cadvisor/testutils"
 )
 
 func TestNetStats(t *testing.T) {

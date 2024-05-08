@@ -5,4 +5,4 @@
 
 // Package remotetapextension implements an extension that exposes the golang
 // remoteobserver processor websockets through a Web interface.
-package remotetapextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/remotetapextension"
+package remotetapextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/remotetapextension"

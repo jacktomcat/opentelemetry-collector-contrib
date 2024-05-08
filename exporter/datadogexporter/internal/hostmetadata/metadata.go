@@ -3,7 +3,7 @@
 
 // Package metadata is responsible for collecting host metadata from different providers
 // such as EC2, ECS, AWS, etc and pushing it to Datadog.
-package hostmetadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata"
+package hostmetadata // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata"
 
 import (
 	"bytes"
@@ -24,11 +24,11 @@ import (
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/clientutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/ec2"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/gohai"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/system"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/scrub"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/clientutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/ec2"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/gohai"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/system"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/scrub"
 )
 
 // metadataFromAttributes gets metadata info from attributes following

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package windows // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/windows"
+package windows // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/windows"
 
 import (
 	"bytes"

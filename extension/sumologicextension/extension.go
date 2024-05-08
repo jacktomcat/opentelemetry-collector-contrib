@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sumologicextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension"
+package sumologicextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension"
 
 import (
 	"bytes"
@@ -30,8 +30,8 @@ import (
 	"go.uber.org/zap"
 	grpccredentials "google.golang.org/grpc/credentials"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension/api"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension/credentials"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension/api"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension/credentials"
 )
 
 type SumologicExtension struct {

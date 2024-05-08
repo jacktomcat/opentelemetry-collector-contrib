@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package podmanreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/podmanreceiver"
+package podmanreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/podmanreceiver"

@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package pulsarexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/pulsarexporter"
+package pulsarexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/pulsarexporter"
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/pulsarexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/pulsarexporter/internal/metadata"
 )
 
 const (

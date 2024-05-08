@@ -5,4 +5,4 @@
 
 // package deltatorateprocessor implements a processor which
 // converts delta sum metrics to rates.
-package deltatorateprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatorateprocessor"
+package deltatorateprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/deltatorateprocessor"

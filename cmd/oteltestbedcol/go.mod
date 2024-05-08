@@ -5,32 +5,32 @@ module github.com/jacktomcat/opentelemetry-collector-contrib/cmd/oteltestbedcol
 go 1.21
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/carbonexporter v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusexporter v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/syslogexporter v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/pprofextension v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/processor/attributesprocessor v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourceprocessor v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/carbonreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filelogreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/fluentforwardreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sapmreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/signalfxreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/splunkhecreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/syslogreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcplogreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/udplogreceiver v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkinreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/exporter/carbonexporter v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opencensusexporter v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opensearchexporter v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/exporter/prometheusexporter v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/exporter/sapmexporter v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/exporter/splunkhecexporter v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/exporter/syslogexporter v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/exporter/zipkinexporter v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/extension/pprofextension v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/filestorage v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/processor/attributesprocessor v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourceprocessor v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/carbonreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/filelogreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/fluentforwardreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jaegerreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/opencensusreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/prometheusreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sapmreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/signalfxreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/splunkhecreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/syslogreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/tcplogreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/udplogreceiver v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/receiver/zipkinreceiver v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
 	go.opentelemetry.io/collector/connector v0.98.0
@@ -167,22 +167,22 @@ require (
 	github.com/mostynb/go-grpc-compression v1.2.2 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/common v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/sharedcomponent v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/batchperresourceattr v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/opencensus v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/signalfx v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin v0.98.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0 // indirect
 	github.com/opensearch-project/opensearch-go/v2 v2.3.0 // indirect
@@ -294,101 +294,101 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
+replace github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage => ../../extension/storage/filestorage
+replace github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/filestorage => ../../extension/storage/filestorage
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/opencensusreceiver => ../../receiver/opencensusreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/opencensusreceiver => ../../receiver/opencensusreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/splunkhecreceiver => ../../receiver/splunkhecreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/splunkhecreceiver => ../../receiver/splunkhecreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin => ../../pkg/translator/zipkin
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin => ../../pkg/translator/zipkin
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/udplogreceiver => ../../receiver/udplogreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/udplogreceiver => ../../receiver/udplogreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk => ../../internal/splunk
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk => ../../internal/splunk
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl => ../../pkg/ottl
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl => ../../pkg/ottl
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sapmreceiver => ../../receiver/sapmreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sapmreceiver => ../../receiver/sapmreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkinreceiver => ../../receiver/zipkinreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/zipkinreceiver => ../../receiver/zipkinreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver => ../../receiver/jaegerreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jaegerreceiver => ../../receiver/jaegerreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr => ../../pkg/batchperresourceattr
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/batchperresourceattr => ../../pkg/batchperresourceattr
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter => ../../exporter/prometheusremotewriteexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/prometheusremotewriteexporter => ../../exporter/prometheusremotewriteexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcplogreceiver => ../../receiver/tcplogreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/tcplogreceiver => ../../receiver/tcplogreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/pprofextension => ../../extension/pprofextension
+replace github.com/jacktomcat/opentelemetry-collector-contrib/extension/pprofextension => ../../extension/pprofextension
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata => ../../pkg/experimentalmetricmetadata
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata => ../../pkg/experimentalmetricmetadata
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza => ../../pkg/stanza
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza => ../../pkg/stanza
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/fluentforwardreceiver => ../../receiver/fluentforwardreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/fluentforwardreceiver => ../../receiver/fluentforwardreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger => ../../pkg/translator/jaeger
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger => ../../pkg/translator/jaeger
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/attributesprocessor => ../../processor/attributesprocessor
+replace github.com/jacktomcat/opentelemetry-collector-contrib/processor/attributesprocessor => ../../processor/attributesprocessor
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/carbonreceiver => ../../receiver/carbonreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/carbonreceiver => ../../receiver/carbonreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter => ../../exporter/splunkhecexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/splunkhecexporter => ../../exporter/splunkhecexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/syslogexporter => ../../exporter/syslogexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/syslogexporter => ../../exporter/syslogexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusexporter => ../../exporter/prometheusexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/prometheusexporter => ../../exporter/prometheusexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus => ../../pkg/translator/opencensus
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/opencensus => ../../pkg/translator/opencensus
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter => ../../exporter/zipkinexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/zipkinexporter => ../../exporter/zipkinexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/signalfx => ../../pkg/translator/signalfx
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/signalfx => ../../pkg/translator/signalfx
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/signalfxreceiver => ../../receiver/signalfxreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/signalfxreceiver => ../../receiver/signalfxreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter => ../../internal/filter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter => ../../internal/filter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite => ../../pkg/translator/prometheusremotewrite
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite => ../../pkg/translator/prometheusremotewrite
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filelogreceiver => ../../receiver/filelogreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/filelogreceiver => ../../receiver/filelogreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter => ../../exporter/signalfxexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter => ../../exporter/signalfxexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry => ../../pkg/resourcetotelemetry
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry => ../../pkg/resourcetotelemetry
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter => ../../exporter/opencensusexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opencensusexporter => ../../exporter/opencensusexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter => ../../exporter/opensearchexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opensearchexporter => ../../exporter/opensearchexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent => ../../internal/sharedcomponent
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/sharedcomponent => ../../internal/sharedcomponent
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver => ../../receiver/prometheusreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/prometheusreceiver => ../../receiver/prometheusreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter => ../../exporter/sapmexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/sapmexporter => ../../exporter/sapmexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/receiver/syslogreceiver => ../../receiver/syslogreceiver
+replace github.com/jacktomcat/opentelemetry-collector-contrib/receiver/syslogreceiver => ../../receiver/syslogreceiver
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourceprocessor => ../../processor/resourceprocessor
+replace github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourceprocessor => ../../processor/resourceprocessor
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/exporter/carbonexporter => ../../exporter/carbonexporter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/exporter/carbonexporter => ../../exporter/carbonexporter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus => ../../pkg/translator/prometheus
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus => ../../pkg/translator/prometheus
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
 
 replace github.com/mattn/go-ieproxy => github.com/mattn/go-ieproxy v0.0.1
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
 replace github.com/openshift/api v3.9.0+incompatible => github.com/openshift/api v0.0.0-20180801171038-322a19404e37
 

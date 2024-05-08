@@ -115,10 +115,10 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd h1:TRLaZ9cD/w
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/reflect2 v1.0.2 h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.94.0 h1:nTayRLarCGkB9ld7p8jWJe/9wvf8gNDaS5fRjybkEpg=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.94.0/go.mod h1:xoBvqu56hbky3KZafo68nxtV2+J81+pvo1ttNirakcU=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.94.0 h1:DSGhzGAaC767esMB0Ulr+9xWe6SW0LFUYMxLrLOAkjM=
-github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.94.0/go.mod h1:Nv4nK3E7sUpDbNv0zI0zY15g2xR4jMg+n8taV8dsMeE=
+github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest v0.94.0 h1:nTayRLarCGkB9ld7p8jWJe/9wvf8gNDaS5fRjybkEpg=
+github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest v0.94.0/go.mod h1:xoBvqu56hbky3KZafo68nxtV2+J81+pvo1ttNirakcU=
+github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil v0.94.0 h1:DSGhzGAaC767esMB0Ulr+9xWe6SW0LFUYMxLrLOAkjM=
+github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil v0.94.0/go.mod h1:Nv4nK3E7sUpDbNv0zI0zY15g2xR4jMg+n8taV8dsMeE=
 github.com/opencontainers/runtime-spec v1.1.0-rc.3 h1:l04uafi6kxByhbxev7OWiuUv0LZxEsYUfDWZ6bztAuU=
 github.com/opencontainers/runtime-spec v1.1.0-rc.3/go.mod h1:jwyrGlmzljRJv/Fgzds9SsS/C5hL+LL3ko9hs6T5lQ0=
 github.com/outcaste-io/ristretto v0.2.1 h1:KCItuNIGJZcursqHr3ghO7fc5ddZLEHspL9UR0cQM64=

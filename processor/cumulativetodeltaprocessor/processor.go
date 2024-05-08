@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package cumulativetodeltaprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor"
+package cumulativetodeltaprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor"
 
 import (
 	"context"
@@ -10,8 +10,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor/internal/tracking"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor/internal/tracking"
 )
 
 type cumulativeToDeltaProcessor struct {

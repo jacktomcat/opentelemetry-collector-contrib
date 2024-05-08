@@ -17,12 +17,12 @@ import (
 	"go.opentelemetry.io/collector/processor/processorhelper"
 	"go.opentelemetry.io/collector/processor/processortest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/goldendataset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlresource"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/goldendataset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlresource"
 )
 
 type metricNameTest struct {

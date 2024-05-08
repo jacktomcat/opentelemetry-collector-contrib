@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package alibabacloudlogserviceexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter"
+package alibabacloudlogserviceexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter"
 
 import (
 	"encoding/json"
@@ -12,8 +12,8 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 const (

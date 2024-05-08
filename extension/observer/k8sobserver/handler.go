@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package k8sobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/k8sobserver"
+package k8sobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/k8sobserver"
 
 import (
 	"reflect"
@@ -11,7 +11,7 @@ import (
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
 )
 
 var _ cache.ResourceEventHandler = (*handler)(nil)

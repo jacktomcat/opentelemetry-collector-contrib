@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package alertmanagerexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alertmanagerexporter"
+package alertmanagerexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/alertmanagerexporter"
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alertmanagerexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/alertmanagerexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for Alertmanager exporter

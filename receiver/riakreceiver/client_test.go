@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package riakreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/riakreceiver"
+package riakreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/riakreceiver"
 
 import (
 	"context"
@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/config/configtls"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/riakreceiver/internal/model"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/riakreceiver/internal/model"
 )
 
 const (

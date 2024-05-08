@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package jaeger // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
+package jaeger // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger"
 
 import (
 	"errors"

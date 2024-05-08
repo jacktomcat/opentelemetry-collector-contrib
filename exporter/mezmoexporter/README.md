@@ -5,8 +5,8 @@
 | ------------- |-----------|
 | Stability     | [beta]: logs   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fmezmo%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fmezmo) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fmezmo%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fmezmo) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@dashpole](https://www.github.com/dashpole), [@billmeyer](https://www.github.com/billmeyer), [@gjanco](https://www.github.com/gjanco) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fmezmo%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fmezmo) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fmezmo%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fmezmo) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@dashpole](https://www.github.com/dashpole), [@billmeyer](https://www.github.com/billmeyer), [@gjanco](https://www.github.com/gjanco) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector#beta
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -19,7 +19,7 @@ Note: Mezmo logs ingestion [requires a `hostname`](https://docs.mezmo.com/docs/l
 field to be present. When logs are sent via this exporter, and `hostname`
 metadata is not added, the Mezmo ingestion API will set `hostname=otel`. To
 provide the `hostname` information, we recommend adding a
-[Resource Detection Processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/resourcedetectionprocessor)
+[Resource Detection Processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/resourcedetectionprocessor)
 to the collector configuration. Doing so will cause this exporter to
 automatically add the `hostname` metadata to the outgoing log data whenever
 it is available. See the below example configuration for a basic configuration

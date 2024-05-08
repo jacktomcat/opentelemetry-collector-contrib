@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sqlqueryreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlqueryreceiver"
+package sqlqueryreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sqlqueryreceiver"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sqlquery"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/sqlquery"
 )
 
 func TestLogsQueryReceiver_Collect(t *testing.T) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver/internal/metadata"
+package metadata // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver/internal/metadata"
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 
 	"cloud.google.com/go/spanner"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver/internal/datasource"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/googlecloudspannerreceiver/internal/datasource"
 )
 
 type MetricsMetadataType int32

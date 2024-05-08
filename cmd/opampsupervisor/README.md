@@ -30,7 +30,7 @@ implementation of an OpAMP Supervisor, and as such will support all OpAMP
 capabilities. Additionally, it follows a design document for the features it
 intends to support.
 
-For a list of open issues related to the Supervisor, see [these issues](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Acmd%2Fopampsupervisor).
+For a list of open issues related to the Supervisor, see [these issues](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Acmd%2Fopampsupervisor).
 
 **Key**:
 
@@ -51,11 +51,11 @@ For a list of open issues related to the Supervisor, see [these issues](https://
 | ReportsOwnTraces               | 📅                                                                               |
 | ReportsOwnMetrics              | ⚠️                                                                               |
 | ReportsOwnLogs                 | 📅                                                                               |
-| AcceptsOpAMPConnectionSettings | <https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21043> |
-| AcceptsOtherConnectionSettings | <https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21043> |
-| AcceptsRestartCommand          | <https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21077> |
+| AcceptsOpAMPConnectionSettings | <https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21043> |
+| AcceptsOtherConnectionSettings | <https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21043> |
+| AcceptsRestartCommand          | <https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21077> |
 | ReportsHealth                  | ⚠️                                                                               |
-| ReportsRemoteConfig            | <https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21079> |
+| ReportsRemoteConfig            | <https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21079> |
 
 ### Supervisor specification features
 
@@ -63,8 +63,8 @@ For a list of open issues related to the Supervisor, see [these issues](https://
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | Offers Supervisor configuration including configuring capabilities | ✅                                                                               |
 | Starts and stops a Collector using remote configuration            | ⚠️                                                                               |
-| Communicates with OpAMP extension running in the Collector         | <https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21071> |
+| Communicates with OpAMP extension running in the Collector         | <https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21071> |
 | Updates the Collector binary                                       | 📅                                                                               |
 | Configures the Collector to report it's own metrics over OTLP      | 📅                                                                               |
 | Configures the Collector to report it's own logs over OTLP         | 📅                                                                               |
-| Sanitization or restriction of Collector config                    | <https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/24310> |
+| Sanitization or restriction of Collector config                    | <https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/24310> |

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package resourceprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourceprocessor"
+package resourceprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourceprocessor"
 
 import (
 	"context"
@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.opentelemetry.io/collector/processor/processorhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/attraction"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourceprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/attraction"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourceprocessor/internal/metadata"
 )
 
 var processorCapabilities = consumer.Capabilities{MutatesData: true}

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kubeletstatsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver"
+package kubeletstatsreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver"
 
 import (
 	"context"
@@ -16,8 +16,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver/internal/kubelet"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver/internal/kubelet"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver/internal/metadata"
 )
 
 type scraperOptions struct {

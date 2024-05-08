@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tencentcloudlogserviceexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter"
+package tencentcloudlogserviceexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter"
 
 import (
 	"encoding/json"
@@ -13,8 +13,8 @@ import (
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 	"google.golang.org/protobuf/proto"
 
-	cls "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter/proto"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	cls "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter/proto"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 const (

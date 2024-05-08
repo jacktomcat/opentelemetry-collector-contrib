@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awscloudwatchreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver"
+package awscloudwatchreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver"
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver/internal/metadata"
 )
 
 func TestType(t *testing.T) {

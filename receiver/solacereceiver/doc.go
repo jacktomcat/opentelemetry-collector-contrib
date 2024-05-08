@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package solacereceiver receives traces from Solace broker using AMQP 1.0 protocol.
-package solacereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/solacereceiver"
+package solacereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/solacereceiver"

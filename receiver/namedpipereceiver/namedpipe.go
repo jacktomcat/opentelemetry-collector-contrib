@@ -1,17 +1,17 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package namedpipereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/namedpipereceiver"
+package namedpipereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/namedpipereceiver"
 
 import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/namedpipe"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/namedpipereceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/adapter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/namedpipe"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/namedpipereceiver/internal/metadata"
 )
 
 func NewFactory() receiver.Factory {

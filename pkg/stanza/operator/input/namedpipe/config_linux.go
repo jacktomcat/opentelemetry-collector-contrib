@@ -3,15 +3,15 @@
 
 //go:build linux
 
-package namedpipe // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/namedpipe"
+package namedpipe // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/namedpipe"
 
 import (
 	"fmt"
 
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/decode"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/decode"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
 )
 
 func init() {

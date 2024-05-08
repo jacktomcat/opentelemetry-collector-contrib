@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package splunkhecreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/splunkhecreceiver"
+package splunkhecreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/splunkhecreceiver"
 
 import (
 	"context"
@@ -12,10 +12,10 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/localhostgate"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sharedcomponent"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/splunkhecreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/localhostgate"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/sharedcomponent"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/splunkhecreceiver/internal/metadata"
 )
 
 // This file implements factory for Splunk HEC receiver.

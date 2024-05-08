@@ -23,7 +23,7 @@ import (
 	"k8s.io/client-go/kubernetes/fake"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig"
 )
 
 func newFakeAPIClientset(_ k8sconfig.APIConfig) (kubernetes.Interface, error) {

@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/testdata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/testdata"
 )
 
 func Test_isValidAggregationTemporality(t *testing.T) {

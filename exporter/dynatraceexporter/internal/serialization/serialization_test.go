@@ -16,7 +16,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/ttlmap"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/ttlmap"
 )
 
 func TestSerializeMetric(t *testing.T) {

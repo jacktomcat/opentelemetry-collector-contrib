@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package syslog // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/syslog"
+package syslog // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/syslog"
 
 import (
 	"bufio"
@@ -10,11 +10,11 @@ import (
 
 	"golang.org/x/text/encoding"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/udp"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/parser/syslog"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/udp"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/parser/syslog"
 )
 
 // Input is an operator that listens for log entries over tcp.

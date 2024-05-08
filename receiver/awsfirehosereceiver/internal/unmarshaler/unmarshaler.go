@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package unmarshaler // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsfirehosereceiver/internal/unmarshaler"
+package unmarshaler // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsfirehosereceiver/internal/unmarshaler"
 
 import (
 	"go.opentelemetry.io/collector/pdata/pmetric"

@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package googlecloudpubsubexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlecloudpubsubexporter"
+package googlecloudpubsubexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/googlecloudpubsubexporter"
 
 import (
 	"context"
@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/googlecloudpubsubexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/googlecloudpubsubexporter/internal/metadata"
 )
 
 const (

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package rabbitmqreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver"
+package rabbitmqreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/rabbitmqreceiver"
 
 import (
 	"errors"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/config/configopaque"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/metadata"
 )
 
 // Predefined error responses for configuration validation failures

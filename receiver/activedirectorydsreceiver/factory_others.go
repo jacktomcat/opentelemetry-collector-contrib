@@ -3,7 +3,7 @@
 
 //go:build !windows
 
-package activedirectorydsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/activedirectorydsreceiver"
+package activedirectorydsreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/activedirectorydsreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/activedirectorydsreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/activedirectorydsreceiver/internal/metadata"
 )
 
 var errReceiverNotSupported = fmt.Errorf("The '%s' receiver is only supported on Windows", metadata.Type)

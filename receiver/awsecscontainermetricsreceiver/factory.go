@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsecscontainermetricsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsecscontainermetricsreceiver"
+package awsecscontainermetricsreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsecscontainermetricsreceiver"
 
 import (
 	"context"
@@ -13,9 +13,9 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil/endpoints"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsecscontainermetricsreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/ecsutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/ecsutil/endpoints"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsecscontainermetricsreceiver/internal/metadata"
 )
 
 // Factory for awscontainermetrics

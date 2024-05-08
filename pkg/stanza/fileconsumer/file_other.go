@@ -3,13 +3,13 @@
 
 //go:build !windows
 
-package fileconsumer // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer"
+package fileconsumer // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer"
 
 import (
 	"context"
 	"sync"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
 )
 
 // Take care of files which disappeared from the pattern since the last poll cycle

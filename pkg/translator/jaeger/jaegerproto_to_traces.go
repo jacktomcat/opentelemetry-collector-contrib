@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package jaeger // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
+package jaeger // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger"
 
 import (
 	"encoding/base64"
@@ -17,9 +17,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	conventions "go.opentelemetry.io/collector/semconv/v1.9.0"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/idutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/occonventions"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/idutils"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/occonventions"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
 )
 
 var blankJaegerProtoSpan = new(model.Span)

@@ -13,7 +13,7 @@
 // limitations under the License.
 //
 
-package chrony // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/chronyreceiver/internal/chrony"
+package chrony // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/chronyreceiver/internal/chrony"
 
 import (
 	"bytes"

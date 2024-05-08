@@ -2,7 +2,7 @@
 // Portions of this file Copyright 2018-2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
-package awsxray // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray"
+package awsxray // import "github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/xray"
 
 import (
 	"os"
@@ -53,7 +53,7 @@ func getModVersion() string {
 	}
 
 	for _, mod := range info.Deps {
-		if mod.Path == "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsxrayexporter" {
+		if mod.Path == "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/awsxrayexporter" {
 			return mod.Version
 		}
 	}

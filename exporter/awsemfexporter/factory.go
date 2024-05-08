@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsemfexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter"
+package awsemfexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/awsemfexporter"
 
 import (
 	"context"
@@ -12,9 +12,9 @@ import (
 	"go.opentelemetry.io/collector/featuregate"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/awsemfexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/awsutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
 )
 
 var defaultNoRollupfg = featuregate.GlobalRegistry().MustRegister("awsemf.nodimrollupdefault", featuregate.StageAlpha,

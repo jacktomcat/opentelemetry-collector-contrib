@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsxrayreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/errors"
+package awsxrayreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/errors"
 
 // ErrRecoverable represents an error that can be ignored
 // so that the receiver can continue to function.

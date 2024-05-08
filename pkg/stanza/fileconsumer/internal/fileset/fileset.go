@@ -1,15 +1,15 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package fileset // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fileset"
+package fileset // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fileset"
 
 import (
 	"errors"
 
 	"golang.org/x/exp/slices"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
 )
 
 var errFilesetEmpty = errors.New("pop() on empty Fileset")

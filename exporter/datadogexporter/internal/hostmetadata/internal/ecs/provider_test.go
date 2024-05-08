@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ecs // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/ecs"
+package ecs // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/ecs"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes/source"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/ecsutil"
 )
 
 var _ ecsutil.MetadataProvider = (*mockProvider)(nil)

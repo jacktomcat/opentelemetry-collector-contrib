@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sqlquery"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/sqlquery"
 )
 
 func TestCreateLogsReceiver(t *testing.T) {

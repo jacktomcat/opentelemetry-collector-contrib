@@ -3,7 +3,7 @@
 
 //go:build windows
 
-package sqlserverreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
+package sqlserverreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
 
 import (
 	"bufio"

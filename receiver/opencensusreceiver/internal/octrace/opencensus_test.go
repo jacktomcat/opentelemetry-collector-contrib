@@ -30,7 +30,7 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/opencensus"
 )
 
 func TestReceiver_endToEnd(t *testing.T) {

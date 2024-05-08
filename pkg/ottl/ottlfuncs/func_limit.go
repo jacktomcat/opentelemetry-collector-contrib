@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ottlfuncs // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs"
+package ottlfuncs // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs"
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
 )
 
 type LimitArguments[K any] struct {
@@ -75,7 +75,7 @@ func limit[K any](target ottl.PMapGetter[K], limit int64, priorityKeys []string)
 			return true
 		})
 		// TODO: Write log when limiting is performed
-		// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/9730
+		// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/9730
 		return nil, nil
 	}, nil
 }

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package logicmonitorexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logicmonitorexporter"
+package logicmonitorexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/logicmonitorexporter"
 
 import (
 	"context"
@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.uber.org/zap"
 
-	logs "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/logs"
+	logs "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/logs"
 )
 
 // These are logicmonitor specific constants needed to map the resource with the logs on logicmonitor platform.

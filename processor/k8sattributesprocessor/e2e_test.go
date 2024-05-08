@@ -25,7 +25,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8stest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8stest"
 )
 
 const (
@@ -722,7 +722,7 @@ func TestE2E_MixRBAC(t *testing.T) {
 func scanTracesForAttributes(t *testing.T, ts *consumertest.TracesSink, expectedService string,
 	kvs map[string]*expectedValue) {
 	// Iterate over the received set of traces starting from the most recent entries due to a bug in the processor:
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/18892
+	// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/18892
 	// TODO: Remove the reverse loop once it's fixed. All the metrics should be properly annotated.
 	for i := len(ts.AllTraces()) - 1; i >= 0; i-- {
 		traces := ts.AllTraces()[i]
@@ -743,7 +743,7 @@ func scanTracesForAttributes(t *testing.T, ts *consumertest.TracesSink, expected
 func scanMetricsForAttributes(t *testing.T, ms *consumertest.MetricsSink, expectedService string,
 	kvs map[string]*expectedValue) {
 	// Iterate over the received set of metrics starting from the most recent entries due to a bug in the processor:
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/18892
+	// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/18892
 	// TODO: Remove the reverse loop once it's fixed. All the metrics should be properly annotated.
 	for i := len(ms.AllMetrics()) - 1; i >= 0; i-- {
 		metrics := ms.AllMetrics()[i]
@@ -764,7 +764,7 @@ func scanMetricsForAttributes(t *testing.T, ms *consumertest.MetricsSink, expect
 func scanLogsForAttributes(t *testing.T, ls *consumertest.LogsSink, expectedService string,
 	kvs map[string]*expectedValue) {
 	// Iterate over the received set of logs starting from the most recent entries due to a bug in the processor:
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/18892
+	// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/18892
 	// TODO: Remove the reverse loop once it's fixed. All the metrics should be properly annotated.
 	for i := len(ls.AllLogs()) - 1; i >= 0; i-- {
 		logs := ls.AllLogs()[i]

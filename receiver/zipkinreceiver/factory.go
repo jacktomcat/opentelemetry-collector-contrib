@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package zipkinreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkinreceiver"
+package zipkinreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/zipkinreceiver"
 
 import (
 	"context"
@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/localhostgate"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/zipkinreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/localhostgate"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/zipkinreceiver/internal/metadata"
 )
 
 // This file implements factory for Zipkin receiver.

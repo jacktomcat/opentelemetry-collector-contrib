@@ -5,8 +5,8 @@
 | ------------- |-----------|
 | Stability     | [beta]: metrics, logs   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fsumologic%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fsumologic) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fsumologic%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fsumologic) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@sumo-drosiek](https://www.github.com/sumo-drosiek) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fsumologic%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fsumologic) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fsumologic%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fsumologic) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@sumo-drosiek](https://www.github.com/sumo-drosiek) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector#beta
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -30,7 +30,7 @@ The following options are deprecated and they will not exist in the new version:
 After the new exporter will be moved to this repository:
 
 - `carbon2` and `graphite` are going to be no longer supported and `prometheus` or `otlp` format should be used
-- all resource level attributes are going to be treated as `metadata_attributes`. You can use [Group by Attributes processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/groupbyattrsprocessor) to move attributes from record level to resource level. For example:
+- all resource level attributes are going to be treated as `metadata_attributes`. You can use [Group by Attributes processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/groupbyattrsprocessor) to move attributes from record level to resource level. For example:
 
   ```yaml
   # before switch to new collector
@@ -45,7 +45,7 @@ After the new exporter will be moved to this repository:
         - my_attribute
   ```
 
-- Source templates (`source_category`, `source_name` and `source_host`) are going to be removed from the exporter and sources may be set using `_sourceCategory`, `sourceName` or `_sourceHost` resource attributes. We recommend to use [Transform Processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/transformprocessor/). For example:
+- Source templates (`source_category`, `source_name` and `source_host`) are going to be removed from the exporter and sources may be set using `_sourceCategory`, `sourceName` or `_sourceHost` resource attributes. We recommend to use [Transform Processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/transformprocessor/). For example:
 
   ```yaml
   # before switch to new collector
@@ -89,7 +89,7 @@ exporters:
     # default = []
     #
     # This option is deprecated:
-    # https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
+    # https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
     metadata_attributes: [<regex>]
 
     # format to use when sending logs to Sumo Logic, default = json,
@@ -98,7 +98,7 @@ exporters:
     # format to use when sending metrics to Sumo Logic, default = prometheus,
     #
     # carbon2 and graphite are deprecated:
-    # https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
+    # https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
     metric_format: {carbon2, graphite, prometheus}
 
     # Template for Graphite format.
@@ -106,37 +106,37 @@ exporters:
     # By default this is "%{_metric_}".
     #
     # Please regfer to Source temmplates for formatting explanation:
-    # https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#source-templates
+    # https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#source-templates
     #
     # This option is deprecated:
-    # https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
+    # https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
     graphite_template: <template>
 
     # Desired source category. Useful if you want to override the source category configured for the source.
     #
     # Please regfer to Source temmplates for formatting explanation:
-    # https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#source-templates
+    # https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#source-templates
     #
     # This option is deprecated:
-    # https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
+    # https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
     source_category: <template>
 
     # Desired source name. Useful if you want to override the source name configured for the source.
     #
     # Please regfer to Source temmplates for formatting explanation:
-    # https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#source-templates
+    # https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#source-templates
     #
     # This option is deprecated:
-    # https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
+    # https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
     source_name: <template>
 
     # Desired source host. Useful if you want to override the source hosy configured for the source.
     #
     # Please regfer to Source temmplates for formatting explanation:
-    # https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#source-templates
+    # https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#source-templates
     #
     # This option is deprecated:
-    # https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
+    # https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/sumologicexporter#migration-to-new-architecture
     source_host: <template>
 
     # timeout is the timeout for every attempt to send data to the backend,

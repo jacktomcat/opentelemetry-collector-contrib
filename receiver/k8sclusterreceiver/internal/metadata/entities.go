@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
+package metadata // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
 
 import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	metadataPkg "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
+	metadataPkg "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
 )
 
 // GetEntityEvents processes metadata updates and returns entity events that describe the metadata changes.

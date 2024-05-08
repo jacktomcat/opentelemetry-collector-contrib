@@ -12,7 +12,7 @@ The following settings are required, omitting them will either cause your receiv
 
 **NOTE:** These must be set for each Splunk instance type (indexer, search head, or cluster master) from which you wish to pull metrics. At present, only one of each type is accepted, per configured receiver instance. This means, for example, that if you have three different "indexer" type instances that you would like to pull metrics from you will need to configure three different `splunkenterprise` receivers for each indexer node you wish to monitor.
 
-* `basicauth` (from [basicauthextension](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/extension/basicauthextension)): A configured stanza for the basicauthextension.
+* `basicauth` (from [basicauthextension](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/extension/basicauthextension)): A configured stanza for the basicauthextension.
 * `auth` (no default): String name referencing your auth extension.
 * `endpoint` (no default): your Splunk Enterprise host's endpoint.
 

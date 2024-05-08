@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package skywalkingexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/skywalkingexporter"
+package skywalkingexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/skywalkingexporter"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/skywalkingexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/skywalkingexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for Skywalking exporter.

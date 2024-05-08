@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package routingprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/routingprocessor"
+package routingprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/routingprocessor"
 
 import (
 	"context"
@@ -13,12 +13,12 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/routingprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/routingprocessor/internal/metadata"
 )
 
 const (
-	scopeName = "github.com/open-telemetry/opentelemetry-collector-contrib/processor/routingprocessor"
+	scopeName = "github.com/jacktomcat/opentelemetry-collector-contrib/processor/routingprocessor"
 	nameSep   = "/"
 
 	processorKey             = "processor"

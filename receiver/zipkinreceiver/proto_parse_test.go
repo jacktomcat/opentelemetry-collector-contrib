@@ -16,8 +16,8 @@ import (
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv2"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv2"
 )
 
 func TestConvertSpansToTraceSpans_protobuf(t *testing.T) {

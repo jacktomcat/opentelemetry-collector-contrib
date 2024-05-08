@@ -14,15 +14,15 @@ import (
 	"go.opentelemetry.io/collector/featuregate"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/emittest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/matcher"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/operatortest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/parser/regex"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/emittest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/matcher"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/operatortest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/parser/regex"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/testutil"
 )
 
 func TestNewConfig(t *testing.T) {

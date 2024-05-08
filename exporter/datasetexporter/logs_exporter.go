@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datasetexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datasetexporter"
+package datasetexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datasetexporter"
 
 import (
 	"context"

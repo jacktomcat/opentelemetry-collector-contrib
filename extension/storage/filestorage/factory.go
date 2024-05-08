@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package filestorage // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage"
+package filestorage // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/filestorage"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/filestorage/internal/metadata"
 )
 
 const (

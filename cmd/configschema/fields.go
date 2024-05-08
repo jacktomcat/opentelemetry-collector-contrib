@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package configschema // import "github.com/open-telemetry/opentelemetry-collector-contrib/cmd/configschema"
+package configschema // import "github.com/jacktomcat/opentelemetry-collector-contrib/cmd/configschema"
 
 import (
 	"log"

@@ -13,8 +13,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/testdata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/testdata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 func TestOCToMetrics(t *testing.T) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datadogexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter"
+package datadogexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter"
 
 import (
 	"encoding"
@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/valid"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/valid"
 )
 
 var (
@@ -561,7 +561,7 @@ var removedSettings = []renameError{
 // Error implements the error interface.
 func (e renameError) Error() string {
 	return fmt.Sprintf(
-		"%q was removed in favor of %q. See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/%d",
+		"%q was removed in favor of %q. See https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/%d",
 		e.oldName,
 		e.newName,
 		e.issueNumber,

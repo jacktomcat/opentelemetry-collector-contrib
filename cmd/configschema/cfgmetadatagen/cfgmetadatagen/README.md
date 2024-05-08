@@ -1,5 +1,5 @@
 > Deprecated: [v0.92.0] This tool is deprecated and will be removed in a future release.
-> See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/30187
+> See https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/30187
 
 # Config Metadata YAML Generator (alpha)
 

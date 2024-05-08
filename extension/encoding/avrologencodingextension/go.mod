@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/linkedin/goavro/v2 v2.9.8
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
 	go.opentelemetry.io/collector/confmap v0.98.0
@@ -55,4 +55,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding => ../
+replace github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding => ../

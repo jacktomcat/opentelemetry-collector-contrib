@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
 )
 
 func TestOnAddForMetrics(t *testing.T) {

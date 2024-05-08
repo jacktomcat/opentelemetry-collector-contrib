@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package adapter // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
+package adapter // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/adapter"
 
 import (
 	"context"
@@ -16,7 +16,7 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/pipeline"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/pipeline"
 )
 
 type receiver struct {

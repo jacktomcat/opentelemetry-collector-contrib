@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
 )
 
 func TestLoadConfig(t *testing.T) {

@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 // Originally copied from https://github.com/signalfx/signalfx-agent/blob/fbc24b0fdd3884bd0bbfbd69fe3c83f49d4c0b77/pkg/apm/correlations/client.go
 
-package correlations // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/correlations"
+package correlations // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/correlations"
 
 import (
 	"context"
@@ -16,9 +16,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/log"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/requests"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/requests/requestcounter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/log"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/requests"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/requests/requestcounter"
 )
 
 var ErrChFull = errors.New("request channel full")

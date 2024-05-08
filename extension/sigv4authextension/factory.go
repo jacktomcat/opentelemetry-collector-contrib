@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sigv4authextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/sigv4authextension"
+package sigv4authextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/sigv4authextension"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/sigv4authextension/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/sigv4authextension/internal/metadata"
 )
 
 // NewFactory creates a factory for the Sigv4 Authenticator extension.

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package splunkhecreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/splunkhecreceiver"
+package splunkhecreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/splunkhecreceiver"
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
 )
 
 // splunkHecToMetricsData converts Splunk HEC metric points to

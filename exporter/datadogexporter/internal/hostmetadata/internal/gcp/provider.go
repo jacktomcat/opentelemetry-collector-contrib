@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package gcp contains the GCP hostname provider
-package gcp // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/gcp"
+package gcp // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/gcp"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes/source"
 	"github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/provider"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/provider"
 )
 
 var _ source.Provider = (*Provider)(nil)

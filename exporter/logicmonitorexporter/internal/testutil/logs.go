@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package testutil // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/testutil"
+package testutil // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/testutil"
 
 import (
 	"time"

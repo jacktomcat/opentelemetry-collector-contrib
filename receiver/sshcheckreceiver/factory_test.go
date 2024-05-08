@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sshcheckreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sshcheckreceiver"
+package sshcheckreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sshcheckreceiver"
 
 import (
 	"context"
@@ -14,8 +14,8 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sshcheckreceiver/internal/configssh"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sshcheckreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sshcheckreceiver/internal/configssh"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sshcheckreceiver/internal/metadata"
 )
 
 func TestNewFactory(t *testing.T) {

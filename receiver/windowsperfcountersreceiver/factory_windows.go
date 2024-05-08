@@ -3,7 +3,7 @@
 
 //go:build windows
 
-package windowsperfcountersreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowsperfcountersreceiver"
+package windowsperfcountersreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/windowsperfcountersreceiver"
 
 import (
 	"context"

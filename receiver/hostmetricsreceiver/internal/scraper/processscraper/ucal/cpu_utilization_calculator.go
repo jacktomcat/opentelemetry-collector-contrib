@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ucal // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/processscraper/ucal"
+package ucal // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/processscraper/ucal"
 
 import (
 	"time"
@@ -16,7 +16,7 @@ var normalizeProcessCPUUtilizationFeatureGate = featuregate.GlobalRegistry().Mus
 	featuregate.StageAlpha,
 	featuregate.WithRegisterDescription("When enabled, normalizes the process.cpu.utilization metric onto the interval [0-1] by dividing the value by the number of logical processors."),
 	featuregate.WithRegisterFromVersion("v0.97.0"),
-	featuregate.WithRegisterReferenceURL("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/31368"),
+	featuregate.WithRegisterReferenceURL("https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/31368"),
 )
 
 // CPUUtilization stores the utilization percents [0-1] for the different cpu states

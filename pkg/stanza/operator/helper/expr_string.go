@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package helper // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+package helper // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
 
 import (
 	"fmt"
@@ -13,8 +13,8 @@ import (
 	"github.com/expr-lang/expr/ast"
 	"github.com/expr-lang/expr/vm"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/errors"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/errors"
 )
 
 // ExprStringConfig is a string that represents an expression

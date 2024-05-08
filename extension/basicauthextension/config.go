@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package basicauthextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/basicauthextension"
+package basicauthextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/basicauthextension"
 
 import (
 	"errors"

@@ -3,7 +3,7 @@
 //
 //go:generate mdatagen metadata.yaml
 
-package sumologicextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension"
+package sumologicextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension"
 
 import (
 	"context"
@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension/credentials"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension/credentials"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension/internal/metadata"
 )
 
 const (

@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/testutil"
 )
 
 func Test_wavefrontreceiver_EndToEnd(t *testing.T) {

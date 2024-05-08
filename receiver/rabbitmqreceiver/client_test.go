@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package rabbitmqreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver"
+package rabbitmqreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/rabbitmqreceiver"
 
 import (
 	"context"
@@ -20,7 +20,7 @@ import (
 	"go.opentelemetry.io/collector/config/configtls"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/models"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/models"
 )
 
 const (

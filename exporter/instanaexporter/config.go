@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package instanaexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/instanaexporter"
+package instanaexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/instanaexporter"
 
 import (
 	"errors"

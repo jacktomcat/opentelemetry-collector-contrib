@@ -1,9 +1,9 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package migrate // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
+package migrate // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
 
-import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/alias"
+import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor/internal/alias"
 
 // SignalType allows for type constraints in order
 // to apply to potential type defined strings.

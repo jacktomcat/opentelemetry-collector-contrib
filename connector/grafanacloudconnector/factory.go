@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package grafanacloudconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/grafanacloudconnector"
+package grafanacloudconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/grafanacloudconnector"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/connector"
 	"go.opentelemetry.io/collector/consumer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/grafanacloudconnector/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/grafanacloudconnector/internal/metadata"
 )
 
 func NewFactory() connector.Factory {

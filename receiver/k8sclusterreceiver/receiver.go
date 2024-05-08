@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package k8sclusterreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver"
+package k8sclusterreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver"
 
 import (
 	"context"
@@ -13,8 +13,8 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/collection"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/collection"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
 )
 
 const (

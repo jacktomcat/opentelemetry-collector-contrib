@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Deprecated: [v0.92.0] This package is deprecated and will be removed in a future release.
-// See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/30187
-package configschema // import "github.com/open-telemetry/opentelemetry-collector-contrib/cmd/configschema"
+// See https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/30187
+package configschema // import "github.com/jacktomcat/opentelemetry-collector-contrib/cmd/configschema"
 
 import (
 	"go/ast"

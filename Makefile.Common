@@ -192,7 +192,7 @@ checklinks:
 .PHONY: fmt
 fmt: $(GOIMPORTS)
 	gofmt  -w -s ./
-	$(GOIMPORTS) -w  -local github.com/open-telemetry/opentelemetry-collector-contrib ./
+	$(GOIMPORTS) -w  -local github.com/jacktomcat/opentelemetry-collector-contrib ./
 
 .PHONY: lint
 lint: $(LINT) checklicense misspell
@@ -223,4 +223,4 @@ moddownload:
 .PHONY: gci
 gci: $(TOOLS_BIN_DIR)/gci
 	@echo "running $(GCI)"
-	@$(GCI) write -s standard -s default -s "prefix(github.com/open-telemetry/opentelemetry-collector-contrib)" $(ALL_SRC_AND_DOC)
+	@$(GCI) write -s standard -s default -s "prefix(github.com/jacktomcat/opentelemetry-collector-contrib)" $(ALL_SRC_AND_DOC)

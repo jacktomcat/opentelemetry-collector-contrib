@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ottl // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+package ottl // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
 
 import (
 	"context"
@@ -14,8 +14,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/component/componenttest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottltest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/ottltest"
 )
 
 func mathParsePath[K any](p Path[K]) (GetSetter[any], error) {

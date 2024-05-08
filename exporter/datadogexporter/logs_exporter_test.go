@@ -15,9 +15,9 @@ import (
 	"go.opentelemetry.io/collector/exporter/exportertest"
 	"go.opentelemetry.io/collector/pdata/plog"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/testdata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/testdata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 const timeFormatString = "2006-01-02T15:04:05.000Z07:00"

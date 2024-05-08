@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package translation // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
+package translation // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
 
 // DefaultExcludeMetricsYaml holds list of hard coded metrics that will added to the
 // exclude list from the config. It includes non-default metrics collected by

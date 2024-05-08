@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package cassandraexporter exports trace and log data to an Apache Cassandra instance.
-package cassandraexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/cassandraexporter"
+package cassandraexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/cassandraexporter"

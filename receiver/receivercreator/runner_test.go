@@ -14,7 +14,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/receivercreator/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/receivercreator/internal/metadata"
 )
 
 func Test_loadAndCreateMetricsRuntimeReceiver(t *testing.T) {

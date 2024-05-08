@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package dimensions // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/dimensions"
+package dimensions // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/dimensions"
 
 import (
 	"fmt"

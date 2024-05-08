@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kube // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/kube"
+package kube // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/kube"
 
 import (
 	"fmt"
@@ -22,8 +22,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/cache"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/observability"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/observability"
 )
 
 // Upgrade to StageStable in v0.92.0

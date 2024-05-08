@@ -3,11 +3,11 @@
 
 //go:build !windows
 
-package tracker // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/tracker"
+package tracker // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/tracker"
 
 import (
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fileset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fileset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
 )
 
 // On non-windows platforms, we keep files open between poll cycles so that we can detect

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package adapter // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
+package adapter // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/adapter"
 
 import (
 	"context"
@@ -11,9 +11,9 @@ import (
 	rcvr "go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/pipeline"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/consumerretry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/pipeline"
 )
 
 // LogReceiverType is the interface used by stanza-based log receivers

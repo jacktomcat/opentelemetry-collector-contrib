@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package couchdbreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/couchdbreceiver"
+package couchdbreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/couchdbreceiver"
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/receiver/scrapererror"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/couchdbreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/couchdbreceiver/internal/metadata"
 )
 
 func (c *couchdbScraper) recordCouchdbAverageRequestTimeDataPoint(now pcommon.Timestamp, stats map[string]any, errs *scrapererror.ScrapeErrors) {

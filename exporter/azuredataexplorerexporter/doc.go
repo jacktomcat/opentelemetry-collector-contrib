@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package azuredataexplorerexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter"
+package azuredataexplorerexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter"

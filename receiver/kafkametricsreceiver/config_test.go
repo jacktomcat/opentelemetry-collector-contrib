@@ -14,8 +14,8 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/kafka"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkametricsreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/kafka"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/kafkametricsreceiver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

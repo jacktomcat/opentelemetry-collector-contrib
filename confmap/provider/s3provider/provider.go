@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package s3provider // import "github.com/open-telemetry/opentelemetry-collector-contrib/confmap/provider/s3provider"
+package s3provider // import "github.com/jacktomcat/opentelemetry-collector-contrib/confmap/provider/s3provider"
 
 import (
 	"context"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package translation // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
+package translation // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
 
 // DefaultTranslationRulesYaml defines default translation rules that will be applied to metrics if
 // config.TranslationRules not specified explicitly.

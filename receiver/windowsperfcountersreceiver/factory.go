@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package windowsperfcountersreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowsperfcountersreceiver"
+package windowsperfcountersreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/windowsperfcountersreceiver"
 
 import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowsperfcountersreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/windowsperfcountersreceiver/internal/metadata"
 )
 
 // This file implements Factory for WindowsPerfCounters receiver.

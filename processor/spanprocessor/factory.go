@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package spanprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/spanprocessor"
+package spanprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/spanprocessor"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.opentelemetry.io/collector/processor/processorhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/spanprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/spanprocessor/internal/metadata"
 )
 
 const (

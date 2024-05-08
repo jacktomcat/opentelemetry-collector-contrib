@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package bigipreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/bigipreceiver"
+package bigipreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/bigipreceiver"
 
 import (
 	"context"
@@ -17,8 +17,8 @@ import (
 	"go.opentelemetry.io/collector/receiver/scrapererror"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/bigipreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/bigipreceiver/internal/models"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/bigipreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/bigipreceiver/internal/models"
 )
 
 // custom errors

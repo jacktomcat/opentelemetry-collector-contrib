@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package translator // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/translator"
+package translator // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/translator"
 
 import (
 	"time"

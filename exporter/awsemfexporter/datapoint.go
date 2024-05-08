@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsemfexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsemfexporter"
+package awsemfexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/awsemfexporter"
 
 import (
 	"fmt"
@@ -14,7 +14,7 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/exp/maps"
 
-	aws "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/metrics"
+	aws "github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/metrics"
 )
 
 const (
@@ -86,14 +86,14 @@ type numberDataPointSlice struct {
 // histogramDataPointSlice is a wrapper for pmetric.HistogramDataPointSlice
 type histogramDataPointSlice struct {
 	// Todo:(khanhntd) Calculate delta value for count and sum value with histogram
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/18245
+	// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/18245
 	deltaMetricMetadata
 	pmetric.HistogramDataPointSlice
 }
 
 type exponentialHistogramDataPointSlice struct {
 	// TODO: Calculate delta value for count and sum value with exponential histogram
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/18245
+	// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/18245
 	deltaMetricMetadata
 	pmetric.ExponentialHistogramDataPointSlice
 }

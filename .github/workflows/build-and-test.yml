@@ -12,7 +12,7 @@ env:
   # We limit cache download as a whole to 5 minutes.
   SEGMENT_DOWNLOAD_TIMEOUT_MINS: 2
 
-# Do not cancel this workflow on main. See https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/16616
+# Do not cancel this workflow on main. See https://github.com/jacktomcat/opentelemetry-collector-contrib/pull/16616
 concurrency:
   group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
   cancel-in-progress: true
@@ -570,7 +570,7 @@ jobs:
           name: collector-packages-${{ matrix.package_type }}
           path: ./dist/*
   windows-msi:
-    if: false # skip. See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/10113
+    if: false # skip. See https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/10113
     runs-on: windows-latest
     needs: [cross-compile]
     steps:

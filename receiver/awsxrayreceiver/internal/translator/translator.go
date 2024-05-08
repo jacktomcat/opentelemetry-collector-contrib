@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package translator // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/translator"
+package translator // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/translator"
 
 import (
 	"encoding/hex"
@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 
-	awsxray "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray/telemetry"
+	awsxray "github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/xray"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/xray/telemetry"
 )
 
 const (

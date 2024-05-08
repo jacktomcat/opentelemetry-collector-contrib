@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datasenders // import "github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datasenders"
+package datasenders // import "github.com/jacktomcat/opentelemetry-collector-contrib/testbed/datasenders"
 
 import (
 	"context"
@@ -12,8 +12,8 @@ import (
 	"go.opentelemetry.io/collector/exporter/exportertest"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/zipkinexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/zipkinexporter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/testbed/testbed"
 )
 
 // zipkinDataSender implements TraceDataSender for Zipkin http exporter.

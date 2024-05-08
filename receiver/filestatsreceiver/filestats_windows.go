@@ -3,7 +3,7 @@
 
 //go:build windows
 
-package filestatsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filestatsreceiver"
+package filestatsreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/filestatsreceiver"
 
 import (
 	"os"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filestatsreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/filestatsreceiver/internal/metadata"
 )
 
 func collectStats(now pcommon.Timestamp, fileinfo os.FileInfo, metricsBuilder *metadata.MetricsBuilder, _ *zap.Logger) {

@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package rabbitmqreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver"
+package rabbitmqreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/rabbitmqreceiver"

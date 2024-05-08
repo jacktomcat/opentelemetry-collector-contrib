@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package vcenterreceiver // import github.com/open-telemetry/opentelemetry-collector-contrib/receiver/vcenterreceiver
+package vcenterreceiver // import github.com/jacktomcat/opentelemetry-collector-contrib/receiver/vcenterreceiver
 
 import (
 	"context"
@@ -12,10 +12,10 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/vcenterreceiver/internal/metadata"
-	mock "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/vcenterreceiver/internal/mockserver"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/vcenterreceiver/internal/metadata"
+	mock "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/vcenterreceiver/internal/mockserver"
 )
 
 func TestScrape(t *testing.T) {

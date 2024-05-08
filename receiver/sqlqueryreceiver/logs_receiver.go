@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sqlqueryreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlqueryreceiver"
+package sqlqueryreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sqlqueryreceiver"
 
 import (
 	"context"
@@ -19,9 +19,9 @@ import (
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sqlquery"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlqueryreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/sqlquery"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/adapter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sqlqueryreceiver/internal/metadata"
 )
 
 type logsReceiver struct {

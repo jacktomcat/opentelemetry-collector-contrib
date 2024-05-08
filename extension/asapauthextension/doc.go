@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package asapauthextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/asapauthextension"
+package asapauthextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/asapauthextension"

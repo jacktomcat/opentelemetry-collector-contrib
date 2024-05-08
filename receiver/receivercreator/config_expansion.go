@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package receivercreator // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/receivercreator"
+package receivercreator // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/receivercreator"
 
 import (
 	"errors"
@@ -10,7 +10,7 @@ import (
 
 	"github.com/expr-lang/expr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
 )
 
 // evalBackticksInConfigValue expands any expressions within backticks inside configValue

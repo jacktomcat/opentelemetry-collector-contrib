@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package bigipreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/bigipreceiver"
+package bigipreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/bigipreceiver"
 
 import (
 	"context"
@@ -20,10 +20,10 @@ import (
 	"go.opentelemetry.io/collector/receiver/scrapererror"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/bigipreceiver/internal/mocks"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/bigipreceiver/internal/models"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/bigipreceiver/internal/mocks"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/bigipreceiver/internal/models"
 )
 
 func TestScraperStart(t *testing.T) {

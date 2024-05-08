@@ -5,4 +5,4 @@
 
 // Package sapmreceiver implements a receiver that can be used by the
 // Opentelemetry collector to receive traces in the Splunk SAPM format.
-package sapmreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sapmreceiver"
+package sapmreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sapmreceiver"

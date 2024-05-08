@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package configschema // import "github.com/open-telemetry/opentelemetry-collector-contrib/cmd/configschema"
+package configschema // import "github.com/jacktomcat/opentelemetry-collector-contrib/cmd/configschema"
 
 import (
 	"fmt"
@@ -21,7 +21,7 @@ const DefaultSrcRoot = "."
 
 // DefaultModule is the module prefix of contrib. Can be used to create a
 // DirResolver.
-const DefaultModule = "github.com/open-telemetry/opentelemetry-collector-contrib"
+const DefaultModule = "github.com/jacktomcat/opentelemetry-collector-contrib"
 
 type DirResolverIntf interface {
 	TypeToPackagePath(t reflect.Type) (string, error)

@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/split/splittest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/split/splittest"
 )
 
 func TestTrim(t *testing.T) {

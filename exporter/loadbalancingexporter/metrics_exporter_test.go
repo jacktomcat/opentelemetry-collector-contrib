@@ -31,7 +31,7 @@ import (
 	conventions "go.opentelemetry.io/collector/semconv/v1.9.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/loadbalancingexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/loadbalancingexporter/internal/metadata"
 )
 
 const (
@@ -589,10 +589,10 @@ func TestMetricNameRoutingKey(t *testing.T) {
 }
 
 func TestRollingUpdatesWhenConsumeMetrics(t *testing.T) {
-	t.Skip("Flaky Test - See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/13331")
+	t.Skip("Flaky Test - See https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/13331")
 
 	// this test is based on the discussion in the following issue for this exporter:
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/1690
+	// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/1690
 	// prepare
 
 	// simulate rolling updates, the dns resolver should resolve in the following order

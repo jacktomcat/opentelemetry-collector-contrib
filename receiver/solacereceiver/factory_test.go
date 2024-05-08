@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package solacereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/solacereceiver"
+package solacereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/solacereceiver"
 
 import (
 	"context"
@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/solacereceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/solacereceiver/internal/metadata"
 )
 
 func TestCreateTracesReceiver(t *testing.T) {

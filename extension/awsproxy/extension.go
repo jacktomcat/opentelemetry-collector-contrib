@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsproxy // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/awsproxy"
+package awsproxy // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/awsproxy"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/extension"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/proxy"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/proxy"
 )
 
 type xrayProxy struct {

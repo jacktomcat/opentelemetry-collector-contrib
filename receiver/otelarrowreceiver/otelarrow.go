@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package otelarrowreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver"
+package otelarrowreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/otelarrowreceiver"
 
 import (
 	"context"
@@ -24,10 +24,10 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/arrow"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/logs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/metrics"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/trace"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/arrow"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/logs"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/metrics"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/otelarrowreceiver/internal/trace"
 )
 
 // otelArrowReceiver is the type that exposes Trace and Metrics reception.

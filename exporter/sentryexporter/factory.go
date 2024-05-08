@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package sentryexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter"
+package sentryexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/sentryexporter"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/exporter"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sentryexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/sentryexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for Sentry exporter.

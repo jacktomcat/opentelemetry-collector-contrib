@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sapmreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sapmreceiver"
+package sapmreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sapmreceiver"
 
 import (
 	"go.opentelemetry.io/collector/config/confighttp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
 )
 
 // Config defines configuration for SAPM receiver.

@@ -3,7 +3,7 @@
 
 //go:build integration
 
-package awscloudwatchreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver"
+package awscloudwatchreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscloudwatchreceiver"
 
 import (
 	"context"
@@ -20,8 +20,8 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
 )
 
 func TestLoggingIntegration(t *testing.T) {

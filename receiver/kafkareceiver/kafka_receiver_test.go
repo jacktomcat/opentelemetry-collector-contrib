@@ -27,9 +27,9 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/textutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/kafka"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/kafkaexporter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/textutils"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/kafka"
 )
 
 func TestNewTracesReceiver_version_err(t *testing.T) {

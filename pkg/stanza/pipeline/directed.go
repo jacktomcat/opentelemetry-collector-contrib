@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package pipeline // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/pipeline"
+package pipeline // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/pipeline"
 
 import (
 	"errors"
@@ -15,8 +15,8 @@ import (
 	"gonum.org/v1/gonum/graph/simple"
 	"gonum.org/v1/gonum/graph/topo"
 
-	stanzaerrors "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/errors"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
+	stanzaerrors "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/errors"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
 )
 
 var _ Pipeline = (*DirectedPipeline)(nil)

@@ -17,8 +17,8 @@ import (
 	"go.uber.org/zap/zaptest"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/plogtest"
 )
 
 func TestConnectorLogConsumeTraces(t *testing.T) {

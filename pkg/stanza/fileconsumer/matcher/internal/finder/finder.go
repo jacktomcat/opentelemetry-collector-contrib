@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package finder // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/matcher/internal/finder"
+package finder // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/matcher/internal/finder"
 
 import (
 	"errors"

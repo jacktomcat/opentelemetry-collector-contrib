@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opencensusexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opencensusexporter"
+package opencensusexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opencensusexporter"
 
 import (
 	"context"
@@ -18,7 +18,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/opencensus"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/opencensus"
 )
 
 // See https://godoc.org/google.golang.org/grpc#ClientConn.NewStream

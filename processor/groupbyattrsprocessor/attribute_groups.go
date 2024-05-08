@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package groupbyattrsprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbyattrsprocessor"
+package groupbyattrsprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/groupbyattrsprocessor"
 
 import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil"
 )
 
 type tracesGroup struct {

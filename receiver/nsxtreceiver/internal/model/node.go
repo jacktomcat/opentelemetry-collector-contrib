@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package model // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/nsxtreceiver/internal/model"
+package model // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/nsxtreceiver/internal/model"
 
 // ClusterNodeList is a result struct from
 type ClusterNodeList struct {

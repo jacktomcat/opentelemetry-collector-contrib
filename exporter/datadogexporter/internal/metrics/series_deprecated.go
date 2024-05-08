@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metrics // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics"
+package metrics // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics"
 
 import (
 	"fmt"

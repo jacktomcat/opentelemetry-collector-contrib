@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package logzioexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter"
+package logzioexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/logzioexporter"
 
 import (
 	"context"
@@ -20,7 +20,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/logzioexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for Logz.io exporter.

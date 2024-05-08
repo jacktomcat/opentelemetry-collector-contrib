@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package fluentforwardreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/fluentforwardreceiver"
+package fluentforwardreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/fluentforwardreceiver"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/fluentforwardreceiver/observ"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/fluentforwardreceiver/observ"
 )
 
 // Collector acts as an aggregator of LogRecords so that we don't have to

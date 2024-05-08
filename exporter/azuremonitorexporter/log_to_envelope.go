@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azuremonitorexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuremonitorexporter"
+package azuremonitorexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/azuremonitorexporter"
 
 import (
 	"time"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/traceutil"
 )
 
 type logPacker struct {

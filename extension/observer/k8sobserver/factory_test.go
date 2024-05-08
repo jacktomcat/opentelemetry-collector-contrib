@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.opentelemetry.io/collector/extension/extensiontest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig"
 )
 
 func TestFactory_CreateDefaultConfig(t *testing.T) {

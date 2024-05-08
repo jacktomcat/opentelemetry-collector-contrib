@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package sapmexporter exports trace data using Splunk's SAPM protocol.
-package sapmexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter"
+package sapmexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/sapmexporter"
 
 import (
 	"context"
@@ -18,9 +18,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/batchperresourceattr"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/batchperresourceattr"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger"
 )
 
 // TODO: Find a place for this to be shared.

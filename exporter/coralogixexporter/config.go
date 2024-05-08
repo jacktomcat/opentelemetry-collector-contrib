@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package coralogixexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/coralogixexporter"
+package coralogixexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/coralogixexporter"
 
 import (
 	"fmt"

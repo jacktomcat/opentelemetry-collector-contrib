@@ -19,7 +19,7 @@ import (
 	k8s "k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/kubernetes/fake"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig"
 )
 
 func TestNewReceiver(t *testing.T) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package cassandraexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/cassandraexporter"
+package cassandraexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/cassandraexporter"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/cassandraexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/cassandraexporter/internal/metadata"
 )
 
 func NewFactory() exporter.Factory {

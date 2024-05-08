@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package cluster // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster"
+package cluster // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster"
 
 import (
 	"testing"
@@ -9,7 +9,7 @@ import (
 	as "github.com/aerospike/aerospike-client-go/v6"
 	"github.com/stretchr/testify/require"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster/mocks"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/aerospikereceiver/cluster/mocks"
 )
 
 func TestCluster_GetNodes(t *testing.T) {

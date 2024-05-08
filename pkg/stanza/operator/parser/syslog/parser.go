@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package syslog // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/parser/syslog"
+package syslog // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/parser/syslog"
 
 import (
 	"bytes"
@@ -16,8 +16,8 @@ import (
 	"github.com/influxdata/go-syslog/v3/rfc3164"
 	"github.com/influxdata/go-syslog/v3/rfc5424"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
 )
 
 var priRegex = regexp.MustCompile(`\<\d{1,3}\>`)

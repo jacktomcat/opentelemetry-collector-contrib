@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package extractors // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/cadvisor/extractors"
+package extractors // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/cadvisor/extractors"
 
 import (
 	cInfo "github.com/google/cadvisor/info/v1"
 	"go.uber.org/zap"
 
-	ci "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/containerinsight"
-	awsmetrics "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/metrics"
+	ci "github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/containerinsight"
+	awsmetrics "github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/metrics"
 )
 
 const (

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package experimentalmetricmetadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
+package experimentalmetricmetadata // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
 
 // MetadataExporter provides an interface to implement
 // ConsumeMetadata in Exporters that support metadata.

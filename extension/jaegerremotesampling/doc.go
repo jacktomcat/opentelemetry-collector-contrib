@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package jaegerremotesampling // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling"
+package jaegerremotesampling // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/jaegerremotesampling"

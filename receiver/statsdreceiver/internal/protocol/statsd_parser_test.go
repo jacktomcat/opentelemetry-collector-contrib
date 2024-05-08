@@ -17,7 +17,7 @@ import (
 	semconv "go.opentelemetry.io/collector/semconv/v1.22.0"
 	"go.opentelemetry.io/otel/attribute"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/metricstestutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/metricstestutil"
 )
 
 func Test_ParseMessageToMetric(t *testing.T) {

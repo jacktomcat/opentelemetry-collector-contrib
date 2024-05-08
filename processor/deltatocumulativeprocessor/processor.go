@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package deltatocumulativeprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor"
+package deltatocumulativeprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor"
 
 import (
 	"context"
@@ -16,13 +16,13 @@ import (
 	"go.opentelemetry.io/otel/metric"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/exp/metrics/staleness"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/data"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/delta"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/maybe"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/metrics"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/streams"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/telemetry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/exp/metrics/staleness"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/data"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/delta"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/maybe"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/metrics"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/streams"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/deltatocumulativeprocessor/internal/telemetry"
 )
 
 var _ processor.Metrics = (*Processor)(nil)

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package logs // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/logs"
+package logs // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/logs"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/clientutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/clientutil"
 )
 
 // Sender submits logs to Datadog intake

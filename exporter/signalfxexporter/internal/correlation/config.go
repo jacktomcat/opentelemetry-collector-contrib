@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package correlation // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/correlation"
+package correlation // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/correlation"
 
 import (
 	"errors"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/correlations"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/correlations"
 )
 
 // DefaultConfig returns default configuration correlation values.

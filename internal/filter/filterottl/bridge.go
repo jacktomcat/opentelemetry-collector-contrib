@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package filterottl // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterottl"
+package filterottl // import "github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterottl"
 
 import (
 	"fmt"
@@ -10,14 +10,14 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/expr"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlresource"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/expr"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottllog"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlresource"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlspan"
 )
 
 const (
@@ -381,7 +381,7 @@ func createMetricStatement(mp filterconfig.MetricMatchProperties) (*string, erro
 		if len(mp.Expressions) == 0 {
 			return nil, nil
 		}
-		return nil, fmt.Errorf("expressions configuration cannot be converted to OTTL - see https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/filterprocessor#configuration for OTTL configuration")
+		return nil, fmt.Errorf("expressions configuration cannot be converted to OTTL - see https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/filterprocessor#configuration for OTTL configuration")
 	}
 
 	if len(mp.MetricNames) == 0 {

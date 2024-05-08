@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package tencentcloudlogserviceexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter"
+package tencentcloudlogserviceexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/exporter"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter/internal/metadata"
 )
 
 // NewFactory creates a factory for tencentcloud LogService exporter.

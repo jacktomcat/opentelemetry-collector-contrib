@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/receiver/otlpreceiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/redisreceiver"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/redisreceiver"
 )
 
 const gcpCollectorPath = "github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/collector"

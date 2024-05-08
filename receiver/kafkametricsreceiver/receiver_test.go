@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/kafka"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/kafka"
 )
 
 func TestNewReceiver_invalid_version_err(t *testing.T) {

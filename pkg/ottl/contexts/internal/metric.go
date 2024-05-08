@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package internal // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/internal"
+package internal // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/internal"
 
 import (
 	"context"
 
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
 )
 
 type MetricContext interface {
@@ -114,7 +114,7 @@ func accessType[K MetricContext]() ottl.StandardGetSetter[K] {
 		},
 		Setter: func(_ context.Context, _ K, _ any) error {
 			// TODO Implement methods so correctly convert data types.
-			// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/10130
+			// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/10130
 			return nil
 		},
 	}

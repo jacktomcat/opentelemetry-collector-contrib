@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package cache // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/cache"
+package cache // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/cache"
 
 import (
 	"github.com/hashicorp/golang-lru/simplelru"

@@ -3,7 +3,7 @@
 
 //go:build windows
 
-package iisreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver"
+package iisreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/iisreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/iisreceiver/internal/metadata"
 )
 
 func createMetricsReceiver(

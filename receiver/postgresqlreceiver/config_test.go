@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/postgresqlreceiver/internal/metadata"
 )
 
 func TestValidate(t *testing.T) {

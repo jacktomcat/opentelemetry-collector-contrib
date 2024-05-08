@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tailsamplingprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
+package tailsamplingprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
 
 import (
 	"time"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
 )
 
 // PolicyType indicates the type of sampling policy.

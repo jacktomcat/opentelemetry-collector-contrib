@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package solacereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/solacereceiver"
+package solacereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/solacereceiver"
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 	"go.opencensus.io/stats"
 	"go.opencensus.io/stats/view"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/solacereceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/solacereceiver/internal/metadata"
 )
 
 const (

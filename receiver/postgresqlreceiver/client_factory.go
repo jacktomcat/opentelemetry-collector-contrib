@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package postgresqlreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver"
+package postgresqlreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/postgresqlreceiver"
 
 import (
 	"database/sql"
@@ -20,7 +20,7 @@ var (
 		featuregate.StageAlpha,
 		featuregate.WithRegisterDescription("Use of connection pooling"),
 		featuregate.WithRegisterFromVersion("0.96.0"),
-		featuregate.WithRegisterReferenceURL("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/30831"),
+		featuregate.WithRegisterReferenceURL("https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/30831"),
 	)
 )
 

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azuredataexplorerexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter"
+package azuredataexplorerexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter"
 
 import (
 	"context"
@@ -20,7 +20,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter/internal/metadata"
 )
 
 // Given a new factory and no-op exporter , the NewMetric exporter should work.

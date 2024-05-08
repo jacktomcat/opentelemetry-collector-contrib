@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package statsdreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver"
+package statsdreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/statsdreceiver"
 
 import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/transport"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/transport"
 )
 
 // reporter struct implements the transport.Reporter interface to give consistent

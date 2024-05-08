@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sqlserverreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
+package sqlserverreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
 
 import (
 	"fmt"

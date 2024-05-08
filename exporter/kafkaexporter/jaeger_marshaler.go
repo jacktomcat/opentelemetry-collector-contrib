@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkaexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter"
+package kafkaexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/kafkaexporter"
 
 import (
 	"bytes"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger"
 )
 
 type jaegerMarshaler struct {

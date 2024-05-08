@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package carbonreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/carbonreceiver"
+package carbonreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/carbonreceiver"
 
 import (
 	"errors"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/config/confignet"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/carbonreceiver/protocol"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/carbonreceiver/protocol"
 )
 
 var _ component.ConfigValidator = (*Config)(nil)

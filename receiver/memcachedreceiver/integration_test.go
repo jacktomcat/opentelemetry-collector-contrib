@@ -13,8 +13,8 @@ import (
 	"github.com/testcontainers/testcontainers-go/wait"
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 const memcachedPort = "11211"

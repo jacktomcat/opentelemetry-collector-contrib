@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 //go:build !windows
 
-package system // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/system"
+package system // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/system"
 
 import (
 	"context"

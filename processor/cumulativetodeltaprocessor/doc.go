@@ -5,4 +5,4 @@
 
 // package cumulativetodeltaprocessor implements a processor which
 // converts cumulative sum metrics to cumulative delta.
-package cumulativetodeltaprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor"
+package cumulativetodeltaprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor"

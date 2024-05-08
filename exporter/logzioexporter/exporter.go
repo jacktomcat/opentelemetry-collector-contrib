@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package logzioexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter"
+package logzioexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/logzioexporter"
 
 import (
 	"bytes"
@@ -28,7 +28,7 @@ import (
 	"google.golang.org/genproto/googleapis/rpc/status"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger"
 )
 
 const (

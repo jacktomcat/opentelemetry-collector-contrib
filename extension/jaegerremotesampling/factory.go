@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package jaegerremotesampling // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling"
+package jaegerremotesampling // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/jaegerremotesampling"
 
 import (
 	"context"
@@ -15,8 +15,8 @@ import (
 	"go.opentelemetry.io/collector/featuregate"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/localhostgate"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/jaegerremotesampling/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/localhostgate"
 )
 
 // NewFactory creates a factory for the jaeger remote sampling extension.
@@ -48,7 +48,7 @@ var once sync.Once
 
 func logDeprecation(logger *zap.Logger) {
 	once.Do(func() {
-		logger.Warn("jaegerremotesampling extension will deprecate Thrift-gen and replace it with Proto-gen to be compatible with jaeger 1.42.0 and higher. See https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/18485 for more details.")
+		logger.Warn("jaegerremotesampling extension will deprecate Thrift-gen and replace it with Proto-gen to be compatible with jaeger 1.42.0 and higher. See https://github.com/jacktomcat/opentelemetry-collector-contrib/pull/18485 for more details.")
 	})
 }
 

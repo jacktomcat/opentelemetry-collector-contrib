@@ -1,22 +1,22 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package filtermetric // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filtermetric"
+package filtermetric // import "github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filtermetric"
 
 import (
 	"go.opentelemetry.io/collector/featuregate"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/expr"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterconfig"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/expr"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
 )
 
 var UseOTTLBridge = featuregate.GlobalRegistry().MustRegister(
 	"filter.filtermetric.useOTTLBridge",
 	featuregate.StageAlpha,
 	featuregate.WithRegisterDescription("When enabled, filtermetric will convert filtermetric configuration to OTTL and use filterottl evaluation"),
-	featuregate.WithRegisterReferenceURL("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/18642"),
+	featuregate.WithRegisterReferenceURL("https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/18642"),
 )
 
 // NewSkipExpr creates a BoolExpr that on evaluation returns true if a metric should NOT be processed or kept.

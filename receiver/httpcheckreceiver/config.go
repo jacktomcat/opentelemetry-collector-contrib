@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package httpcheckreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/httpcheckreceiver"
+package httpcheckreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/httpcheckreceiver"
 
 import (
 	"errors"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/httpcheckreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/httpcheckreceiver/internal/metadata"
 )
 
 // Predefined error responses for configuration validation failures

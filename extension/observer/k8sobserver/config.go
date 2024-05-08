@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package k8sobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/k8sobserver"
+package k8sobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/k8sobserver"
 
 import (
 	"fmt"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig"
 )
 
 // Config defines configuration for k8s attributes processor.

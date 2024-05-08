@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ecsobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecsobserver"
+package ecsobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/ecsobserver"
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/metadata"
 )
 
 // NewFactory creates a factory for ECSObserver extension.

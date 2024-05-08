@@ -58,7 +58,7 @@ func verifyPositiveTarget(t *testing.T, _ *testData, mds []pmetric.ResourceMetri
 // Test open metrics positive test cases
 func TestOpenMetricsPositive(t *testing.T) {
 	if runtime.GOOS == "windows" {
-		t.Skip("skipping test on windows, see https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/10148")
+		t.Skip("skipping test on windows, see https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/10148")
 	}
 	targetsMap := getOpenMetricsPositiveTestData()
 	var targets []*testData

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package oauth2clientauthextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/oauth2clientauthextension"
+package oauth2clientauthextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/oauth2clientauthextension"
 
 import (
 	"errors"

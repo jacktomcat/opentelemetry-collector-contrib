@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azuredataexplorerexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter"
+package azuredataexplorerexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter/internal/metadata"
 )
 
 const (

@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/metric/metricdata"
 	"go.opentelemetry.io/otel/sdk/metric/metricdata/metricdatatest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbyattrsprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/groupbyattrsprocessor/internal/metadata"
 )
 
 type testTelemetry struct {

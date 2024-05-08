@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package riakreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/riakreceiver"
+package riakreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/riakreceiver"
 
 import (
 	"context"
@@ -19,11 +19,11 @@ import (
 	"go.opentelemetry.io/collector/receiver/receivertest"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/riakreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/riakreceiver/internal/mocks"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/riakreceiver/internal/model"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/riakreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/riakreceiver/internal/mocks"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/riakreceiver/internal/model"
 )
 
 func TestScraperStart(t *testing.T) {

@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package sumologicexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sumologicexporter"
+package sumologicexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/sumologicexporter"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sumologicexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/sumologicexporter/internal/metadata"
 )
 
 // NewFactory returns a new factory for the sumologic exporter.

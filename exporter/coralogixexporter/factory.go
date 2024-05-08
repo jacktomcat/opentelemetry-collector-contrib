@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package coralogixexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/coralogixexporter"
+package coralogixexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/coralogixexporter"
 
 import (
 	"context"
@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/coralogixexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/coralogixexporter/internal/metadata"
 )
 
 // NewFactory by Coralogix

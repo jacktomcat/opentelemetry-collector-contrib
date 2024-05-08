@@ -3,8 +3,8 @@ module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/namedpiper
 go 1.21
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
 	go.opentelemetry.io/collector/confmap v0.98.0
@@ -65,14 +65,14 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza => ../../pkg/stanza
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza => ../../pkg/stanza
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
+replace github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package models // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/flinkmetricsreceiver/internal/models"
+package models // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/flinkmetricsreceiver/internal/models"
 
 // MetricsResponse stores a response for the metric endpoints.
 type MetricsResponse []struct {

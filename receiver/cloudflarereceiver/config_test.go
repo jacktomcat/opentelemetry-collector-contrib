@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package cloudflarereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/cloudflarereceiver"
+package cloudflarereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/cloudflarereceiver"
 
 import (
 	"path/filepath"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/config/configtls"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/cloudflarereceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/cloudflarereceiver/internal/metadata"
 )
 
 func TestValidate(t *testing.T) {

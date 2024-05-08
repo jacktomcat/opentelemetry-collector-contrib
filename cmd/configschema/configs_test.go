@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.opentelemetry.io/collector/otelcol"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/components"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/components"
 )
 
 func TestGetAllConfigs(t *testing.T) {

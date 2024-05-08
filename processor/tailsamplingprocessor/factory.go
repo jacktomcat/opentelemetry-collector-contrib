@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package tailsamplingprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
+package tailsamplingprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
 
 import (
 	"context"
@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/featuregate"
 	"go.opentelemetry.io/collector/processor"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/metadata"
 )
 
 var onceMetrics sync.Once

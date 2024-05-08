@@ -1,15 +1,15 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkareceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver"
+package kafkareceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/kafkareceiver"
 
 import (
 	"time"
 
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/kafka"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/kafkaexporter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/kafka"
 )
 
 type AutoCommit struct {

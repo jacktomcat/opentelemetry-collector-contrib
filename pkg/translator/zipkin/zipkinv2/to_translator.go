@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package zipkinv2 // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv2"
+package zipkinv2 // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv2"
 
 import (
 	"encoding/hex"
@@ -19,10 +19,10 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/idutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/occonventions"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/internal/zipkin"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/idutils"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/occonventions"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/tracetranslator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin/internal/zipkin"
 )
 
 // ToTranslator converts from Zipkin data model to pdata.
@@ -464,7 +464,7 @@ var statusCodeValue = map[string]int32{
 	"STATUS_CODE_UNSET": 0,
 	"STATUS_CODE_OK":    1,
 	"STATUS_CODE_ERROR": 2,
-	// As reported in https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/14965
+	// As reported in https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/14965
 	// The Zipkin exporter used a different set of names when serializing span state.
 	"Unset": 0,
 	"Ok":    1,

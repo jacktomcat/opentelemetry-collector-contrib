@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package docsgen // import "github.com/open-telemetry/opentelemetry-collector-contrib/cmd/configschema/docsgen/docsgen"
+package docsgen // import "github.com/jacktomcat/opentelemetry-collector-contrib/cmd/configschema/docsgen/docsgen"
 
 import (
 	"bytes"
@@ -11,7 +11,7 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/configschema"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/configschema"
 )
 
 func renderHeader(typ, group, doc string) []byte {

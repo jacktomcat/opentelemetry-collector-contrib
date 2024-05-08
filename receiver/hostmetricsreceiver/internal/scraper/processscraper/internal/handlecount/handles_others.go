@@ -3,7 +3,7 @@
 
 //go:build !windows
 
-package handlecount // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/processscraper/internal/handlecount"
+package handlecount // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/processscraper/internal/handlecount"
 
 import "errors"
 

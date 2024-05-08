@@ -20,7 +20,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/otlpencodingextension"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding/otlpencodingextension"
 )
 
 type hostWithEncoding struct {

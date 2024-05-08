@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package dbstorage // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/dbstorage"
+package dbstorage // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/dbstorage"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/dbstorage/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/dbstorage/internal/metadata"
 )
 
 // NewFactory creates a factory for DBStorage extension.

@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package syslogreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/syslogreceiver"
+package syslogreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/syslogreceiver"

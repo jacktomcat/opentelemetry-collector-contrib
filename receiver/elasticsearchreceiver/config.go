@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package elasticsearchreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/elasticsearchreceiver"
+package elasticsearchreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/elasticsearchreceiver"
 
 import (
 	"errors"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/elasticsearchreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/elasticsearchreceiver/internal/metadata"
 )
 
 var (

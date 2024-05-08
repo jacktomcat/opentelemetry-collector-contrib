@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package container // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/container"
+package container // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/container"
 
 import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
@@ -9,11 +9,11 @@ import (
 	"go.uber.org/zap"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/docker"
-	metadataPkg "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
-	imetadata "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/utils"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/docker"
+	metadataPkg "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
+	imetadata "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/k8sclusterreceiver/internal/utils"
 )
 
 const (

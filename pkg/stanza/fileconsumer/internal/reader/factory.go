@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package reader // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
+package reader // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/reader"
 
 import (
 	"bufio"
@@ -13,13 +13,13 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/text/encoding"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/decode"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/attrs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/emit"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/header"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/flush"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/trim"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/decode"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/attrs"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/emit"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/fingerprint"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/internal/header"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/flush"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/trim"
 )
 
 const (

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awscloudwatchmetricsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscloudwatchmetricsreceiver"
+package awscloudwatchmetricsreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscloudwatchmetricsreceiver"
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscloudwatchmetricsreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscloudwatchmetricsreceiver/internal/metadata"
 )
 
 // NewFactory creates a factory for awscloudwatchmetrics receiver.

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package model // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/instanaexporter/internal/converter/model"
+package model // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/instanaexporter/internal/converter/model"
 
 import (
 	"encoding/hex"

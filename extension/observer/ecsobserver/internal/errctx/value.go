@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package errctx // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/errctx"
+package errctx // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/errctx"
 
 import (
 	"errors"

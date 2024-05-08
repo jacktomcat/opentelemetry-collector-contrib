@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package dockerobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/dockerobserver"
+package dockerobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/dockerobserver"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package mongodbreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbreceiver"
+package mongodbreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbreceiver"
 
 import (
 	"errors"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/receiver/scrapererror"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbreceiver/internal/metadata"
 )
 
 var errKeyNotFound = errors.New("could not find key for metric")

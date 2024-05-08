@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package mongodbatlasreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver"
+package mongodbatlasreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver"
 
 import (
 	"bytes"
@@ -32,8 +32,8 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal/model"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal/model"
 )
 
 // maxContentLength is the maximum payload size we will accept from incoming requests.

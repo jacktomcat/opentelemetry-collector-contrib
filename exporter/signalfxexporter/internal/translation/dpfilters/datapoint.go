@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package dpfilters // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation/dpfilters"
+package dpfilters // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation/dpfilters"
 
 import (
 	"errors"

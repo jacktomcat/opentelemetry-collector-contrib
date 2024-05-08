@@ -18,9 +18,9 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	dtconfig "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter/config"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
+	dtconfig "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/dynatraceexporter/config"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/dynatraceexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
 )
 
 // Test that the factory creates the default configuration

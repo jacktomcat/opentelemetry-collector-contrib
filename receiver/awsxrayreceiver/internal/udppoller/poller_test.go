@@ -25,9 +25,9 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	internalErr "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/errors"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/tracesegment"
+	internalErr "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/errors"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/tracesegment"
 )
 
 func TestNonUDPTransport(t *testing.T) {

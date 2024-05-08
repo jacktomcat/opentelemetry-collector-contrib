@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package purefareceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/purefareceiver"
+package purefareceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/purefareceiver"

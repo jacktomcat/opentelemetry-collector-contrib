@@ -19,7 +19,7 @@ files=(
     dist/otel-contrib-collector_*_ppc64le.deb
     dist/otel-contrib-collector_*_s390x.deb
     dist/otel-contrib-collector-*.s390x.rpm
-    # skip. See https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/10113
+    # skip. See https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/10113
     # dist/otel-contrib-collector-*amd64.msi
 
 );

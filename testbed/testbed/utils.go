@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package testbed // import "github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+package testbed // import "github.com/jacktomcat/opentelemetry-collector-contrib/testbed/testbed"
 
 import (
 	"net"
@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/testutil"
 )
 
 // Deprecated: [v0.94.0] Use `testutil.GetAvailablePort(t testing.TB)` instead

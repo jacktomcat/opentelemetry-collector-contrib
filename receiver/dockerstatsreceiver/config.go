@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package dockerstatsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/dockerstatsreceiver"
+package dockerstatsreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/dockerstatsreceiver"
 
 import (
 	"errors"
@@ -9,8 +9,8 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/docker"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/dockerstatsreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/docker"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/dockerstatsreceiver/internal/metadata"
 )
 
 var _ component.Config = (*Config)(nil)

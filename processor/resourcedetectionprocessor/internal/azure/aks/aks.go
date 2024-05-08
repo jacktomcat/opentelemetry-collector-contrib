@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package aks // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/azure/aks"
+package aks // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/azure/aks"
 
 import (
 	"context"
@@ -12,9 +12,9 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders/azure"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/azure/aks/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/metadataproviders/azure"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/azure/aks/internal/metadata"
 )
 
 const (
@@ -93,7 +93,7 @@ func onK8s() bool {
 // because Azure will not allow the user to create multiple AKS clusters with the same
 // infrastructure resource group name.
 func parseClusterName(resourceGroup string) string {
-	// Code inspired by https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/exporter/datadogexporter/internal/hostmetadata/internal/azure/provider.go#L36
+	// Code inspired by https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/exporter/datadogexporter/internal/hostmetadata/internal/azure/provider.go#L36
 	splitAll := strings.Split(resourceGroup, "_")
 
 	if len(splitAll) == 4 && strings.ToLower(splitAll[0]) == "mc" {

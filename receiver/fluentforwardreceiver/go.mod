@@ -3,7 +3,7 @@ module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/fluentforw
 go 1.21
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest v0.98.0
 	github.com/stretchr/testify v1.9.0
 	github.com/tinylib/msgp v1.1.9
 	go.opencensus.io v0.24.0
@@ -37,7 +37,7 @@ require (
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0 // indirect
 	github.com/philhofer/fwd v1.1.2 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.19.0 // indirect
@@ -66,8 +66,8 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

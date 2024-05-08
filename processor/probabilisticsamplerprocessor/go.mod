@@ -3,7 +3,7 @@ module github.com/jacktomcat/opentelemetry-collector-contrib/processor/probabili
 go 1.21
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opencensus.io v0.24.0
 	go.opentelemetry.io/collector/component v0.98.0
@@ -99,7 +99,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
 retract (
 	v0.76.2
@@ -107,8 +107,8 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

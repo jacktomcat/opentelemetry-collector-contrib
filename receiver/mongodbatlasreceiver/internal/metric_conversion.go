@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package internal // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal"
+package internal // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal"
 
 import (
 	"fmt"
@@ -9,7 +9,7 @@ import (
 	"go.mongodb.org/atlas/mongodbatlas"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal/metadata"
 )
 
 func processMeasurements(

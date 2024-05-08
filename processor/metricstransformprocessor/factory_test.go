@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 	"go.opentelemetry.io/collector/processor/processortest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstransformprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/metricstransformprocessor/internal/metadata"
 )
 
 func TestType(t *testing.T) {

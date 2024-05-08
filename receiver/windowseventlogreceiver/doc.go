@@ -5,4 +5,4 @@
 
 // Package stanzareceiver implements a receiver that can be used by the
 // Opentelemetry collector to receive logs using the stanza log agent
-package windowseventlogreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/windowseventlogreceiver"
+package windowseventlogreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/windowseventlogreceiver"

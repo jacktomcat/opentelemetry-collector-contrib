@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package models // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/models"
+package models // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/rabbitmqreceiver/internal/models"
 
 // Queue represents a queue in the API response
 type Queue struct {

@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/otel/schema/v1.0/ast"
 	"go.opentelemetry.io/otel/schema/v1.0/types"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor/internal/migrate"
 )
 
 func TestNewRevision(t *testing.T) {

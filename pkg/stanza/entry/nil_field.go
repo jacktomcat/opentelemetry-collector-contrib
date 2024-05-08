@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package entry // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/entry"
+package entry // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/entry"
 
 // NilField is a struct that implements Field, but
 // does nothing for all its operations. It is useful

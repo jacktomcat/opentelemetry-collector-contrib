@@ -65,7 +65,7 @@ If you are looking for developer-facing changes, check out [CHANGELOG-API.md](./
     `config.global.scrape_protocols` to `[ PrometheusProto, OpenMetricsText1.0.0, OpenMetricsText0.0.1, PrometheusText0.0.4 ]` in the
     receiver configuration. This requirement will be lifted once Prometheus can scrape native histograms over text formats.
   - For more up to date information see the README.md file of the receiver at
-    https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/receiver/prometheusreceiver/README.md#prometheus-native-histograms.
+    https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/receiver/prometheusreceiver/README.md#prometheus-native-histograms.
   
 - `all`: Add support for ARM build (#12920)
 - `failoverconnector`: Support ignoring `max_retries` setting in failover connector (#9868)
@@ -101,7 +101,7 @@ If you are looking for developer-facing changes, check out [CHANGELOG-API.md](./
 - `prometheusreceiver`: Remove enable_protobuf_negotiation option on the prometheus receiver. Use config.global.scrape_protocols = [ PrometheusProto, OpenMetricsText1.0.0, OpenMetricsText0.0.1, PrometheusText0.0.4 ] instead. (#30883)
   See https://prometheus.io/docs/prometheus/latest/configuration/configuration/#configuration-file for details on setting scrape_protocols.
 - `vcenterreceiver`: Fixed the resource attribute model to more accurately support multi-cluster deployments (#30879)
-  For more information on impacts please refer https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/31113. The main impacts are that
+  For more information on impacts please refer https://github.com/jacktomcat/opentelemetry-collector-contrib/pull/31113. The main impacts are that
   the `vcenter.resource_pool.name`, `vcenter.resource_pool.inventory_path`, and `vcenter.cluster.name` are reported with more accuracy on VM metrics.
   
 
@@ -265,8 +265,8 @@ If you are looking for developer-facing changes, check out [CHANGELOG-API.md](./
 - `exporter/datadogexporter`: Disable APM stats computation in Datadog Exporter by default, `exporter.datadogexporter.DisableAPMStats` is changed to beta (#31219)
 - `extension/storage`: The `filestorage` and `dbstorage` extensions are now standalone modules. (#31040)
   If using the OpenTelemetry Collector Builder, you will need to update your import paths to use the new module(s).
-  - `github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/filestorage`
-  - `github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage/dbstorage`
+  - `github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/filestorage`
+  - `github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage/dbstorage`
   
 
 ### 🚩 Deprecations 🚩
@@ -323,7 +323,7 @@ If you are looking for developer-facing changes, check out [CHANGELOG-API.md](./
 
 - `servicegraphprocessor`: removed deprecated component, use the servicegraph connector instead. (#26091)
 - `datadogconnector`: Enable feature gate `connector.datadogconnector.performance` by default. (#30829)
-  See https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/connector/datadogconnector#feature-gate-for-performance for caveats of this feature gate.
+  See https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/connector/datadogconnector#feature-gate-for-performance for caveats of this feature gate.
 - `datadogprocessor`: Delete datadogprocessor which has been deprecated since v0.84.0 (#31026)
   Use datadogconnector instead.
 - `kafkareceiver`: standardizes the default topic name for metrics and logs receivers to the same topic name as the metrics and logs exporters of the kafkaexporter (#27292)
@@ -748,7 +748,7 @@ If you are looking for developer-facing changes, check out [CHANGELOG-API.md](./
   
 - `dockerstatsreceiver`: cpu.container.percent metric is removed in favor of container.cpu.utilization (#21807)
   The metric `container.cpu.percentage` is now removed. `container.cpu.utilization` is enabled by default as a replacement.
-  For details, see the [docs](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/dockerstatsreceiver#transition-to-cpu-utilization-metric-name-aligned-with-opentelemetry-specification).
+  For details, see the [docs](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/dockerstatsreceiver#transition-to-cpu-utilization-metric-name-aligned-with-opentelemetry-specification).
   
 - `encoding extensions`: Rename encoding extensions for consistency with storage extensions (#24451)
   - `jaegerencoding` -> `jaeger_encoding`
@@ -881,7 +881,7 @@ If you are looking for developer-facing changes, check out [CHANGELOG-API.md](./
 - `dockerstatsreceiver`: cpu.container.percent metric will be deprecated in v0.79.0 in favor of container.cpu.utilization (#21807)
   The metric `container.cpu.percentage` is now disabled by default and will be removed in v0.88.0.
   As a replacement, the following metric is now enabled by default: `container.cpu.utilization`.
-  For details, see the [docs](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/dockerstatsreceiver#transition-to-cpu-utilization-metric-name-aligned-with-opentelemetry-specification).
+  For details, see the [docs](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/dockerstatsreceiver#transition-to-cpu-utilization-metric-name-aligned-with-opentelemetry-specification).
   
 - `parquetexporter`: Remove the parquet exporter (#27284)
 
@@ -1117,7 +1117,7 @@ If you are looking for developer-facing changes, check out [CHANGELOG-API.md](./
 - `googlecloudexporter`: remove retry_on_failure from the googlecloud exporter. The exporter itself handles retries, and retrying can cause issues. (#57233)
 - `vcenterreceiver`: Dimensions performance metrics into metric attribute `object` (#25147)
   The following metrics have been effected to include the new metric attribute to properly dimension the data.`vcenter.vm.network.throughput`,`vcenter.vm.network.usage`,`vcenter.vm.network.packet.count`,`vcenter.vm.disk.latency.avg`,`vcenter.vm.disk.latency.max`,`vcenter.host.network.usage`,`vcenter.host.network.throughput`,`vcenter.host.network.packet.count`,`vcenter.host.network.packet.errors`,
-  `vcenter.host.disk.latency.avg`,`vcenter.host.disk.latency.max`, and `vcenter.host.disk.throughput`. More information on how to migrate can be found at https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/vcenterreceiver#feature-gates
+  `vcenter.host.disk.latency.avg`,`vcenter.host.disk.latency.max`, and `vcenter.host.disk.throughput`. More information on how to migrate can be found at https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/vcenterreceiver#feature-gates
   
 
 ### 🚩 Deprecations 🚩
@@ -2216,7 +2216,7 @@ If you are looking for developer-facing changes, check out [CHANGELOG-API.md](./
 - `hostmetricsreceiver`: Remove deprecated process memory metrics (#14327)
   The metrics `process.memory.physical_usage` and `process.memory.virtual_usage` have been deprecated since v0.64.0.
   They are now being removed. You should use the following metrics instead: `process.memory.usage`, `process.memory.virtual`.
-  For details, see the [docs](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/v0.71.0/receiver/hostmetricsreceiver#transition-to-process-memory-metric-names-aligned-with-opentelemetry-specification).
+  For details, see the [docs](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/v0.71.0/receiver/hostmetricsreceiver#transition-to-process-memory-metric-names-aligned-with-opentelemetry-specification).
   
 - `promtailreceiver`: Promtail recevier is completely removed from the repository (#18474, #18493)
   Promtail receiver in its current implementation has a dependency on Loki that leads to a huge amount of |
@@ -2434,7 +2434,7 @@ If you are looking for developer-facing changes, check out [CHANGELOG-API.md](./
 - `mysqlreceiver`: add mysql.commands metric with supprot for delete, insert, select, update (#14138)
 - `exporter/dynatrace`: Provide more logs on the results of metrics submissions (#15248)
 - `prometheusremotewriteexporter`: Add support for converting OTLP Exponential Histograms to Prometheus Native Histograms (#16207)
-- `pkg/pdatautil`: Export comparetest and pdatautil modules under github.com/open-telemetry/opentelemetry-collector-contrib/pkg (#17873)
+- `pkg/pdatautil`: Export comparetest and pdatautil modules under github.com/jacktomcat/opentelemetry-collector-contrib/pkg (#17873)
 - `clickhouseexporter`: export metrics to clickhouse (#16478)
 - `mongodbatlasreceiver`: Adds `mongodbatlas.project.name` and `mongodbatlas.org.id` as polled alerts resource attributes (#17513)
 - `filelogreceiver`: Add `delete_after_read` setting and associated `filelog.allowFileDeletion` feature gate. (#16314)
@@ -2508,7 +2508,7 @@ If you are looking for developer-facing changes, check out [CHANGELOG-API.md](./
 - `hostmetricsreceiver`: Disable deprecated process memory metrics (#14327)
   The metrics `process.memory.physical_usage` and `process.memory.virtual_usage` are now disabled by default and will be removed in v0.72.0.
   As a replacement, the following metrics are now enabled by default: `process.memory.usage`, `process.memory.virtual`.
-  For details, see the [docs](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/v0.68.0/receiver/hostmetricsreceiver#transition-to-process-memory-metric-names-aligned-with-opentelemetry-specification).
+  For details, see the [docs](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/v0.68.0/receiver/hostmetricsreceiver#transition-to-process-memory-metric-names-aligned-with-opentelemetry-specification).
 
 
 ### 💡 Enhancements 💡
@@ -2749,7 +2749,7 @@ If you are looking for developer-facing changes, check out [CHANGELOG-API.md](./
   and the CA is not in the system cert pool
 
 - `pkg/stanza`: Support to Customize bufio.SplitFunc (#14593)
-- `processor/transform`: Adds new configuration options that allow specifying the OTTL context to use when executing statements. See [Transform Processor README](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/transformprocessor#config) for more details. (#15381)
+- `processor/transform`: Adds new configuration options that allow specifying the OTTL context to use when executing statements. See [Transform Processor README](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/transformprocessor#config) for more details. (#15381)
   The existing configuration options will be deprecated in a future release.
 
 - `transformprocessor`: Added OTTL function ConvertCase into the Transform Processor (#16083)
@@ -3308,7 +3308,7 @@ in outgoing logs data.
   2. use Map type for attribute, add secondary index.
 
 - `postgresqlreceiver`: Moves metric attributes `table` and `database` to resource attributes. (#12960)
-  This move has been hidden behind a featuregate. Please see https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/receiver/postgresqlreceiver/README.md#feature-gate-configurations for more information transitioning.
+  This move has been hidden behind a featuregate. Please see https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/receiver/postgresqlreceiver/README.md#feature-gate-configurations for more information transitioning.
   This affects the following metrics.
   - postgresql.blocks_read
   - postgresql.commits
@@ -3458,14 +3458,14 @@ This version has been skipped.
       - `memcached.network.received`
 - `tracegen`: Moving component under `cmd` for consistency (#12474)
 - `datadogexporter`: Remove deprecated configuration features. (#9099, #9016, #8845, #8783, #8781, #8489, #8396)
-    - [Remove `env` in favor of `deployment.environment` semantic convention](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/9016)
-    - [Remove `version` in favor of `service.version` semantic convention](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/8783)
-    - [Remove `service` in favor of `service.name` semantic convention](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/8781)
-    - [Remove `tags`, `send_metadata` and `use_resource_metadata` in favor of `host_metadata` section](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/9099)
-    - [Remove `metrics::report_quantiles` in favor of `metrics::summaries::mode`](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/8845)
-    - [Remove `metrics::send_monotonic_counter` in favor of `metrics::sums::cumulative_monotonic_mode`](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/8489)
-    - [Remove automatic support for environment variable detection in favor of Collector's `${}` syntax](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/8396)
-    - [Remove `metrics::instrumentation_library_metadata_as_tags` in favor of `metrics::instrumentation_scope_as_tags`](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/11135)
+    - [Remove `env` in favor of `deployment.environment` semantic convention](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/9016)
+    - [Remove `version` in favor of `service.version` semantic convention](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/8783)
+    - [Remove `service` in favor of `service.name` semantic convention](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/8781)
+    - [Remove `tags`, `send_metadata` and `use_resource_metadata` in favor of `host_metadata` section](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/9099)
+    - [Remove `metrics::report_quantiles` in favor of `metrics::summaries::mode`](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/8845)
+    - [Remove `metrics::send_monotonic_counter` in favor of `metrics::sums::cumulative_monotonic_mode`](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/8489)
+    - [Remove automatic support for environment variable detection in favor of Collector's `${}` syntax](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/8396)
+    - [Remove `metrics::instrumentation_library_metadata_as_tags` in favor of `metrics::instrumentation_scope_as_tags`](https://github.com/jacktomcat/opentelemetry-collector-contrib/pull/11135)
 
 - `datadogexporter`: Remove deprecated `config` package. (#8373)
 - `observiqexporter`: Remove the observiq exporter (#12406)
@@ -3580,7 +3580,7 @@ This version has been skipped.
 - `datadogexporter`: (Under `exporter.datadog.hostname.preview` feature gate) Remove `docker` hostname detector (#11834)
 - `k8sclusterreceiver`: The `receiver.k8sclusterreceiver.reportCpuMetricsAsDouble` feature gate has been removed (#10838)
     - If users were disabling this feature gate, they may have to update
-      monitoring for a few Kubernetes cpu metrics. For more details see [feature-gate-configurations](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/v0.54.0/receiver/k8sclusterreceiver#feature-gate-configurations).
+      monitoring for a few Kubernetes cpu metrics. For more details see [feature-gate-configurations](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/v0.54.0/receiver/k8sclusterreceiver#feature-gate-configurations).
 
 - `prometheusexporter`: Automatically rename metrics with units to follow Prometheus naming convention (#8950)
 
@@ -3915,10 +3915,10 @@ This version has been skipped.
 ### ⚠️ Warning  ⚠️
 
 This release contains an issue in
-[Prometheus receiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/prometheusreceiver)
+[Prometheus receiver](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/prometheusreceiver)
 causing 30% memory consumption increase when there is a lot of target churn. The issue is currently being
 investigated and will be fixed in one of the new releases. More details:
-https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/9278.
+https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/9278.
 
 ### 🛑 Breaking changes 🛑
 
@@ -3932,7 +3932,7 @@ https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/9278.
 - `attributesprocessor`: Remove log names from filters (#9131)
 - `k8sclusterreceiver`: The `receiver.k8sclusterreceiver.reportCpuMetricsAsDouble` feature gate is now enabled by default (#9367)
   - Users may have to update monitoring for a few Kubernetes cpu metrics, for
-    more details see [feature-gate-configurations](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/v0.54.0/receiver/k8sclusterreceiver#feature-gate-configurations).
+    more details see [feature-gate-configurations](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/v0.54.0/receiver/k8sclusterreceiver#feature-gate-configurations).
 
 ### 🚩 Deprecations 🚩
 
@@ -4533,7 +4533,7 @@ https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/9278.
 
 ### 🚀 New components 🚀
 
-- [`journald` receiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/journaldreceiver) to parse Journald events from systemd journal using the [opentelemetry-log-collection](https://github.com/open-telemetry/opentelemetry-log-collection) library
+- [`journald` receiver](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/journaldreceiver) to parse Journald events from systemd journal using the [opentelemetry-log-collection](https://github.com/open-telemetry/opentelemetry-log-collection) library
 
 ### 🛑 Breaking changes 🛑
 
@@ -4635,31 +4635,31 @@ https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/9278.
 
 ### 🚀 New components 🚀
 
-- [`cumulativetodelta` processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/cumulativetodeltaprocessor) to convert cumulative sum metrics to cumulative delta
+- [`cumulativetodelta` processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/cumulativetodeltaprocessor) to convert cumulative sum metrics to cumulative delta
 
-- [`file` exporter](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/fileexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`jaeger` exporter](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/v0.85.0/exporter/jaegerexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`kafka` exporter](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/kafkaexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`opencensus` exporter](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/opencensusexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`prometheus` exporter](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/prometheusexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`prometheusremotewrite` exporter](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/prometheusremotewriteexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`zipkin` exporter](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/exporter/zipkinexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`attribute` processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/attributesprocessor) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`filter` processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/filterprocessor) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`probabilisticsampler` processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/probabilisticsamplerprocessor) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`resource` processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/resourceprocessor) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`span` processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/spanprocessor) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`hostmetrics` receiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/hostmetricsreceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`jaeger` receiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/jaegerreceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`kafka` receiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/kafkareceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`opencensus` receiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/opencensusreceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`prometheus` receiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/prometheusreceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`zipkin` receiver](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/zipkinreceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`bearertokenauth` extension](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/extension/bearertokenauthextension) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`healthcheck` extension](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/extension/healthcheckextension) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`oidcauth` extension](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/extension/oidcauthextension) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`pprof` extension](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/extension/pprofextension) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
-- [`testbed`](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/testbed) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`file` exporter](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/fileexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`jaeger` exporter](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/v0.85.0/exporter/jaegerexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`kafka` exporter](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/kafkaexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`opencensus` exporter](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/opencensusexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`prometheus` exporter](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/prometheusexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`prometheusremotewrite` exporter](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/prometheusremotewriteexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`zipkin` exporter](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/exporter/zipkinexporter) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`attribute` processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/attributesprocessor) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`filter` processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/filterprocessor) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`probabilisticsampler` processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/probabilisticsamplerprocessor) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`resource` processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/resourceprocessor) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`span` processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/spanprocessor) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`hostmetrics` receiver](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/hostmetricsreceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`jaeger` receiver](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/jaegerreceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`kafka` receiver](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/kafkareceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`opencensus` receiver](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/opencensusreceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`prometheus` receiver](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/prometheusreceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`zipkin` receiver](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/zipkinreceiver) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`bearertokenauth` extension](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/extension/bearertokenauthextension) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`healthcheck` extension](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/extension/healthcheckextension) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`oidcauth` extension](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/extension/oidcauthextension) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`pprof` extension](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/extension/pprofextension) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
+- [`testbed`](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/testbed) from core repository ([#3474](https://github.com/open-telemetry/opentelemetry-collector/issues/3474))
 
 ### 💡 Enhancements 💡
 
@@ -4673,7 +4673,7 @@ The OpenTelemetry Collector Contrib contains everything in the [opentelemetry-co
 
 ### 🚀 New components 🚀
 
-- [`cumulativetodelta` processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/cumulativetodeltaprocessor) to convert cumulative sum metrics to cumulative delta
+- [`cumulativetodelta` processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/cumulativetodeltaprocessor) to convert cumulative sum metrics to cumulative delta
 
 ### 💡 Enhancements 💡
 
@@ -5372,7 +5372,7 @@ The OpenTelemetry Collector Contrib contains everything in the [opentelemetry-co
 - Move signalfx correlation code out of `sapm` to `signalfxcorrelation` exporter (#1376)
 - Move Splunk specific utils outside of common (#1306)
 - `stackdriver` exporter:
-    - Config options `metric_prefix` & `skip_create_metric_descriptor` are now nested under `metric`, see [README](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/v0.14.0/exporter/stackdriverexporter/README.md).
+    - Config options `metric_prefix` & `skip_create_metric_descriptor` are now nested under `metric`, see [README](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/v0.14.0/exporter/stackdriverexporter/README.md).
     - Trace status codes no longer reflect gRPC codes as per spec changes: open-telemetry/opentelemetry-specification#1067
 - `datadog` exporter: Remove option to change the namespace prefix (#1483)
 
@@ -5934,9 +5934,9 @@ Released 2020-01-11
 First release of OpenTelemetry Collector Contrib.
 
 
-[v0.3.0]: https://github.com/open-telemetry/opentelemetry-collector-contrib/compare/v0.2.8...v0.3.0
-[v0.2.8]: https://github.com/open-telemetry/opentelemetry-collector-contrib/compare/v0.2.7...v0.2.8
-[v0.2.7]: https://github.com/open-telemetry/opentelemetry-collector-contrib/compare/v0.2.6...v0.2.7
-[v0.2.6]: https://github.com/open-telemetry/opentelemetry-collector-contrib/compare/v0.0.5...v0.2.6
-[v0.0.5]: https://github.com/open-telemetry/opentelemetry-collector-contrib/compare/v0.0.1...v0.0.5
-[v0.0.1]: https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/v0.0.1
+[v0.3.0]: https://github.com/jacktomcat/opentelemetry-collector-contrib/compare/v0.2.8...v0.3.0
+[v0.2.8]: https://github.com/jacktomcat/opentelemetry-collector-contrib/compare/v0.2.7...v0.2.8
+[v0.2.7]: https://github.com/jacktomcat/opentelemetry-collector-contrib/compare/v0.2.6...v0.2.7
+[v0.2.6]: https://github.com/jacktomcat/opentelemetry-collector-contrib/compare/v0.0.5...v0.2.6
+[v0.0.5]: https://github.com/jacktomcat/opentelemetry-collector-contrib/compare/v0.0.1...v0.0.5
+[v0.0.1]: https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/v0.0.1

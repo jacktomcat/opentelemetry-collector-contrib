@@ -3,7 +3,7 @@
 
 //go:build integration
 
-package apachesparkreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/apachesparkreceiver"
+package apachesparkreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/apachesparkreceiver"
 
 import (
 	"fmt"
@@ -15,8 +15,8 @@ import (
 	"github.com/testcontainers/testcontainers-go/wait"
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/scraperinttest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 const sparkPort = "4040"

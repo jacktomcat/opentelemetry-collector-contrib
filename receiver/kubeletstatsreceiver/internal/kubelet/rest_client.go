@@ -1,10 +1,10 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kubelet // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver/internal/kubelet"
+package kubelet // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/kubeletstatsreceiver/internal/kubelet"
 
 import (
-	kube "github.com/open-telemetry/opentelemetry-collector-contrib/internal/kubelet"
+	kube "github.com/jacktomcat/opentelemetry-collector-contrib/internal/kubelet"
 )
 
 // RestClient is swappable for testing.

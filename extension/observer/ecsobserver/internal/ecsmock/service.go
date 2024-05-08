@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ecsmock // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/ecsmock"
+package ecsmock // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/ecsmock"
 
 import (
 	"context"

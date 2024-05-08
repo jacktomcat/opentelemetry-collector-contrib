@@ -3,12 +3,12 @@
 
 //go:build windows
 
-package iisreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver"
+package iisreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/iisreceiver"
 
 import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/iisreceiver/internal/metadata"
 )
 
 type recordFunc = func(md *metadata.MetricsBuilder, ts pcommon.Timestamp, val float64)

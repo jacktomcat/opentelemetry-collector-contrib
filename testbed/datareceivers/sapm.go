@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datareceivers // import "github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datareceivers"
+package datareceivers // import "github.com/jacktomcat/opentelemetry-collector-contrib/testbed/datareceivers"
 
 import (
 	"context"
@@ -13,9 +13,9 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sapmreceiver"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sapmreceiver"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/testbed/testbed"
 )
 
 // SapmDataReceiver implements Sapm format receiver.

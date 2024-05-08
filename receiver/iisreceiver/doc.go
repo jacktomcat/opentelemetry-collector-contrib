@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package iisreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/iisreceiver"
+package iisreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/iisreceiver"

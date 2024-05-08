@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sumologicextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension"
+package sumologicextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension"
 
 import (
 	"context"
@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension/credentials"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension/credentials"
 )
 
 func TestFactory_CreateDefaultConfig(t *testing.T) {

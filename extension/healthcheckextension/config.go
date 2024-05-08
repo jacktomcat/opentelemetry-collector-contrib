@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package healthcheckextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/healthcheckextension"
+package healthcheckextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/healthcheckextension"
 
 import (
 	"errors"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package signalfxexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter"
+package signalfxexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter"
 
 import (
 	"context"
@@ -16,8 +16,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
 )
 
 // sfxEventClient sends the data to the SignalFx backend.

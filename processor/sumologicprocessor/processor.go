@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sumologicprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/sumologicprocessor"
+package sumologicprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/sumologicprocessor"
 
 import (
 	"context"

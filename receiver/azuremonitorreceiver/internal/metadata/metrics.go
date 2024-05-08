@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azuremonitorreceiver/internal/metadata"
+package metadata // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/azuremonitorreceiver/internal/metadata"
 
 import (
 	"errors"

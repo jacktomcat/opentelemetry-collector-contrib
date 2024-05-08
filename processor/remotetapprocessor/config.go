@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package remotetapprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/remotetapprocessor"
+package remotetapprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/remotetapprocessor"
 
 import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/config/confighttp"
 	"golang.org/x/time/rate"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/localhostgate"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/localhostgate"
 )
 
 const defaultPort = 12001

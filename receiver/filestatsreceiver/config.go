@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package filestatsreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filestatsreceiver"
+package filestatsreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/filestatsreceiver"
 
 import (
 	"errors"
 
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/filestatsreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/filestatsreceiver/internal/metadata"
 )
 
 type Config struct {

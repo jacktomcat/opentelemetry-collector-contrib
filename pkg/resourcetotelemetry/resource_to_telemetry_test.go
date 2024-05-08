@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.opentelemetry.io/collector/pdata/pcommon"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/testdata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/testdata"
 )
 
 func TestConvertResourceToAttributes(t *testing.T) {

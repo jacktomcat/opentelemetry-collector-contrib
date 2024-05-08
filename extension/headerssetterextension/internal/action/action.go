@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package action // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/headerssetterextension/internal/action"
+package action // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/headerssetterextension/internal/action"
 
 import "net/http"
 

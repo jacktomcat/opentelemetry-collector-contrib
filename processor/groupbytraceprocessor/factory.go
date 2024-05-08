@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package groupbytraceprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor"
+package groupbytraceprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/groupbytraceprocessor"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/processor"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/groupbytraceprocessor/internal/metadata"
 )
 
 const (

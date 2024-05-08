@@ -15,13 +15,13 @@ import (
 	"go.opentelemetry.io/collector/config/configtls"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/aws/ec2"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/aws/lambda"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/heroku"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/openshift"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/system"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/aws/ec2"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/aws/lambda"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/heroku"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/openshift"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/system"
 )
 
 func TestLoadConfig(t *testing.T) {

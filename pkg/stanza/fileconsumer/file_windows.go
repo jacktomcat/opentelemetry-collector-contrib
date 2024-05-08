@@ -3,7 +3,7 @@
 
 //go:build windows
 
-package fileconsumer // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer"
+package fileconsumer // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer"
 
 import (
 	"context"

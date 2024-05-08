@@ -5,9 +5,9 @@ go 1.21
 require (
 	github.com/expr-lang/expr v1.16.3
 	github.com/hashicorp/golang-lru/v2 v2.0.7
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
 	go.opentelemetry.io/collector/confmap v0.98.0
@@ -63,11 +63,11 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl => ../../pkg/ottl
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl => ../../pkg/ottl
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
 retract (
 	v0.76.2
@@ -75,6 +75,6 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package prometheusremotewrite // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite"
+package prometheusremotewrite // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite"
 import (
 	"testing"
 	"time"
@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/testdata"
-	prometheustranslator "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/testdata"
+	prometheustranslator "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus"
 )
 
 func TestOtelMetricTypeToPromMetricType(t *testing.T) {

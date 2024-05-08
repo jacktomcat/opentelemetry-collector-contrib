@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azureblobreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azureblobreceiver"
+package azureblobreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/azureblobreceiver"
 
 import (
 	"path/filepath"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/azureblobreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/azureblobreceiver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

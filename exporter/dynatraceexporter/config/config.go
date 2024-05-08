@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package config // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter/config"
+package config // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/dynatraceexporter/config"
 
 import (
 	"errors"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/config/configretry"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
 )
 
 // Config defines configuration for the Dynatrace exporter.

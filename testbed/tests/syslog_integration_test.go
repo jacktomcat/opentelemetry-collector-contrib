@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tests // import "github.com/open-telemetry/opentelemetry-collector-contrib/testbed/tests"
+package tests // import "github.com/jacktomcat/opentelemetry-collector-contrib/testbed/tests"
 
 import (
 	"fmt"
@@ -15,9 +15,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/plog"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datareceivers"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/testbed/datareceivers"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/testbed/testbed"
 )
 
 type expectedDataType struct {

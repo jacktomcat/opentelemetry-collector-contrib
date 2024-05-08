@@ -289,7 +289,7 @@ var nodeArray = []any{
 }
 
 func TestNodeClient(t *testing.T) {
-	t.Skip("Flaky test, see https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/9001")
+	t.Skip("Flaky test, see https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/9001")
 	setOption := nodeSyncCheckerOption(&mockReflectorSyncChecker{})
 
 	fakeClientSet := fake.NewSimpleClientset()

@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	prometheustranslator "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus"
+	prometheustranslator "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus"
 )
 
 type expectedBucketLayout struct {

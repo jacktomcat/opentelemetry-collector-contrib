@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package signalfxexporter implements an exporter that sends data to SignalFx.
-package signalfxexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter"
+package signalfxexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter"

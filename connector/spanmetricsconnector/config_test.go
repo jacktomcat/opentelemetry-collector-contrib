@@ -15,8 +15,8 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/metrics"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/metrics"
 )
 
 func TestLoadConfig(t *testing.T) {

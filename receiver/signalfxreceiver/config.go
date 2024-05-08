@@ -1,14 +1,14 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package signalfxreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/signalfxreceiver"
+package signalfxreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/signalfxreceiver"
 
 import (
 	"errors"
 
 	"go.opentelemetry.io/collector/config/confighttp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
 )
 
 var (

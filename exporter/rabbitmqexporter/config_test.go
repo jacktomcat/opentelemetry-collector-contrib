@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/config/configretry"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/rabbitmqexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/rabbitmqexporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

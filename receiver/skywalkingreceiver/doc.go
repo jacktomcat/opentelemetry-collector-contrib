@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package skywalkingreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/skywalkingreceiver"
+package skywalkingreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/skywalkingreceiver"

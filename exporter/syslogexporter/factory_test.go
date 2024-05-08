@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/config/configretry"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/syslogexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/syslogexporter/internal/metadata"
 )
 
 func TestType(t *testing.T) {

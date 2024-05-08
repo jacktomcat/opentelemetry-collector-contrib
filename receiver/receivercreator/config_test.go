@@ -18,8 +18,8 @@ import (
 	rcvr "go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/receivercreator/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/receivercreator/internal/metadata"
 )
 
 type mockHostFactories struct {

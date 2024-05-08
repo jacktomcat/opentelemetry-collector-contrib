@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	kube "github.com/open-telemetry/opentelemetry-collector-contrib/internal/kubelet"
+	kube "github.com/jacktomcat/opentelemetry-collector-contrib/internal/kubelet"
 )
 
 func TestRestClient(t *testing.T) {

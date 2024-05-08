@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package zipkinencodingextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/zipkinencodingextension"
+package zipkinencodingextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding/zipkinencodingextension"
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/zipkinencodingextension/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding/zipkinencodingextension/internal/metadata"
 )
 
 func NewFactory() extension.Factory {

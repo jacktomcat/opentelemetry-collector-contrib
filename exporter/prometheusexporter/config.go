@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package prometheusexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/prometheusexporter"
+package prometheusexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/prometheusexporter"
 
 import (
 	"time"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/config/confighttp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
 )
 
 // Config defines configuration for Prometheus exporter.

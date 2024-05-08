@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tencentcloudlogserviceexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter"
+package tencentcloudlogserviceexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter"
 
 import (
 	"github.com/pierrec/lz4"
@@ -11,7 +11,7 @@ import (
 	"go.uber.org/zap"
 	pb "google.golang.org/protobuf/proto"
 
-	cls "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter/proto"
+	cls "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/tencentcloudlogserviceexporter/proto"
 )
 
 // logServiceClient log Service's client wrapper

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package vcenterreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/vcenterreceiver"
+package vcenterreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/vcenterreceiver"
 
 import (
 	"errors"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/vcenterreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/vcenterreceiver/internal/metadata"
 )
 
 // Config is the configuration of the receiver

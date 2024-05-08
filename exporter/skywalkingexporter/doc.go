@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package skywalkingexporter exports data by using SkyWalking data collect protocol to a gPRC endpoint.
-package skywalkingexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/skywalkingexporter"
+package skywalkingexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/skywalkingexporter"

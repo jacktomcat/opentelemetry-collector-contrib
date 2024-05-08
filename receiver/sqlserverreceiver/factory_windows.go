@@ -3,7 +3,7 @@
 
 //go:build windows
 
-package sqlserverreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
+package sqlserverreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sqlserverreceiver"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlserverreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sqlserverreceiver/internal/metadata"
 )
 
 var errConfigNotSQLServer = errors.New("config was not a sqlserver receiver config")

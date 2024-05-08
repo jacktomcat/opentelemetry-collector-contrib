@@ -5,4 +5,4 @@
 
 // package intervalprocessor implements a processor which aggregates cumulative
 // metrics over time, and periodically exports the latest values
-package intervalprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/intervalprocessor"
+package intervalprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/intervalprocessor"

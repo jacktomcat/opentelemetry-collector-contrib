@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package jsonlogencodingextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding/jsonlogencodingextension"
+package jsonlogencodingextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding/jsonlogencodingextension"
 
 type Config struct{}
 

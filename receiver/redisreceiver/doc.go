@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package redisreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/redisreceiver"
+package redisreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/redisreceiver"

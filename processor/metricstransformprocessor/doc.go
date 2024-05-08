@@ -5,4 +5,4 @@
 
 // Package metricstransformprocessor implements a processor for transforming metrics.
 // The supported transformations are included in the README
-package metricstransformprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/metricstransformprocessor"
+package metricstransformprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/metricstransformprocessor"

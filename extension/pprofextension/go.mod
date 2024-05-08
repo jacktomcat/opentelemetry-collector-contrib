@@ -3,7 +3,7 @@ module github.com/jacktomcat/opentelemetry-collector-contrib/extension/pprofexte
 go 1.21
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/common v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
 	go.opentelemetry.io/collector/config/confignet v0.98.0
@@ -53,7 +53,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/common => ../../internal/common
 
 retract (
 	v0.76.2

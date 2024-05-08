@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ottltest // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottltest"
+package ottltest // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/ottltest"
 
 func Strp(s string) *string {
 	return &s

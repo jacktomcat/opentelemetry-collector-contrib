@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package cumulativetodeltaprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor"
+package cumulativetodeltaprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.opentelemetry.io/collector/processor/processorhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/cumulativetodeltaprocessor/internal/metadata"
 )
 
 var processorCapabilities = consumer.Capabilities{MutatesData: true}

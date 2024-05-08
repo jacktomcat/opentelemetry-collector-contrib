@@ -3,8 +3,8 @@ module github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/
 go 1.21
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
 	go.opentelemetry.io/collector/confmap v0.98.0
@@ -82,9 +82,9 @@ require (
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer => ../
+replace github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer => ../
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/k8sconfig => ../../../internal/k8sconfig
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/k8sconfig => ../../../internal/k8sconfig
 
 // openshift removed all tags from their repo, use the pseudoversion from the release-3.9 branch HEAD
 replace github.com/openshift/api v3.9.0+incompatible => github.com/openshift/api v0.0.0-20180801171038-322a19404e37

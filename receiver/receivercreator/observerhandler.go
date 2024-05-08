@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package receivercreator // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/receivercreator"
+package receivercreator // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/receivercreator"
 
 import (
 	"fmt"
@@ -13,7 +13,7 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
 )
 
 var (

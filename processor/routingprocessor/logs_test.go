@@ -400,7 +400,7 @@ func TestLogsAreCorrectlySplitPerResourceAttributeWithOTTL(t *testing.T) {
 	})
 }
 
-// see https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/26462
+// see https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/26462
 func TestLogsAttributeWithOTTLDoesNotCauseCrash(t *testing.T) {
 	// prepare
 	defaultExp := &mockLogsExporter{}

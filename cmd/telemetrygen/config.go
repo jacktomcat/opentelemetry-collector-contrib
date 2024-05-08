@@ -4,7 +4,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package main // import "github.com/open-telemetry/opentelemetry-collector-contrib/telemetrygen/internal/telemetrygen"
+package main // import "github.com/jacktomcat/opentelemetry-collector-contrib/telemetrygen/internal/telemetrygen"
 
 import (
 	"fmt"
@@ -12,10 +12,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/telemetrygen/internal/logs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/telemetrygen/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/telemetrygen/internal/metrics"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/telemetrygen/internal/traces"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/telemetrygen/internal/logs"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/telemetrygen/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/telemetrygen/internal/metrics"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/telemetrygen/internal/traces"
 )
 
 var (

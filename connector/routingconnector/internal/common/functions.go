@@ -1,13 +1,13 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package common // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/routingconnector/internal/common"
+package common // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/routingconnector/internal/common"
 
 import (
 	"context"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/ottlfuncs"
 )
 
 func createRouteFunction[K any](_ ottl.FunctionContext, _ ottl.Arguments) (ottl.ExprFunc[K], error) {
@@ -22,7 +22,7 @@ func Functions[K any]() map[string]ottl.Factory[K] {
 		ottlfuncs.NewDeleteKeyFactory[K](),
 		ottlfuncs.NewDeleteMatchingKeysFactory[K](),
 		// noop function, it is required since the parsing of conditions is not implemented yet,
-		////github.com/open-telemetry/opentelemetry-collector-contrib/issues/13545
+		////github.com/jacktomcat/opentelemetry-collector-contrib/issues/13545
 		ottl.NewFactory("route", nil, createRouteFunction[K]),
 	)
 }

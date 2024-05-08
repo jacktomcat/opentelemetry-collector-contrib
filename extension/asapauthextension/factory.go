@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package asapauthextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/asapauthextension"
+package asapauthextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/asapauthextension"
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/asapauthextension/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/asapauthextension/internal/metadata"
 )
 
 // NewFactory creates a factory for asapauthextension.

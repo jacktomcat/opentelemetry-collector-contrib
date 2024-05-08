@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package skywalkingreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/skywalkingreceiver"
+package skywalkingreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/skywalkingreceiver"
 
 import (
 	"context"
@@ -25,8 +25,8 @@ import (
 	profile "skywalking.apache.org/repo/goapi/collect/language/profile/v3"
 	management "skywalking.apache.org/repo/goapi/collect/management/v3"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/skywalkingreceiver/internal/metrics"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/skywalkingreceiver/internal/trace"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/skywalkingreceiver/internal/metrics"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/skywalkingreceiver/internal/trace"
 )
 
 // configuration defines the behavior and the ports that

@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package instanaexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/instanaexporter"
+package instanaexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/instanaexporter"
 
 import (
 	"context"
@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/instanaexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/instanaexporter/internal/metadata"
 )
 
 // NewFactory creates an Instana exporter factory

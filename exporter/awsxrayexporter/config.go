@@ -1,11 +1,11 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsxrayexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awsxrayexporter"
+package awsxrayexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/awsxrayexporter"
 
 import (
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray/telemetry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/awsutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/xray/telemetry"
 )
 
 // Config defines configuration for AWS X-Ray exporter.

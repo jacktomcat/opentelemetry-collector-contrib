@@ -19,13 +19,13 @@ import (
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 	"go.opentelemetry.io/collector/receiver/receivertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/snmpreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/snmpreceiver/internal/metadata"
 )
 
 func TestIntegration(t *testing.T) {
-	// remove nolint when https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/24240 is resolved
+	// remove nolint when https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/24240 is resolved
 	// nolint:staticcheck
 	testCases := []struct {
 		desc                    string
@@ -55,7 +55,7 @@ func TestIntegration(t *testing.T) {
 
 	for _, testCase := range testCases {
 		t.Run(testCase.desc, func(t *testing.T) {
-			t.Skip("Flaky test, see https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21086")
+			t.Skip("Flaky test, see https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21086")
 			factory := NewFactory()
 			factories.Receivers[metadata.Type] = factory
 			configFile := filepath.Join("testdata", "integration", testCase.configFilename)

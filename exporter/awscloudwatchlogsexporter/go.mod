@@ -6,8 +6,8 @@ require (
 	github.com/aws/aws-sdk-go v1.51.17
 	github.com/cenkalti/backoff/v4 v4.3.0
 	github.com/google/uuid v1.6.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/awsutil v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/cwlogs v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
 	go.opentelemetry.io/collector/config/configretry v0.98.0
@@ -63,9 +63,9 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil => ../../internal/aws/awsutil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/awsutil => ../../internal/aws/awsutil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs => ../../internal/aws/cwlogs
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/cwlogs => ../../internal/aws/cwlogs
 
 retract (
 	v0.76.2

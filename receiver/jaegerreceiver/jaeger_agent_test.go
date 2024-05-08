@@ -28,9 +28,9 @@ import (
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 	"google.golang.org/grpc"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/metadata"
 )
 
 var jaegerAgent = component.NewIDWithName(metadata.Type, "agent_test")

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package githubscraper // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/scraper/githubscraper"
+package githubscraper // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/scraper/githubscraper"
 
 import (
 	"context"
@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/metadata"
 )
 
 // This file implements factory for the GitHub Scraper as part of the  Git Provider Receiver

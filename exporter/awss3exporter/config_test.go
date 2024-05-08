@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/awss3exporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

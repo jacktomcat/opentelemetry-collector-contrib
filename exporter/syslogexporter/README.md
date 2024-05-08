@@ -5,8 +5,8 @@
 | ------------- |-----------|
 | Stability     | [alpha]: logs   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fsyslog%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fsyslog) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fsyslog%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fsyslog) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@kkujawa-sumo](https://www.github.com/kkujawa-sumo), [@rnishtala-sumo](https://www.github.com/rnishtala-sumo), [@astencel-sumo](https://www.github.com/astencel-sumo) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fsyslog%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fsyslog) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fsyslog%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fsyslog) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@kkujawa-sumo](https://www.github.com/kkujawa-sumo), [@rnishtala-sumo](https://www.github.com/rnishtala-sumo), [@astencel-sumo](https://www.github.com/astencel-sumo) |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector#alpha
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -170,6 +170,6 @@ Please see [example configurations](./examples/).
 [syslog_wikipedia]: https://en.wikipedia.org/wiki/Syslog
 [RFC5424]: https://www.rfc-editor.org/rfc/rfc5424
 [RFC3164]: https://www.rfc-editor.org/rfc/rfc3164
-[syslog_receiver]: https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/receiver/syslogreceiver
+[syslog_receiver]: https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/receiver/syslogreceiver
 [cryptoTLS]: https://github.com/golang/go/blob/518889b35cb07f3e71963f2ccfc0f96ee26a51ce/src/crypto/tls/common.go#L706-L709
 [persistent_queue]: https://github.com/open-telemetry/opentelemetry-collector/blob/main/exporter/exporterhelper/README.md#persistent-queue

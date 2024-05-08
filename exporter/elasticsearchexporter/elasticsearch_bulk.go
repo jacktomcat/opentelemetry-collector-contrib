@@ -3,7 +3,7 @@
 
 // Package elasticsearchexporter contains an opentelemetry-collector exporter
 // for Elasticsearch.
-package elasticsearchexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
+package elasticsearchexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
 
 import (
 	"bytes"
@@ -19,7 +19,7 @@ import (
 	esutil7 "github.com/elastic/go-elasticsearch/v7/esutil"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/sanitize"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/sanitize"
 )
 
 type esClientCurrent = elasticsearch7.Client

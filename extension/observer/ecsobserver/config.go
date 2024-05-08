@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ecsobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecsobserver"
+package ecsobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/ecsobserver"
 
 import (
 	"fmt"
@@ -43,7 +43,7 @@ type Config struct {
 // our own validation logic.
 func (c *Config) Validate() error {
 	if c.ClusterName == "" {
-		// TODO: https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/3188
+		// TODO: https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/3188
 		// would allow auto detect cluster name in extension
 		return fmt.Errorf("must specify ECS cluster name directly")
 	}

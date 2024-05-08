@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package awscontainerinsightreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver"
+package awscontainerinsightreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package loki // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/loki"
+package loki // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/loki"
 
 import (
 	"fmt"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/plog"
 
-	prometheustranslator "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus"
+	prometheustranslator "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus"
 )
 
 type PushRequest struct {

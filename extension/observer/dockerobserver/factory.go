@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package dockerobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/dockerobserver"
+package dockerobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/dockerobserver"
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/dockerobserver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/dockerobserver/internal/metadata"
 )
 
 // NewFactory should be called to create a factory with default values.

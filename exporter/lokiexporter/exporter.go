@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package lokiexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/lokiexporter"
+package lokiexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/lokiexporter"
 
 import (
 	"bufio"
@@ -22,8 +22,8 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/lokiexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/loki"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/lokiexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/loki"
 )
 
 const (

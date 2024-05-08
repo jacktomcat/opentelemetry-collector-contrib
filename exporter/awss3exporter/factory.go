@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awss3exporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter"
+package awss3exporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/awss3exporter"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awss3exporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/awss3exporter/internal/metadata"
 )
 
 // NewFactory creates a factory for S3 exporter.

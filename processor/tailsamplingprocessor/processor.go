@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tailsamplingprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
+package tailsamplingprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
 
 import (
 	"context"
@@ -21,9 +21,9 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/idbatcher"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/sampling"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/idbatcher"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/sampling"
 )
 
 var (

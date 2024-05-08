@@ -29,9 +29,9 @@ In these situations the function will error if it does not know how to do the co
 Use `ErrorMode` to determine how the `Statement` handles these errors.
 See the component-specific guides for how each uses error mode:
 
-- [filterprocessor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/filterprocessor#ottl)
-- [routingprocessor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/routingprocessor#tech-preview-opentelemetry-transformation-language-statements-as-routing-conditions)
-- [transformprocessor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/transformprocessor#config)
+- [filterprocessor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/filterprocessor#ottl)
+- [routingprocessor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/routingprocessor#tech-preview-opentelemetry-transformation-language-statements-as-routing-conditions)
+- [transformprocessor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/transformprocessor#config)
 
 ## Editors
 
@@ -1118,7 +1118,7 @@ The `Time` Converter takes a string representation of a time and converts it to 
 
 `time` is a string. `format` is a string.
 
-If either `time` or `format` are nil, an error is returned. The parser used is the parser at [internal/coreinternal/parser](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/internal/coreinternal/timeutils). If the time and format do not follow the parsing rules used by this parser, an error is returned.
+If either `time` or `format` are nil, an error is returned. The parser used is the parser at [internal/coreinternal/parser](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/internal/coreinternal/timeutils). If the time and format do not follow the parsing rules used by this parser, an error is returned.
 
 Examples:
 

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package postgresqlreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver"
+package postgresqlreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/postgresqlreceiver"
 
 import (
 	"errors"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/postgresqlreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/postgresqlreceiver/internal/metadata"
 )
 
 // Errors for missing required config parameters.

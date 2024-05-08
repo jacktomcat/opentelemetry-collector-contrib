@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package logicmonitorexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logicmonitorexporter"
+package logicmonitorexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/logicmonitorexporter"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/metadata"
 )
 
 // NewFactory creates a LogicMonitor exporter factory

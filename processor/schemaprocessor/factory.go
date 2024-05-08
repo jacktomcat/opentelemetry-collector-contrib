@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package schemaprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor"
+package schemaprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor"
 
 import (
 	"context"
@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.opentelemetry.io/collector/processor/processorhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor/internal/metadata"
 )
 
 var processorCapabilities = consumer.Capabilities{MutatesData: true}

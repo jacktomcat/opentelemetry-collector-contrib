@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package pprofextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/pprofextension"
+package pprofextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/pprofextension"
 
 import (
 	"context"

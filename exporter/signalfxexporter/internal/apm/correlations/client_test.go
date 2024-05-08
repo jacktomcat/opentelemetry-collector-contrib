@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/log"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/apm/log"
 )
 
 var getPathRegexp = regexp.MustCompile(`/v2/apm/correlate/([^/]+)/([^/]+)`)                    // /dimName/dimVal

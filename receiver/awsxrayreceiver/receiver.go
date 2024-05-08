@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsxrayreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver"
+package awsxrayreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver"
 
 import (
 	"context"
@@ -14,11 +14,11 @@ import (
 	"go.opentelemetry.io/collector/receiver/receiverhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/proxy"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/xray/telemetry"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/translator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/udppoller"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/proxy"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/xray/telemetry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/translator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsxrayreceiver/internal/udppoller"
 )
 
 const (

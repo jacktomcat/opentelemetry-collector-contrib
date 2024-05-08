@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package purefareceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/purefareceiver"
+package purefareceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/purefareceiver"
 
 import (
 	"errors"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/purefareceiver/internal"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/purefareceiver/internal"
 )
 
 var _ component.Config = (*Config)(nil)

@@ -17,8 +17,8 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/otlpreceiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
 )
 
 func TestExamples(t *testing.T) {

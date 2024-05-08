@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/split/splittest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/split/splittest"
 )
 
 func TestNewlineSplitFunc(t *testing.T) {

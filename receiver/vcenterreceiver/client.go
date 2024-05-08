@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package vcenterreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/vcenterreceiver"
+package vcenterreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/vcenterreceiver"
 
 import (
 	"context"

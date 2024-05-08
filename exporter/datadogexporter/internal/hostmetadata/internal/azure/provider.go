@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package azure contains the Azure hostname provider
-package azure // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/azure"
+package azure // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/internal/azure"
 
 import (
 	"context"
@@ -11,8 +11,8 @@ import (
 
 	"github.com/DataDog/opentelemetry-mapping-go/pkg/otlp/attributes/source"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/provider"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders/azure"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/hostmetadata/provider"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/metadataproviders/azure"
 )
 
 var _ source.Provider = (*Provider)(nil)

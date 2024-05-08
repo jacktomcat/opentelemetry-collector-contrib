@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package otelarrowreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/otelarrowreceiver"
+package otelarrowreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/otelarrowreceiver"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package prometheus // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus"
+package prometheus // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus"
 
 import (
 	"strings"
@@ -14,7 +14,7 @@ var dropSanitizationGate = featuregate.GlobalRegistry().MustRegister(
 	"pkg.translator.prometheus.PermissiveLabelSanitization",
 	featuregate.StageAlpha,
 	featuregate.WithRegisterDescription("Controls whether to change labels starting with '_' to 'key_'."),
-	featuregate.WithRegisterReferenceURL("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/8950"),
+	featuregate.WithRegisterReferenceURL("https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/8950"),
 )
 
 // Normalizes the specified label to follow Prometheus label names standard

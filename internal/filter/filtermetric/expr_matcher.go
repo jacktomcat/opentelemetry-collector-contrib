@@ -1,13 +1,13 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package filtermetric // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filtermetric"
+package filtermetric // import "github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filtermetric"
 
 import (
 	"context"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterexpr"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterexpr"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl/contexts/ottlmetric"
 )
 
 type exprMatcher struct {

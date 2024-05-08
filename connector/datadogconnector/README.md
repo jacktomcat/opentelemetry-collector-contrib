@@ -4,8 +4,8 @@
 | Status        |           |
 | ------------- |-----------|
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fdatadog%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fdatadog) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fdatadog%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fdatadog) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@mx-psi](https://www.github.com/mx-psi), [@dineshg13](https://www.github.com/dineshg13) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aconnector%2Fdatadog%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aconnector%2Fdatadog) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aconnector%2Fdatadog%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aconnector%2Fdatadog) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@mx-psi](https://www.github.com/mx-psi), [@dineshg13](https://www.github.com/dineshg13) |
 | Emeritus      | [@gbbr](https://www.github.com/gbbr) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector#beta
@@ -27,7 +27,7 @@
 
 The Datadog Connector is a connector component that computes Datadog APM Stats pre-sampling in the event that your traces pipeline is sampled using components such as the tailsamplingprocessor or probabilisticsamplerprocessor.
 
-The connector is most applicable when using the sampling components such as the [tailsamplingprocessor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/tailsamplingprocessor#tail-sampling-processor), or the [probabilisticsamplerprocessor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/probabilisticsamplerprocessor) in one of your pipelines. The sampled pipeline should be duplicated and the `datadog` connector should be added to the the pipeline that is not being sampled to ensure that Datadog APM Stats are accurate in the backend.
+The connector is most applicable when using the sampling components such as the [tailsamplingprocessor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/tailsamplingprocessor#tail-sampling-processor), or the [probabilisticsamplerprocessor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/probabilisticsamplerprocessor) in one of your pipelines. The sampled pipeline should be duplicated and the `datadog` connector should be added to the the pipeline that is not being sampled to ensure that Datadog APM Stats are accurate in the backend.
 
 ## Usage
 
@@ -132,7 +132,7 @@ connectors:
         ## @param span_name_as_resource_name - use OpenTelemetry semantic convention for span naming - optional
         ## Option created to maintain similarity with the OpenTelemetry semantic conventions as discussed in the issue below.
         ## https://github.com/open-telemetry/opentelemetry-specification/tree/main/specification/trace/semantic_conventions
-        ## https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/1909
+        ## https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/1909
         #
         # span_name_as_resource_name: true
 
@@ -179,5 +179,5 @@ connectors:
 
 ## Feature Gate for Performance
 
-In case you are experiencing high memory usage with Datadog Connector, similar to [issue](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/29755), use the feature gate `connector.datadogconnector.performance`. With the feature gate enabled, Datadog Connector takes OTLP traces and produces OTLP metric with the name `dd.internal.stats.payload`. This Metric has an attribute `dd.internal.stats.payload` that contains the bytes for StatsPayload. With the feature gate, we can use Datadog Connector only in conjunction with Datadog Exporter. Please enable the feature only if needed for performance reasons and higher throughput. Enable the feature gate on all collectors (especially in gateway deployment) in the pipeline that sends data to Datadog. We plan to refactor this component in the future so that the signals produced are usable in any metrics pipeline.
+In case you are experiencing high memory usage with Datadog Connector, similar to [issue](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/29755), use the feature gate `connector.datadogconnector.performance`. With the feature gate enabled, Datadog Connector takes OTLP traces and produces OTLP metric with the name `dd.internal.stats.payload`. This Metric has an attribute `dd.internal.stats.payload` that contains the bytes for StatsPayload. With the feature gate, we can use Datadog Connector only in conjunction with Datadog Exporter. Please enable the feature only if needed for performance reasons and higher throughput. Enable the feature gate on all collectors (especially in gateway deployment) in the pipeline that sends data to Datadog. We plan to refactor this component in the future so that the signals produced are usable in any metrics pipeline.
 

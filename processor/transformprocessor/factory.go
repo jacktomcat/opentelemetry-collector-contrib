@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package transformprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/transformprocessor"
+package transformprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/transformprocessor"
 
 import (
 	"context"
@@ -12,12 +12,12 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.opentelemetry.io/collector/processor/processorhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/transformprocessor/internal/common"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/transformprocessor/internal/logs"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/transformprocessor/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/transformprocessor/internal/metrics"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/transformprocessor/internal/traces"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/transformprocessor/internal/common"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/transformprocessor/internal/logs"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/transformprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/transformprocessor/internal/metrics"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/transformprocessor/internal/traces"
 )
 
 var processorCapabilities = consumer.Capabilities{MutatesData: true}

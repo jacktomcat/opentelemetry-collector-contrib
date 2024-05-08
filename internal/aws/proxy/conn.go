@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package proxy // import "github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/proxy"
+package proxy // import "github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/proxy"
 
 import (
 	"crypto/tls"

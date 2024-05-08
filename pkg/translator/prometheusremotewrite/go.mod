@@ -3,8 +3,8 @@ module github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prom
 go 1.21
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus v0.98.0
 	github.com/prometheus/common v0.52.2
 	github.com/prometheus/prometheus v0.51.2-0.20240405174432-b4a973753c6e
 	github.com/stretchr/testify v1.9.0
@@ -34,11 +34,11 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../../internal/coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus => ../prometheus
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus => ../prometheus
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../../internal/common
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/common => ../../../internal/common
 
 retract (
 	v0.76.2
@@ -46,8 +46,8 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../golden

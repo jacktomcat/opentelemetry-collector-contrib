@@ -26,8 +26,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	conventions "go.opentelemetry.io/collector/semconv/v1.9.0"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
 )
 
 func TestNewWithDefaultConfig(t *testing.T) {
@@ -75,7 +75,7 @@ func TestConsumeMetricsWithResourceToTelemetry(t *testing.T) {
 
 func TestConsumeMetrics(t *testing.T) {
 	if runtime.GOOS == "windows" {
-		t.Skip("skipping test on windows, see https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/10147")
+		t.Skip("skipping test on windows, see https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/10147")
 	}
 
 	tests := []struct {

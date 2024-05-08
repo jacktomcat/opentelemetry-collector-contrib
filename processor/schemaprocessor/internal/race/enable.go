@@ -3,6 +3,6 @@
 
 //go:build race
 
-package race // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/race"
+package race // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor/internal/race"
 
 const Enabled = true

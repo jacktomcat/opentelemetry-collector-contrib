@@ -3,7 +3,7 @@ module github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsfirehos
 go 1.21
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/common v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/common v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
 	go.opentelemetry.io/collector/config/confighttp v0.98.0
@@ -78,4 +78,4 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/common => ../../internal/common
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/common => ../../internal/common

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package azuredataexplorerexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter"
+package azuredataexplorerexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter"
 
 import (
 	"path/filepath"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/azuredataexplorerexporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

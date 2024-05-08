@@ -5,8 +5,8 @@
 | ------------- |-----------|
 | Stability     | [alpha]: traces, metrics, logs   |
 | Distributions | [core], [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Ffile%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Ffile) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Ffile%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Ffile) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@atingchen](https://www.github.com/atingchen) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Ffile%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Ffile) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Ffile%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Ffile) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@atingchen](https://www.github.com/atingchen) |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector#alpha
 [core]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol
@@ -89,7 +89,7 @@ The final path is guaranteed to start with the prefix part of the `path` config 
 
 The final path can contain path separators (`/`). The exporter will create missing directories recursively (similarly to `mkdir -p`).
 
-Grouping by attribute currently only supports a **single** **resource** attribute. If you would like to use multiple attributes, please use [Transform processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/transformprocessor) create a routing key. If you would like to use a non-resource level (eg: Log/Metric/DataPoint) attribute, please use [Group by Attributes processor](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/groupbyattrsprocessor) first.
+Grouping by attribute currently only supports a **single** **resource** attribute. If you would like to use multiple attributes, please use [Transform processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/transformprocessor) create a routing key. If you would like to use a non-resource level (eg: Log/Metric/DataPoint) attribute, please use [Group by Attributes processor](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/groupbyattrsprocessor) first.
 
 ## Example:
 

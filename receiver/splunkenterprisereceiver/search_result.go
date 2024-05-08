@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package splunkenterprisereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/splunkenterprisereceiver"
+package splunkenterprisereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/splunkenterprisereceiver"
 
 // metric name and its associated search as a key value pair
 var searchDict = map[string]string{

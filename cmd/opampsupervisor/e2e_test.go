@@ -36,8 +36,8 @@ import (
 	semconv "go.opentelemetry.io/collector/semconv/v1.21.0"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/config"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/config"
 )
 
 var _ clientTypes.Logger = testLogger{}

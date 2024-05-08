@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package groupbyattrsprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/groupbyattrsprocessor"
+package groupbyattrsprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/groupbyattrsprocessor"
 
 import (
 	"context"

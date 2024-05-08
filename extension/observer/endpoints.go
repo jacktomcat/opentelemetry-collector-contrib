@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package observer // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
+package observer // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
 
 import (
 	"errors"

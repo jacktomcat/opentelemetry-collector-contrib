@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package dynatraceexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter"
+package dynatraceexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/dynatraceexporter"
 
 import (
 	"bytes"
@@ -21,9 +21,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter/config"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter/internal/serialization"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/ttlmap"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/dynatraceexporter/config"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/dynatraceexporter/internal/serialization"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/ttlmap"
 )
 
 const (

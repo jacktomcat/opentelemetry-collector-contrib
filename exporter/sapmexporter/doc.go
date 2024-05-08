@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package sapmexporter sends traces to a SAPM endpoint.
-package sapmexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/sapmexporter"
+package sapmexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/sapmexporter"

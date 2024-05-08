@@ -10,7 +10,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor"
 )
 
 func main() {

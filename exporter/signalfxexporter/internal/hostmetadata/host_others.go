@@ -5,7 +5,7 @@
 
 // Taken from https://github.com/signalfx/golib/blob/master/metadata/hostmetadata/host-not-linux.go as is.
 
-package hostmetadata // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/hostmetadata"
+package hostmetadata // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/hostmetadata"
 
 func fillPlatformSpecificOSData(_ *hostOS) error {
 	return nil

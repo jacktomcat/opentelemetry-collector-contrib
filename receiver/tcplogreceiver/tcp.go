@@ -1,16 +1,16 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tcplogreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcplogreceiver"
+package tcplogreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/tcplogreceiver"
 
 import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/adapter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/tcplogreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/adapter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/tcp"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/tcplogreceiver/internal/metadata"
 )
 
 // NewFactory creates a factory for tcp receiver

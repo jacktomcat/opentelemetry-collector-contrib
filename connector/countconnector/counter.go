@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package countconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/countconnector"
+package countconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/countconnector"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 	"go.opentelemetry.io/collector/pdata/pmetric"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil"
 )
 
 var noAttributes = [16]byte{}

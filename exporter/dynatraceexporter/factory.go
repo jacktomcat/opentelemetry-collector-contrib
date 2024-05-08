@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package dynatraceexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter"
+package dynatraceexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/dynatraceexporter"
 
 import (
 	"context"
@@ -12,9 +12,9 @@ import (
 	"go.opentelemetry.io/collector/exporter"
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 
-	dtconfig "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter/config"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/dynatraceexporter/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
+	dtconfig "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/dynatraceexporter/config"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/dynatraceexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/resourcetotelemetry"
 )
 
 // NewFactory creates a Dynatrace exporter factory

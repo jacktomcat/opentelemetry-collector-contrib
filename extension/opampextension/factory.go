@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opampextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampextension"
+package opampextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/opampextension"
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/opampextension/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/opampextension/internal/metadata"
 )
 
 func NewFactory() extension.Factory {

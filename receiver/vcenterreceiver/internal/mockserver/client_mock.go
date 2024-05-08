@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package mockserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/vcenterreceiver/internal/mockserver"
+package mockserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/vcenterreceiver/internal/mockserver"
 
 import (
 	"encoding/json"

@@ -36,12 +36,12 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/dimensions"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation/dpfilters"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/utils"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
-	metadata "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/dimensions"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/translation/dpfilters"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/signalfxexporter/internal/utils"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
+	metadata "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
 )
 
 func TestNew(t *testing.T) {

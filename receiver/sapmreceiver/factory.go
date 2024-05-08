@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sapmreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sapmreceiver"
+package sapmreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sapmreceiver"
 
 // This file implements factory for SAPM receiver.
 
@@ -16,8 +16,8 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/localhostgate"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sapmreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/localhostgate"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sapmreceiver/internal/metadata"
 )
 
 const (

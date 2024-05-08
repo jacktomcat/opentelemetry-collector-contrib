@@ -3,7 +3,7 @@
 
 //go:build linux
 
-package namedpipe // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/namedpipe"
+package namedpipe // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/namedpipe"
 
 import (
 	"context"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package integrationtestutils // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/splunkhecexporter/internal/integrationtestutils"
+package integrationtestutils // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/splunkhecexporter/internal/integrationtestutils"
 
 import (
 	"fmt"

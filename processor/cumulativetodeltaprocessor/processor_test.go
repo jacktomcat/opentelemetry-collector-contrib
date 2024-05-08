@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/processor/processortest"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter/filterset"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter/filterset"
 )
 
 var (

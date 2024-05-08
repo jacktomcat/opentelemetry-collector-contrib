@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package hostobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/hostobserver"
+package hostobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/hostobserver"
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/hostobserver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/hostobserver/internal/metadata"
 )
 
 const (

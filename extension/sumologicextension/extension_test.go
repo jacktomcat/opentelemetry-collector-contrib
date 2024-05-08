@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sumologicextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension"
+package sumologicextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension"
 
 import (
 	"context"
@@ -23,9 +23,9 @@ import (
 	"go.opentelemetry.io/collector/featuregate"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension/api"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension/credentials"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/sumologicextension/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension/api"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension/credentials"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/sumologicextension/internal/metadata"
 )
 
 func TestMain(m *testing.M) {

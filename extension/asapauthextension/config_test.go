@@ -14,7 +14,7 @@ import (
 	"go.opentelemetry.io/collector/config/configopaque"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/asapauthextension/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/asapauthextension/internal/metadata"
 )
 
 // Test keys. Not for use anywhere but these tests.

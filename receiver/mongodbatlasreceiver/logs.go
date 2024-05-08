@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package mongodbatlasreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver"
+package mongodbatlasreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver"
 
 import (
 	"context"
@@ -18,8 +18,8 @@ import (
 	rcvr "go.opentelemetry.io/collector/receiver"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal/model"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbatlasreceiver/internal/model"
 )
 
 const mongoDBMajorVersion4_2 = "4.2"

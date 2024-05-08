@@ -3,4 +3,4 @@
 
 // Package sampling contains the interfaces and data types used to implement
 // the various sampling policies.
-package sampling // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/sampling"
+package sampling // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/sampling"

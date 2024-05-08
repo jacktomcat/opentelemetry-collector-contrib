@@ -21,7 +21,7 @@ An Editor is made up of 2 parts:
 **The OTTL has no built-in Editors.**
 Users must supply a map between string identifiers and Editor implementations.
 The OTTL will use this map to determine which implementation to call when executing a Statement.
-See [ottlfuncs](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/ottlfuncs#editors) for pre-made, usable Editors.
+See [ottlfuncs](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/pkg/ottl/ottlfuncs#editors) for pre-made, usable Editors.
 
 ### Converters
 
@@ -35,7 +35,7 @@ Converters are made up of 3 parts:
 **The OTTL has no built-in Converters.**
 Users must include Converters in the same map that Editors are supplied.
 The OTTL will use this map and reflection to generate Converters that can then be invoked by the user.
-See [ottlfuncs](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/ottlfuncs#converters) for pre-made, usable Converters.
+See [ottlfuncs](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/pkg/ottl/ottlfuncs#converters) for pre-made, usable Converters.
 
 When keys are supplied the value returned by the Converter will be indexed by the keys in order.
 If keys are supplied to a Converter and the return value cannot be indexed, or if the return value doesn't support the
@@ -139,7 +139,7 @@ The package that handles the interpretation of a path is normally called a Conte
 Contexts will have an implementation of `PathExpressionParser` that decides how an OTTL Path is interpreted.
 The context's implementation will need to make decisions like what a dot (`.`) represents or which paths allow indexing (`["key"]`) and how many indexes.
 
-[There are OpenTelemetry-specific contexts provided for each signal here.](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts)
+[There are OpenTelemetry-specific contexts provided for each signal here.](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/pkg/ottl/contexts)
 When using OTTL it is recommended to use these contexts unless you have a specific need.  Check out each context to view the paths it supports.
 
 ### Lists

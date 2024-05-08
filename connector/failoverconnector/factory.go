@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package failoverconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/failoverconnector"
+package failoverconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/failoverconnector"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/connector"
 	"go.opentelemetry.io/collector/consumer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/failoverconnector/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/failoverconnector/internal/metadata"
 )
 
 func NewFactory() connector.Factory {

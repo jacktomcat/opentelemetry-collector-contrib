@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package system // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/system"
+package system // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/system"
 
 import (
 	"context"
@@ -18,9 +18,9 @@ import (
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders/system"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/system/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/metadataproviders/system"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/resourcedetectionprocessor/internal/system/internal/metadata"
 )
 
 var (
@@ -205,7 +205,7 @@ func setHostCPUInfo(d *Detector, cpuInfo cpu.InfoStat) error {
 	d.logger.Debug("getting host's cpuinfo", zap.String("coreID", cpuInfo.CoreID))
 	d.rb.SetHostCPUVendorID(cpuInfo.VendorID)
 	if hostCPUModelAndFamilyAsStringFeatureGate.IsEnabled() {
-		// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/29025
+		// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/29025
 		d.logger.Info("This attribute changed from int to string. Temporarily switch back to int using the feature gate.",
 			zap.String("attribute", "host.cpu.family"),
 			zap.String("feature gate", hostCPUModelAndFamilyAsStringID),
@@ -221,10 +221,10 @@ func setHostCPUInfo(d *Detector, cpuInfo cpu.InfoStat) error {
 
 	// For windows, this field is left blank. See https://github.com/shirou/gopsutil/blob/v3.23.9/cpu/cpu_windows.go#L113
 	// Skip setting modelId if the field is blank.
-	// ISSUE: https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/27675
+	// ISSUE: https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/27675
 	if cpuInfo.Model != "" {
 		if hostCPUModelAndFamilyAsStringFeatureGate.IsEnabled() {
-			// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/29025
+			// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/29025
 			d.logger.Info("This attribute changed from int to string. Temporarily switch back to int using the feature gate.",
 				zap.String("attribute", "host.cpu.model.id"),
 				zap.String("feature gate", hostCPUModelAndFamilyAsStringID),
@@ -243,7 +243,7 @@ func setHostCPUInfo(d *Detector, cpuInfo cpu.InfoStat) error {
 	if hostCPUSteppingAsStringFeatureGate.IsEnabled() {
 		d.rb.SetHostCPUStepping(fmt.Sprintf("%d", cpuInfo.Stepping))
 	} else {
-		// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/31136
+		// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/31136
 		d.logger.Info("This attribute will change from int to string. Switch now using the feature gate.",
 			zap.String("attribute", "host.cpu.stepping"),
 			zap.String("feature gate", hostCPUSteppingAsStringID),

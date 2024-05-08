@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package integrationtest // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/integrationtest"
+package integrationtest // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/integrationtest"
 
 import (
 	"bytes"
@@ -38,10 +38,10 @@ import (
 	apitrace "go.opentelemetry.io/otel/trace"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/datadogconnector"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/datadogconnector"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
 )
 
 func TestIntegration(t *testing.T) {

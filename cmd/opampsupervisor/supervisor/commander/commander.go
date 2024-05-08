@@ -15,7 +15,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/config"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/config"
 )
 
 // Commander can start/stop/restart the Agent executable and also watch for a signal
@@ -63,7 +63,7 @@ func (c *Commander) Start(ctx context.Context) error {
 	c.cmd = exec.CommandContext(ctx, c.cfg.Executable, c.args...) // #nosec G204
 
 	// Capture standard output and standard error.
-	// https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/21072
+	// https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/21072
 	c.cmd.Stdout = logFile
 	c.cmd.Stderr = logFile
 

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package trim // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/trim"
+package trim // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/trim"
 
 import (
 	"bufio"

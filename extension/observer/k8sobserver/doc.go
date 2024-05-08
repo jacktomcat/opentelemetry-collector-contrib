@@ -5,4 +5,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package k8sobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/k8sobserver"
+package k8sobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/k8sobserver"

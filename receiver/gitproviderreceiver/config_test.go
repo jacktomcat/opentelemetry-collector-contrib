@@ -15,9 +15,9 @@ import (
 	"go.opentelemetry.io/collector/otelcol/otelcoltest"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/metadata"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/scraper/githubscraper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/scraper/githubscraper"
 )
 
 func TestLoadConfig(t *testing.T) {

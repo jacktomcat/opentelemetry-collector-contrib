@@ -3,7 +3,7 @@
 
 // Package elasticsearchexporter contains an opentelemetry-collector exporter
 // for Elasticsearch.
-package elasticsearchexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
+package elasticsearchexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
 
 import (
 	"context"

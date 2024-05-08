@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package opensearchexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter"
+package opensearchexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opensearchexporter"
 
 import (
 	"bytes"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/plog"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/opensearchexporter/internal/objmodel"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/opensearchexporter/internal/objmodel"
 )
 
 type mappingModel interface {

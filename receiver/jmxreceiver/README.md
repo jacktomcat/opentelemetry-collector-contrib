@@ -5,8 +5,8 @@
 | ------------- |-----------|
 | Stability     | [alpha]: metrics   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Areceiver%2Fjmx%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Areceiver%2Fjmx) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Areceiver%2Fjmx%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Areceiver%2Fjmx) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@rmfitzpatrick](https://www.github.com/rmfitzpatrick) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Areceiver%2Fjmx%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Areceiver%2Fjmx) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Areceiver%2Fjmx%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Areceiver%2Fjmx) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@rmfitzpatrick](https://www.github.com/rmfitzpatrick) |
 
 [alpha]: https://github.com/open-telemetry/opentelemetry-collector#alpha
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -61,7 +61,7 @@ If a non-released version is required, you can specify a custom version by provi
 custom version of the jar during collector build time using the `ldflags` option. 
 
 ```bash
-go build -ldflags "-X github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jmxreceiver.MetricsGathererHash=<sha256hash>" ...
+go build -ldflags "-X github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jmxreceiver.MetricsGathererHash=<sha256hash>" ...
 ```
 
 ### endpoint
@@ -83,8 +83,8 @@ If additional target systems must be supported (because of a custom JMX metrics 
 `MetricsGathererHash` build time config), they can be added with another build time flag.
 
 ```bash
-go build -ldflags "-X github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jmxreceiver.MetricsGathererHash=<sha256hash>
-       -X github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jmxreceiver.AdditionalTargetSystems=newtarget,othernewtarget" ...
+go build -ldflags "-X github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jmxreceiver.MetricsGathererHash=<sha256hash>
+       -X github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jmxreceiver.AdditionalTargetSystems=newtarget,othernewtarget" ...
 ```
 
 Corresponds to the `otel.jmx.target.system` property.

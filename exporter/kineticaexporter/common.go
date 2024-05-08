@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kineticaexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kineticaexporter"
+package kineticaexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/kineticaexporter"
 
 import (
 	"encoding/json"

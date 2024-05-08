@@ -5,9 +5,9 @@ go 1.21
 require (
 	github.com/google/go-cmp v0.6.0
 	github.com/leoluk/perflib_exporter v0.2.1
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest v0.98.0
 	github.com/prometheus/procfs v0.13.0
 	github.com/shirou/gopsutil/v3 v3.24.3
 	github.com/stretchr/testify v1.9.0
@@ -72,8 +72,8 @@ require (
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden v0.98.0 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil v0.98.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
@@ -134,11 +134,11 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/filter => ../../internal/filter
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/filter => ../../internal/filter
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/ottl => ../../pkg/ottl
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/ottl => ../../pkg/ottl
 
 retract (
 	v0.76.2
@@ -146,8 +146,8 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../pkg/golden

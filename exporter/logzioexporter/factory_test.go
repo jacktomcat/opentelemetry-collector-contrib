@@ -16,7 +16,7 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/exporter/exportertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logzioexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/logzioexporter/internal/metadata"
 )
 
 func TestCreateDefaultConfig(t *testing.T) {

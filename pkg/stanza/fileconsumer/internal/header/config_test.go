@@ -10,11 +10,11 @@ import (
 	"golang.org/x/text/encoding"
 	"golang.org/x/text/encoding/unicode"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/generate"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/output/stdout"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/parser/regex"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/transformer/filter"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/generate"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/output/stdout"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/parser/regex"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/transformer/filter"
 )
 
 func TestBuild(t *testing.T) {

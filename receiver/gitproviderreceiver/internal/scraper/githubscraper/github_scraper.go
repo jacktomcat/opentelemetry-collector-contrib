@@ -3,7 +3,7 @@
 
 //go:generate ../../../../../.tools/genqlient
 
-package githubscraper // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/scraper/githubscraper"
+package githubscraper // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/scraper/githubscraper"
 
 import (
 	"context"
@@ -18,7 +18,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/gitproviderreceiver/internal/metadata"
 )
 
 var errClientNotInitErr = errors.New("http client not initialized")

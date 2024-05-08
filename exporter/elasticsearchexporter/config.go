@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package elasticsearchexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
+package elasticsearchexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/elasticsearchexporter"
 
 import (
 	"errors"

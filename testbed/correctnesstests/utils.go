@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package correctnesstests // import "github.com/open-telemetry/opentelemetry-collector-contrib/testbed/correctnesstests"
+package correctnesstests // import "github.com/jacktomcat/opentelemetry-collector-contrib/testbed/correctnesstests"
 
 import (
 	"bufio"
@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/testutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datareceivers"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datasenders"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/testbed/datareceivers"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/testbed/datasenders"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/testbed/testbed"
 )
 
 // CreateConfigYaml creates a yaml config for an otel collector given a testbed sender, testbed receiver, any

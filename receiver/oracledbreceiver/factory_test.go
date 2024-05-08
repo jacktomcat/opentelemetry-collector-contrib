@@ -16,7 +16,7 @@ import (
 	noopmetric "go.opentelemetry.io/otel/metric/noop"
 	nooptrace "go.opentelemetry.io/otel/trace/noop"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/oracledbreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/oracledbreceiver/internal/metadata"
 )
 
 func TestNewFactory(t *testing.T) {

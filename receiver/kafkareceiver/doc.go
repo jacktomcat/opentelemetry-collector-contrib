@@ -4,4 +4,4 @@
 //go:generate mdatagen metadata.yaml
 
 // Package kafkareceiver receives traces from Kafka.
-package kafkareceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/kafkareceiver"
+package kafkareceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/kafkareceiver"

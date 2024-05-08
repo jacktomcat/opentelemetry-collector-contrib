@@ -3,7 +3,7 @@
 
 //go:build !linux
 
-package journaldreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/journaldreceiver"
+package journaldreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/journaldreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/receiver"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/journaldreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/journaldreceiver/internal/metadata"
 )
 
 // newFactoryAdapter creates a dummy factory.

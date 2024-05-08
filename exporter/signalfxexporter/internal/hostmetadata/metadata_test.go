@@ -20,8 +20,8 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/splunk"
-	metadata "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/splunk"
+	metadata "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/experimentalmetricmetadata"
 )
 
 func TestSyncMetadata(t *testing.T) {

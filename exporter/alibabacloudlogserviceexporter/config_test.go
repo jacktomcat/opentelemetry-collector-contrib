@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/alibabacloudlogserviceexporter/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

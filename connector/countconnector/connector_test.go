@@ -14,8 +14,8 @@ import (
 	"go.opentelemetry.io/collector/connector/connectortest"
 	"go.opentelemetry.io/collector/consumer/consumertest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest/pmetrictest"
 )
 
 // The test input file has a repetitive structure:

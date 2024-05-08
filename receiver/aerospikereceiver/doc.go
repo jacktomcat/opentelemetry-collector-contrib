@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package aerospikereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/aerospikereceiver"
+package aerospikereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/aerospikereceiver"

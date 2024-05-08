@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package zipkinv1 // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv1"
+package zipkinv1 // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin/zipkinv1"
 
 import (
 	"encoding/hex"
@@ -17,7 +17,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	conventions "go.opentelemetry.io/collector/semconv/v1.6.1"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin/internal/zipkin"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin/internal/zipkin"
 )
 
 var (

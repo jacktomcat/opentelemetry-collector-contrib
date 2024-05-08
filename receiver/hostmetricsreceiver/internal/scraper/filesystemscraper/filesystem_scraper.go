@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package filesystemscraper // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/filesystemscraper"
+package filesystemscraper // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/filesystemscraper"
 
 import (
 	"context"
@@ -20,7 +20,7 @@ import (
 	"go.opentelemetry.io/collector/receiver/scrapererror"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/filesystemscraper/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/filesystemscraper/internal/metadata"
 )
 
 const (
@@ -82,7 +82,7 @@ func (s *scraper) scrape(ctx context.Context) (pmetric.Metrics, error) {
 			// Log a debug message instead of an error message if a drive is
 			// locked and unavailable. For this particular case, we do not want
 			// to log an error message on every poll.
-			// See: https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/18236
+			// See: https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/18236
 			s.settings.Logger.Debug("failed collecting locked partitions information: %w", zap.Error(err))
 		} else {
 			errors.AddPartial(0, fmt.Errorf("failed collecting partitions information: %w", err))

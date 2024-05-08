@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package tailsamplingprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
+package tailsamplingprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor"
 
 import (
 	"go.opencensus.io/stats"
@@ -10,7 +10,7 @@ import (
 	"go.opentelemetry.io/collector/config/configtelemetry"
 	"go.opentelemetry.io/collector/processor/processorhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/metadata"
 )
 
 // Variables related to metrics specific to tail sampling.

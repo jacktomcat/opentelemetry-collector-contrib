@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package configssh // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sshcheckreceiver/internal/configssh"
+package configssh // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sshcheckreceiver/internal/configssh"
 
 import (
 	"errors"

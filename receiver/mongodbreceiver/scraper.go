@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package mongodbreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbreceiver"
+package mongodbreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbreceiver"
 
 import (
 	"context"
@@ -19,11 +19,11 @@ import (
 	"go.opentelemetry.io/collector/receiver/scrapererror"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/mongodbreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/mongodbreceiver/internal/metadata"
 )
 
 const (
-	readmeURL            = "https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/receiver/mongodbreceiver/README.md"
+	readmeURL            = "https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/receiver/mongodbreceiver/README.md"
 	removeDatabaseAttrID = "receiver.mongodb.removeDatabaseAttr"
 )
 
@@ -34,7 +34,7 @@ var (
 		removeDatabaseAttrID,
 		featuregate.StageBeta,
 		featuregate.WithRegisterDescription("Remove duplicate database name attribute"),
-		featuregate.WithRegisterReferenceURL("https://github.com/open-telemetry/opentelemetry-collector-contrib/issues/24972"),
+		featuregate.WithRegisterReferenceURL("https://github.com/jacktomcat/opentelemetry-collector-contrib/issues/24972"),
 		featuregate.WithRegisterFromVersion("v0.90.0"))
 )
 

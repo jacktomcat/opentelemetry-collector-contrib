@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package httpforwarderextension // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/httpforwarderextension"
+package httpforwarderextension // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/httpforwarderextension"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/config/confighttp"
 	"go.opentelemetry.io/collector/extension"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/httpforwarderextension/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/httpforwarderextension/internal/metadata"
 )
 
 const (

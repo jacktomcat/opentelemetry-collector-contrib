@@ -3,8 +3,8 @@ module github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding/
 go 1.21
 
 require (
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin v0.98.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/collector/component v0.98.0
 	go.opentelemetry.io/collector/confmap v0.98.0
@@ -35,7 +35,7 @@ require (
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.98.0 // indirect
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal v0.98.0 // indirect
 	github.com/openzipkin/zipkin-go v0.4.2 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/prometheus/client_golang v1.19.0 // indirect
@@ -59,14 +59,14 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../../internal/coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../../../internal/coreinternal
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/zipkin => ../../../pkg/translator/zipkin
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/zipkin => ../../../pkg/translator/zipkin
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../../../pkg/pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../../../pkg/pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../../../pkg/pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../../../pkg/pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../../../pkg/golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../../../pkg/golden
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/encoding => ../
+replace github.com/jacktomcat/opentelemetry-collector-contrib/extension/encoding => ../

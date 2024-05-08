@@ -91,4 +91,4 @@
 // [W3C tracecontext specification]: https://www.w3.org/TR/trace-context/#tracestate-header
 // [Tracestate handling]: https://opentelemetry.io/docs/specs/otel/trace/tracestate-handling/
 
-package sampling // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/sampling"
+package sampling // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/sampling"

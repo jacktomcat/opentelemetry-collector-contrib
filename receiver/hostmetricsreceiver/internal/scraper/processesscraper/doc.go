@@ -3,4 +3,4 @@
 
 //go:generate mdatagen metadata.yaml
 
-package processesscraper // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/processesscraper"
+package processesscraper // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/hostmetricsreceiver/internal/scraper/processesscraper"

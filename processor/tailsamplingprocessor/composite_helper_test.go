@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/component/componenttest"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/sampling"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/tailsamplingprocessor/internal/sampling"
 )
 
 func TestCompositeHelper(t *testing.T) {

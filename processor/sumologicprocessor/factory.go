@@ -3,7 +3,7 @@
 //
 //go:generate mdatagen metadata.yaml
 
-package sumologicprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/sumologicprocessor"
+package sumologicprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/sumologicprocessor"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/processor"
 	"go.opentelemetry.io/collector/processor/processorhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/sumologicprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/sumologicprocessor/internal/metadata"
 )
 
 var processorCapabilities = consumer.Capabilities{MutatesData: true}

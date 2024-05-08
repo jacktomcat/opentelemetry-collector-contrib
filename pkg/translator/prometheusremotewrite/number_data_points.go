@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package prometheusremotewrite // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite"
+package prometheusremotewrite // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheusremotewrite"
 
 import (
 	"math"

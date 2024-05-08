@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package purefbreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/purefbreceiver"
+package purefbreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/purefbreceiver"
 
 import (
 	"context"

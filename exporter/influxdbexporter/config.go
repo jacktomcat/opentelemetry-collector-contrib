@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package influxdbexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/influxdbexporter"
+package influxdbexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/influxdbexporter"
 
 import (
 	"fmt"

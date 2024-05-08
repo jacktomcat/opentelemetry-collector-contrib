@@ -3,7 +3,7 @@
 
 //go:build linux
 
-package namedpipe // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/namedpipe"
+package namedpipe // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/namedpipe"
 
 import (
 	"bufio"
@@ -15,9 +15,9 @@ import (
 	"go.uber.org/zap"
 	"golang.org/x/sys/unix"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/trim"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/helper"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/trim"
 )
 
 type Input struct {

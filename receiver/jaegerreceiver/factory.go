@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package jaegerreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver"
+package jaegerreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jaegerreceiver"
 
 // This file implements factory for Jaeger receiver.
 
@@ -18,8 +18,8 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/localhostgate"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/localhostgate"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/jaegerreceiver/internal/metadata"
 )
 
 const (
@@ -46,7 +46,7 @@ var once sync.Once
 
 func logDeprecation(logger *zap.Logger) {
 	once.Do(func() {
-		logger.Warn("jaeger receiver will deprecate Thrift-gen and replace it with Proto-gen to be compatbible to jaeger 1.42.0 and higher. See https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/18485 for more details.")
+		logger.Warn("jaeger receiver will deprecate Thrift-gen and replace it with Proto-gen to be compatbible to jaeger 1.42.0 and higher. See https://github.com/jacktomcat/opentelemetry-collector-contrib/pull/18485 for more details.")
 
 	})
 }

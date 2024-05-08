@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package exceptionsconnector // import "github.com/open-telemetry/opentelemetry-collector-contrib/connector/exceptionsconnector"
+package exceptionsconnector // import "github.com/jacktomcat/opentelemetry-collector-contrib/connector/exceptionsconnector"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/connector"
 	"go.opentelemetry.io/collector/consumer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/exceptionsconnector/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/exceptionsconnector/internal/metadata"
 )
 
 // NewFactory creates a factory for the exceptions connector.

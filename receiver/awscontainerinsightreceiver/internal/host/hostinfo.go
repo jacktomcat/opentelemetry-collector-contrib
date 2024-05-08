@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package host // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/host"
+package host // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awscontainerinsightreceiver/internal/host"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/awsutil"
 )
 
 // Info contains information about a host

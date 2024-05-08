@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awsfirehosereceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/awsfirehosereceiver"
+package awsfirehosereceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/awsfirehosereceiver"
 
 import (
 	"errors"

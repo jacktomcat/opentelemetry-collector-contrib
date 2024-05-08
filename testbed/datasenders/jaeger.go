@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package datasenders // import "github.com/open-telemetry/opentelemetry-collector-contrib/testbed/datasenders"
+package datasenders // import "github.com/jacktomcat/opentelemetry-collector-contrib/testbed/datasenders"
 
 import (
 	"context"
@@ -27,8 +27,8 @@ import (
 	"google.golang.org/grpc/connectivity"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/testbed/testbed"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/jaeger"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/testbed/testbed"
 )
 
 // jaegerGRPCDataSender implements TraceDataSender for Jaeger thrift_http exporter.

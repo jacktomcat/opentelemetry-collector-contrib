@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package awscloudwatchlogsexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/awscloudwatchlogsexporter"
+package awscloudwatchlogsexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/awscloudwatchlogsexporter"
 
 import (
 	"errors"
@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/collector/exporter/exporterhelper"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/awsutil"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/cwlogs"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/awsutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/cwlogs"
 )
 
 // Config represent a configuration for the CloudWatch logs exporter.

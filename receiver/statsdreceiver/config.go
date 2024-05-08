@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package statsdreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver"
+package statsdreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/statsdreceiver"
 
 import (
 	"fmt"
@@ -11,7 +11,7 @@ import (
 	"go.opentelemetry.io/collector/config/confignet"
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/protocol"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/statsdreceiver/internal/protocol"
 )
 
 // Config defines configuration for StatsD receiver.

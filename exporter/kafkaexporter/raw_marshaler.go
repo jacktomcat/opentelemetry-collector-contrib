@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package kafkaexporter // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/kafkaexporter"
+package kafkaexporter // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/kafkaexporter"
 
 import (
 	"encoding/json"

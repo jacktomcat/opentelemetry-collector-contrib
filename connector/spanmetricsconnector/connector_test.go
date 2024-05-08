@@ -28,7 +28,7 @@ import (
 	"go.uber.org/zap/zaptest/observer"
 	"google.golang.org/grpc/metadata"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/metrics"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/connector/spanmetricsconnector/internal/metrics"
 )
 
 const (

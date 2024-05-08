@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ecstaskobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecstaskobserver"
+package ecstaskobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/ecstaskobserver"
 
 import (
 	"context"
@@ -12,9 +12,9 @@ import (
 	"go.opentelemetry.io/collector/extension"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/aws/ecsutil"
-	dcommon "github.com/open-telemetry/opentelemetry-collector-contrib/internal/common/docker"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/aws/ecsutil"
+	dcommon "github.com/jacktomcat/opentelemetry-collector-contrib/internal/common/docker"
 )
 
 const runningStatus = "RUNNING"

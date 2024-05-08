@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package schemaprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor"
+package schemaprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor"
 
 import (
 	"errors"
@@ -9,7 +9,7 @@ import (
 
 	"go.opentelemetry.io/collector/config/confighttp"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/schemaprocessor/internal/translation"
 )
 
 var (

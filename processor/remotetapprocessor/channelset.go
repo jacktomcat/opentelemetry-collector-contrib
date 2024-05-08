@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package remotetapprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/remotetapprocessor"
+package remotetapprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/remotetapprocessor"
 
 import "sync"
 

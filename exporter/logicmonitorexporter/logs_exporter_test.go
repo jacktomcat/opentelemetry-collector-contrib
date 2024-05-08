@@ -20,7 +20,7 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/testutil"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/logicmonitorexporter/internal/testutil"
 )
 
 func Test_NewLogsExporter(t *testing.T) {

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metrics // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics"
+package metrics // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics"
 
 import (
 	"context"
@@ -12,7 +12,7 @@ import (
 	"go.opentelemetry.io/collector/component"
 	zorkian "gopkg.in/zorkian/go-datadog-api.v2"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics/sketches"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics/sketches"
 )
 
 var _ metrics.Consumer = (*ZorkianConsumer)(nil)

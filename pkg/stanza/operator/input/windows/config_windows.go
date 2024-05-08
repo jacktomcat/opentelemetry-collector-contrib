@@ -3,14 +3,14 @@
 
 //go:build windows
 
-package windows // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator/input/windows"
+package windows // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator/input/windows"
 
 import (
 	"fmt"
 
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
 )
 
 func init() {

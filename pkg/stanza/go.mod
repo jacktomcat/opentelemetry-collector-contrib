@@ -10,8 +10,8 @@ require (
 	github.com/influxdata/go-syslog/v3 v3.0.1-0.20230911200830-875f5bc594a4
 	github.com/jpillora/backoff v1.0.0
 	github.com/json-iterator/go v1.1.12
-	github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage v0.98.0
-	github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage v0.98.0
+	github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal v0.98.0
 	github.com/stretchr/testify v1.9.0
 	github.com/valyala/fastjson v1.6.4
 	go.opentelemetry.io/collector/component v0.98.0
@@ -75,9 +75,9 @@ require (
 
 replace github.com/googleapis/gnostic v0.5.6 => github.com/googleapis/gnostic v0.5.5
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
+replace github.com/jacktomcat/opentelemetry-collector-contrib/extension/storage => ../../extension/storage
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
+replace github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal => ../../internal/coreinternal
 
 retract (
 	v0.76.2
@@ -85,8 +85,8 @@ retract (
 	v0.65.0
 )
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatautil => ../pdatautil
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatautil => ../pdatautil
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/pdatatest => ../pdatatest
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/pdatatest => ../pdatatest
 
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/golden => ../golden
+replace github.com/jacktomcat/opentelemetry-collector-contrib/pkg/golden => ../golden

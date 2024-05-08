@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package metrics // import "github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics"
+package metrics // import "github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"github.com/DataDog/opentelemetry-mapping-go/pkg/quantile"
 	"go.opentelemetry.io/collector/component"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics/sketches"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/exporter/datadogexporter/internal/metrics/sketches"
 )
 
 var _ metrics.Consumer = (*Consumer)(nil)

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package ecsobserver // import "github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecsobserver"
+package ecsobserver // import "github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/ecsobserver"
 
 import (
 	"errors"
@@ -12,7 +12,7 @@ import (
 	"go.uber.org/multierr"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/errctx"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/extension/observer/ecsobserver/internal/errctx"
 )
 
 // error.go defines common error interfaces and util methods for generating reports

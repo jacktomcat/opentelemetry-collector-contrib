@@ -5,8 +5,8 @@
 | ------------- |-----------|
 | Stability     | [beta]: traces, metrics, logs   |
 | Distributions | [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fcoralogix%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fcoralogix) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fcoralogix%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fcoralogix) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@povilasv](https://www.github.com/povilasv), [@matej-g](https://www.github.com/matej-g) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Aexporter%2Fcoralogix%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Aexporter%2Fcoralogix) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Aexporter%2Fcoralogix%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Aexporter%2Fcoralogix) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@povilasv](https://www.github.com/povilasv), [@matej-g](https://www.github.com/matej-g) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector#beta
 [contrib]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol-contrib
@@ -105,7 +105,7 @@ You need to set `application_name_attributes` and `subsystem_name_attributes` fi
 
 ### Kubernetes attributes
 
-When using OpenTelemetry Collector with [k8sattribute](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/k8sattributesprocessor) processor, you can use attributes coming from Kubernetes, such as `k8s.namespace.name` or `k8s.deployment.name`. The following example shows recommended list of attributes:
+When using OpenTelemetry Collector with [k8sattribute](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/k8sattributesprocessor) processor, you can use attributes coming from Kubernetes, such as `k8s.namespace.name` or `k8s.deployment.name`. The following example shows recommended list of attributes:
 
 ```yaml
 exporters:
@@ -123,7 +123,7 @@ exporters:
 ```
 ### Host Attributes
 
-OpenTelemetry Collector [resourcedetection](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/resourcedetectionprocessor) processor can discover Host Resource attributes, such as `host.name` and provide Resource attributes using environment variables, which can be used for setting AppName and SubSystem fields in Coralogix.
+OpenTelemetry Collector [resourcedetection](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/resourcedetectionprocessor) processor can discover Host Resource attributes, such as `host.name` and provide Resource attributes using environment variables, which can be used for setting AppName and SubSystem fields in Coralogix.
 
 Example: 
 ```yaml
@@ -152,7 +152,7 @@ exporters:
 ```
 ### EC2 Attributes
 
-OpenTelemetry Collector [resourcedetection](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/resourcedetectionprocessor) processor can discover EC2 Resource attributes, such as EC2 tags as resource attributes.
+OpenTelemetry Collector [resourcedetection](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/resourcedetectionprocessor) processor can discover EC2 Resource attributes, such as EC2 tags as resource attributes.
 
 Example: 
 ```yaml
@@ -196,7 +196,7 @@ exporters:
 
 ### Custom Attributes
 
-You can combine and create custom Resource attributes using [transform](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/transformprocessor) processor. For example:
+You can combine and create custom Resource attributes using [transform](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/transformprocessor) processor. For example:
 ```yaml
     processors:
       transform:
@@ -219,7 +219,7 @@ exporters:
 ```
 
 ### Exporting to multiple teams based on attributes
-You can export the signals based on your business logic (attributes) to different Coralogix teams. To achieve this, you'll need to use the [`filter`](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/processor/filterprocessor/README.md) processor and setup one pipeline per team. You can setup your `filter` processors as following (example with metrics):
+You can export the signals based on your business logic (attributes) to different Coralogix teams. To achieve this, you'll need to use the [`filter`](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/processor/filterprocessor/README.md) processor and setup one pipeline per team. You can setup your `filter` processors as following (example with metrics):
 ```
 processors:  
   filter/teamA:

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package filter // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/matcher/internal/filter"
+package filter // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/fileconsumer/matcher/internal/filter"
 
 import (
 	"fmt"
@@ -12,7 +12,7 @@ import (
 
 	"go.uber.org/multierr"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/coreinternal/timeutils"
 )
 
 type parseFunc func(string) (any, error)

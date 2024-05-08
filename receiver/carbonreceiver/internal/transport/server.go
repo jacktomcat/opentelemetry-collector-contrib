@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package transport // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/carbonreceiver/internal/transport"
+package transport // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/carbonreceiver/internal/transport"
 
 import (
 	"context"
@@ -9,7 +9,7 @@ import (
 
 	"go.opentelemetry.io/collector/consumer"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/carbonreceiver/protocol"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/carbonreceiver/protocol"
 )
 
 var (

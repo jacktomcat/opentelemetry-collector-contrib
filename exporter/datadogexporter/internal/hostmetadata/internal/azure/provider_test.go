@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/metadataproviders/azure"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/metadataproviders/azure"
 )
 
 func TestProvider(t *testing.T) {

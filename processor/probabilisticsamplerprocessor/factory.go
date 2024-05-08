@@ -3,7 +3,7 @@
 
 //go:generate mdatagen metadata.yaml
 
-package probabilisticsamplerprocessor // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor"
+package probabilisticsamplerprocessor // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor"
 
 import (
 	"context"
@@ -15,7 +15,7 @@ import (
 	"go.opentelemetry.io/collector/consumer"
 	"go.opentelemetry.io/collector/processor"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/processor/probabilisticsamplerprocessor/internal/metadata"
 )
 
 var onceMetrics sync.Once

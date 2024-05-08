@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package observability // import "github.com/open-telemetry/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/observability"
+package observability // import "github.com/jacktomcat/opentelemetry-collector-contrib/processor/k8sattributesprocessor/internal/observability"
 
 import (
 	"context"

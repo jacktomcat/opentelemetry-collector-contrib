@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package sqlqueryreceiver // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlqueryreceiver"
+package sqlqueryreceiver // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sqlqueryreceiver"
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"go.opentelemetry.io/collector/receiver"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sqlquery"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/sqlquery"
 )
 
 func createLogsReceiverFunc(sqlOpenerFunc sqlquery.SQLOpenerFunc, clientProviderFunc sqlquery.ClientProviderFunc) receiver.CreateLogsFunc {

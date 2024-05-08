@@ -5,8 +5,8 @@
 | ------------- |-----------|
 | Stability     | [beta]: metrics   |
 | Distributions | [core], [contrib] |
-| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Areceiver%2Fhostmetrics%20&label=open&color=orange&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Areceiver%2Fhostmetrics) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Areceiver%2Fhostmetrics%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/open-telemetry/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Areceiver%2Fhostmetrics) |
-| [Code Owners](https://github.com/open-telemetry/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@dmitryax](https://www.github.com/dmitryax), [@braydonk](https://www.github.com/braydonk) |
+| Issues        | [![Open issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aopen%20label%3Areceiver%2Fhostmetrics%20&label=open&color=orange&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aopen+is%3Aissue+label%3Areceiver%2Fhostmetrics) [![Closed issues](https://img.shields.io/github/issues-search/open-telemetry/opentelemetry-collector-contrib?query=is%3Aissue%20is%3Aclosed%20label%3Areceiver%2Fhostmetrics%20&label=closed&color=blue&logo=opentelemetry)](https://github.com/jacktomcat/opentelemetry-collector-contrib/issues?q=is%3Aclosed+is%3Aissue+label%3Areceiver%2Fhostmetrics) |
+| [Code Owners](https://github.com/jacktomcat/opentelemetry-collector-contrib/blob/main/CONTRIBUTING.md#becoming-a-code-owner)    | [@dmitryax](https://www.github.com/dmitryax), [@braydonk](https://www.github.com/braydonk) |
 
 [beta]: https://github.com/open-telemetry/opentelemetry-collector#beta
 [core]: https://github.com/open-telemetry/opentelemetry-collector-releases/tree/main/distributions/otelcol
@@ -183,7 +183,7 @@ receivers:
 
 ## Resource attributes
 
-Currently, the hostmetrics receiver does not set any Resource attributes on the exported metrics. However, if you want to set Resource attributes, you can provide them via environment variables via the [resourcedetection](https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/processor/resourcedetectionprocessor#environment-variable) processor. For example, you can add the following resource attributes to adhere to [Resource Semantic Conventions](https://opentelemetry.io/docs/reference/specification/resource/semantic_conventions/):
+Currently, the hostmetrics receiver does not set any Resource attributes on the exported metrics. However, if you want to set Resource attributes, you can provide them via environment variables via the [resourcedetection](https://github.com/jacktomcat/opentelemetry-collector-contrib/tree/main/processor/resourcedetectionprocessor#environment-variable) processor. For example, you can add the following resource attributes to adhere to [Resource Semantic Conventions](https://opentelemetry.io/docs/reference/specification/resource/semantic_conventions/):
 
 ```
 export OTEL_RESOURCE_ATTRIBUTES="service.name=<the name of your service>,service.namespace=<the namespace of your service>,service.instance.id=<uuid of the instance>"

@@ -1,7 +1,7 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package internal // import "github.com/open-telemetry/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal"
+package internal // import "github.com/jacktomcat/opentelemetry-collector-contrib/receiver/prometheusreceiver/internal"
 
 import (
 	"encoding/hex"
@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.uber.org/zap"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/prometheus"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/translator/prometheus"
 )
 
 const (

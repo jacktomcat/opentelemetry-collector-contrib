@@ -14,8 +14,8 @@ import (
 	"go.opentelemetry.io/collector/confmap/confmaptest"
 	"go.opentelemetry.io/collector/receiver/scraperhelper"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/internal/sqlquery"
-	"github.com/open-telemetry/opentelemetry-collector-contrib/receiver/sqlqueryreceiver/internal/metadata"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/internal/sqlquery"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/receiver/sqlqueryreceiver/internal/metadata"
 )
 
 func TestLoadConfig(t *testing.T) {

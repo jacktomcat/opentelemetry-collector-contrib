@@ -1,12 +1,12 @@
 // Copyright The OpenTelemetry Authors
 // SPDX-License-Identifier: Apache-2.0
 
-package pipeline // import "github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/pipeline"
+package pipeline // import "github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/pipeline"
 
 import (
 	"hash/fnv"
 
-	"github.com/open-telemetry/opentelemetry-collector-contrib/pkg/stanza/operator"
+	"github.com/jacktomcat/opentelemetry-collector-contrib/pkg/stanza/operator"
 )
 
 // OperatorNode is a basic node that represents an operator in a pipeline.

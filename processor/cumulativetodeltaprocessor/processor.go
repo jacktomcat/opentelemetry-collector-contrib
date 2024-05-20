@@ -43,23 +43,19 @@ func (ctdp *cumulativeToDeltaProcessor) processMetrics(_ context.Context, md pme
 	md.ResourceMetrics().RemoveIf(func(rm pmetric.ResourceMetrics) bool {
 		rm.ScopeMetrics().RemoveIf(func(ilm pmetric.ScopeMetrics) bool {
 			ilm.Metrics().RemoveIf(func(m pmetric.Metric) bool {
-				ctdp.logger.Debug("processing metric name", zap.String("metric_name", m.Name()))
 				if !ctdp.shouldConvertMetric(m.Name()) {
 					return false
 				}
-				ctdp.logger.Debug("processing metric name 1", zap.String("metric_name", m.Name()))
 				switch m.Type() {
 				case pmetric.MetricTypeSum:
 					ms := m.Sum()
 					if ms.AggregationTemporality() != pmetric.AggregationTemporalityCumulative {
 						return false
 					}
-					ctdp.logger.Debug("processing metric name 2", zap.String("metric_name", m.Name()))
 					// Ignore any metrics that aren't monotonic
 					if !ms.IsMonotonic() {
 						return false
 					}
-					ctdp.logger.Debug("processing metric name 3", zap.String("metric_name", m.Name()))
 					baseIdentity := tracking.MetricIdentity{
 						Resource:               rm.Resource(),
 						InstrumentationLibrary: ilm.Scope(),
